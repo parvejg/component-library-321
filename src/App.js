@@ -41,10 +41,10 @@ function App() {
  </>
  <hr/>
  <h2>CheckBox</h2>
- <CheckBox  value="checkBox"/>
- <CheckBox  value="checkBox"/>
- <CheckBox  value="checkBox"/>
- <CheckBox  value="checkBox"/>
+ <CheckBox type="checkBox"/>
+ <CheckBox />
+ <CheckBox />
+ <CheckBox />
  
  <>
 <h1>Inputs</h1>

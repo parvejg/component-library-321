@@ -1,7 +1,7 @@
 const CheckBox =(props)=>{
-    const {name, value} = props
+    const { value} = props
     return (
-        <input type="checkbox" className="checkBox" value={value} />
+        <label for="checkBox"><input  id="checkBox" type="checkBox"  /></label>
     )
 }
 export default CheckBox;
