@@ -7,13 +7,13 @@ const  Buttoncomponent =(props)=>{
 const DeleteBtn =(props) =>{
     const { src} = props
     return (
-        <button   src={src} ><img  className="DeleteBtn"src={src}/></button>
+        <button className="DeleteBtn" ><img  className="DeleteBtnImg" src={src}/></button>
     )
 }
 const RadioGrp =(props)=>{
-    const {name, type, value, className} = props
-    return (<>
-       <label  className={className} >{name} <input value={value} type={type} name="gender" /></label>
-       </> )
+    const {name, type} = props
+    return (
+       <label  >{name}<input type={type} name="gender" /></label>
+        )
 }
 export    {Buttoncomponent,RadioGrp, DeleteBtn};

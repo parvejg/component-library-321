@@ -27,17 +27,17 @@ function App() {
  <h1>Radio Group</h1>
  <>
 <h2>Gender</h2>
-  <RadioGrp type="radio" name="Male" value="Male" className="radioGrp" />
- <RadioGrp type="radio" name="Female" value="Female"  className="radioGrp"/>
- <RadioGrp type="radio" name="Other"  value="Other" className="radioGrp"/>
+  <RadioGrp type="radio" name="Male" value="Male"  />
+ <RadioGrp type="radio" name="Female" value="Female"  />
+ <RadioGrp type="radio" name="Other"  value="Other" />
  <hr/>
- <RadioGrp type="radio" name="First" value="1" className="radioGrp" />
- <RadioGrp type="radio" name="Second" value="2"  className="radioGrp"/>
- <RadioGrp type="radio" name="Third"  value="3" className="radioGrp"/>
+ <RadioGrp type="radio" name="First" value="1"  />
+ <RadioGrp type="radio" name="Second" value="2"  />
+ <RadioGrp type="radio" name="Third"  value="3" />
 <hr/>
-<RadioGrp type="radio" name="Green" value="green" className="radioGrp" />
- <RadioGrp type="radio" name="Red" value="red"  className="radioGrp"/>
- <RadioGrp type="radio" name="Blue"  value="blue" className="radioGrp"/>
+<RadioGrp type="radio" name="Green" value="green"  />
+ <RadioGrp type="radio" name="Red" value="red"  />
+ <RadioGrp type="radio" name="Blue"  value="blue" />
  </>
  <hr/>
  <h2>CheckBox</h2>
@@ -45,7 +45,6 @@ function App() {
  <CheckBox />
  <CheckBox />
  <CheckBox />
- 
  <>
 <h1>Inputs</h1>
  <Inputs type="Text"   placeholder="Enter your  First Name" />

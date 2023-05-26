@@ -55,32 +55,31 @@ transform: translateY(6px);
 }
 
 .DeleteBtn{
-  width: 5%;
+  width: 70px;
+  height: 40px;
   background-color: white;
-  color: black;
-  border-radius: 1rem;
-  border: solid white 1px;
-  border-radius: 2rem;
+  border-radius: 5px;
+  border: solid black 1px;
 }
 .DeleteBtn:active{
+  transform: translateY(2px);
+  
+  }
+  
+/* .DeleteBtn:active{
 background-color: white;
 transform: translateY(2px);
-}
-.radioGrp{
-  font-size: larger;
-  margin: 1rem;
-display: block;
-}
-label{
-  font-size: larger;
-  font-weight: bold;
+} */
+.DeleteBtnImg{
+  width: 25px  
+
 }
 #checkBox{
   display: flex;
   font-size: 20px;
   font-weight: bold;
 }
-input{
+/* input{
   transition-duration: 0.4s;
   background-color: hsl(160, 27%, 94%);
   padding: 6px;
@@ -91,7 +90,7 @@ input{
   border: solid whitesmoke 1px;
   box-shadow: 4px 3px 4px darkgrey;
 
-}
+} */
 #floatingBtn{
   padding: 15px;
 	width: 20px;
