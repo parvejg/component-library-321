@@ -34,6 +34,7 @@ function App() {
  <TextBtn className="read-more-btn" name="Read More"/>
  <TextBtn className="save-draft-btn" name="Save Draft"/>
  <hr/>
+ <h2>Elevated Buttons</h2>
  <ElevatedBtn  className="liveBtn"name="Live"/>
  <ElevatedBtn className="clickBtn"name="Click"/>
  <ElevatedBtn className="cancelBtn"name="Cancel"/>
