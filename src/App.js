@@ -5,6 +5,7 @@ import './components/button.css';
 import {Buttoncomponent, DeleteBtn, OutlineBtn, TextBtn} from './components/button'
 import Inputs from './components/input'
 import { Component } from 'react';
+import ElevatedBtn from './components/elevatedBtn';
 
 
 function App() {
@@ -32,6 +33,13 @@ function App() {
  <TextBtn className="publicBtn" name="Public"/>
  <TextBtn className="read-more-btn" name="Read More"/>
  <TextBtn className="save-draft-btn" name="Save Draft"/>
+ <hr/>
+ <ElevatedBtn  className="liveBtn"name="Live"/>
+ <ElevatedBtn className="clickBtn"name="Click"/>
+ <ElevatedBtn className="cancelBtn"name="Cancel"/>
+ <ElevatedBtn className="sendBtn"name="Send"/>
+ <ElevatedBtn className="saveBtn"name="Save"/>
+
  <>
 
 <h1>Inputs</h1>
