@@ -1,0 +1,177 @@
+.btn {
+  display: flex;
+  transition-duration: 0.4s;
+  padding: 13px 15px;
+  font-weight: bold;
+  background-color: skyblue;
+  border: solid white 1px;
+  border-radius: 6px;
+  margin: 5px;
+  display: inline;
+  font-size: 15px;
+}
+.btn:active {
+  transform: translateY(6px);
+}
+
+.DeleteBtn {
+  width: 70px;
+  height: 40px;
+  background-color: white;
+  border-radius: 5px;
+  border: solid black 1px;
+}
+.DeleteBtn:active {
+  transform: translateY(2px);
+}
+
+.DeleteBtnImg {
+  width: 25px;
+}
+.disableBtn {
+  margin: 5px;
+  color: black;
+  background-color: #fff;
+  border: solid black 2px;
+  border-radius: 4px;
+  height: 2.5rem;
+  width: 5rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.disableBtn:active {
+  transform: translateY(2px);
+  background-color: aliceblue;
+}
+
+.linkBtn {
+  margin: 5px;
+  color: black;
+  background-color: #fff;
+  border: solid green 2px;
+  border-radius: 5px;
+  height: 2.5rem;
+  width: 5rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.linkBtn:active {
+  transform: translateY(2px);
+  background-color: aliceblue;
+}
+
+.learn-more-Btn {
+  width: 6rem;
+  height: 2.5rem;
+  margin: 5px;
+  font-weight: bold;
+  background-color: white;
+  border: solid black 2px;
+  border-radius: 3px;
+  font-size: 2vh;
+}
+.learn-more-Btn:active {
+  transform: translateY(2px);
+  background-color: aliceblue;
+}
+
+.previewBtn {
+  width: 6rem;
+  height: 2.5rem;
+  margin: 5px;
+  font-weight: bold;
+  background-color: white;
+  border: solid #bd2727 2px;
+  border-radius: 3px;
+  font-size: 0.9rem;
+}
+.previewBtn:active {
+  transform: translateY(2px);
+  background-color: aliceblue;
+}
+
+.likeBtn {
+  margin: 5px;
+  color: black;
+  background-color: #fff;
+  border: solid #6cca6c 2px;
+  border-radius: 8px;
+  height: 2.5rem;
+  width: 5rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.likeBtn:active {
+  transform: translateY(2px);
+  background-color: aliceblue;
+}
+.enableBtn {
+  margin: 5px;
+  color: black;
+  background-color: azure;
+  border: solid white 2px;
+  border-radius: 6px;
+  height: 2.5rem;
+  width: 5rem;
+  font-size: 1rem;
+}
+.enableBtn:active {
+  transform: translateY(2px);
+  background-color: aliceblue;
+}
+.closeBtn {
+  margin: 5px;
+  color: black;
+  background-color: hsl(72, 100%, 97%);
+  border: solid white 2px;
+  border-radius: 6px;
+  height: 2.5rem;
+  width: 5rem;
+  font-size: 1rem;
+}
+.closeBtn:active {
+  transform: translateY(2px);
+  background-color: aliceblue;
+}
+.publicBtn {
+  margin: 5px;
+  color: black;
+  background-color: rgb(240, 243, 228);
+  border: solid white 2px;
+  border-radius: 6px;
+  height: 2.5rem;
+  width: 5rem;
+  font-size: 1rem;
+}
+.publicBtn:active {
+  transform: translateY(2px);
+  background-color: aliceblue;
+}
+.read-more-btn {
+  margin: 5px;
+  color: black;
+  background-color: papayawhip;
+  border: solid white 2px;
+  border-radius: 6px;
+  width: 6rem;
+  height: 2.5rem;
+  font-size: 1rem;
+}
+.read-more-btn:active {
+  transform: translateY(2px);
+  background-color: aliceblue;
+}
+.save-draft-btn {
+  margin: 5px;
+  color: black;
+  background-color: hsl(138, 100%, 80%);
+  border: solid white 2px;
+  border-radius: 6px;
+  width: 6rem;
+  height: 2.5rem;
+  font-size: 1rem;
+}
+.save-draft-btn:active {
+  transform: translateY(2px);
+  background-color: aliceblue;
+}

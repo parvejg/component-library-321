@@ -1,8 +1,19 @@
 const  Buttoncomponent =(props)=>{ 
-    const {color, name} = props;
+    const {name} = props;
     return (  <button  className="btn">{name}</button> );
 };
-
+const OutlineBtn = (props)=>{
+    const {name,className} = props
+    return (
+        <button className={className}>{name}</button>
+    )
+}
+const TextBtn =(props)=>{
+    const {name, className} = props
+    return(
+        <button className={className}>{name}</button>
+    )
+}
  
 const DeleteBtn =(props) =>{
     const { src} = props
@@ -10,10 +21,5 @@ const DeleteBtn =(props) =>{
         <button className="DeleteBtn" ><img  className="DeleteBtnImg" src={src}/></button>
     )
 }
-const RadioGrp =(props)=>{
-    const {name, type} = props
-    return (
-       <label  >{name}<input type={type} name="gender" /></label>
-        )
-}
-export    {Buttoncomponent,RadioGrp, DeleteBtn};
+
+export    {Buttoncomponent,OutlineBtn,TextBtn, DeleteBtn};

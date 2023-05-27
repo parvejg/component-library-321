@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import {Buttoncomponent,RadioGrp, DeleteBtn} from './components/button'
+import './components/input.css';
+import './components/button.css';
+import {Buttoncomponent, DeleteBtn, OutlineBtn, TextBtn} from './components/button'
 import Inputs from './components/input'
-import FloatingActionBtn from '@mui/icons-material/ShareRounded';
-import CheckBox from './checkBox';
+import { Component } from 'react';
 
 
 function App() {
-  const name = ""
   return (  
     <div className="App">
  <h1>components</h1>
@@ -19,33 +19,21 @@ function App() {
  <Buttoncomponent   name="Link"/>
  <DeleteBtn  name="Delete" src={require('./images/delete.png')} />
  <hr/>
- <>
-  <h1>Floating Buttons</h1>
-  <FloatingActionBtn  id="floatingBtn" />
+ <h2>Outlined Buttons</h2>
+ <OutlineBtn className="linkBtn" name="Link"/>
+ <OutlineBtn className="disableBtn" name="Disable"/>
+ <OutlineBtn className="previewBtn" name="Preview"/>
+ <OutlineBtn className="learn-more-Btn"name="Learn More"/>
+ <OutlineBtn className="likeBtn" name="Like"/>
  <hr/>
- </>
- <h1>Radio Group</h1>
+ <h2>Text Buttons</h2>
+ <TextBtn  className="closeBtn"name="Close"/>
+ <TextBtn  className="enableBtn"name="Enable"/>
+ <TextBtn className="publicBtn" name="Public"/>
+ <TextBtn className="read-more-btn" name="Read More"/>
+ <TextBtn className="save-draft-btn" name="Save Draft"/>
  <>
-<h2>Gender</h2>
-  <RadioGrp type="radio" name="Male" value="Male"  />
- <RadioGrp type="radio" name="Female" value="Female"  />
- <RadioGrp type="radio" name="Other"  value="Other" />
- <hr/>
- <RadioGrp type="radio" name="First" value="1"  />
- <RadioGrp type="radio" name="Second" value="2"  />
- <RadioGrp type="radio" name="Third"  value="3" />
-<hr/>
-<RadioGrp type="radio" name="Green" value="green"  />
- <RadioGrp type="radio" name="Red" value="red"  />
- <RadioGrp type="radio" name="Blue"  value="blue" />
- </>
- <hr/>
- <h2>CheckBox</h2>
- <CheckBox type="checkBox"/>
- <CheckBox />
- <CheckBox />
- <CheckBox />
- <>
+
 <h1>Inputs</h1>
  <Inputs type="Text"   placeholder="Enter your  First Name" />
  <Inputs type="Text"  placeholder="Enter your Last Name" />
