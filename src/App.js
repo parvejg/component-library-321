@@ -1,10 +1,14 @@
 import logo from './logo.svg';
+import SendIcon from '@mui/icons-material/Send';
+import AddIcCallRoundedIcon from '@mui/icons-material/AddIcCallRounded';
+import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline';
+import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
+import EditIcon from '@mui/icons-material/Edit';
 import './App.css';
 import './components/input.css';
 import './components/button.css';
-import {Buttoncomponent, DeleteBtn, OutlineBtn, TextBtn} from './components/button'
+import {Buttoncomponent,  OutlineBtn, TextBtn} from './components/button'
 import Inputs from './components/input'
-import { Component } from 'react';
 import ElevatedBtn from './components/elevatedBtn';
 
 
@@ -12,13 +16,13 @@ function App() {
   return (  
     <div className="App">
  <h1>components</h1>
- <h2 style={{textAlign: "center"}}>Buttons</h2>
+ <h2 style={{textAlign: "center"}}> Filled sButtons</h2>
  <Buttoncomponent   name="Like" onClick= {()=> console.log("clicked")}/>
  <Buttoncomponent  name="Send"/>
  <Buttoncomponent  name="Live"/>
  <Buttoncomponent   name="Click"/>
  <Buttoncomponent   name="Link"/>
- <DeleteBtn  name="Delete" src={require('./images/delete.png')} />
+
  <hr/>
  <h2>Outlined Buttons</h2>
  <OutlineBtn className="linkBtn" name="Link"/>
@@ -40,6 +44,13 @@ function App() {
  <ElevatedBtn className="cancelBtn"name="Cancel"/>
  <ElevatedBtn className="sendBtn"name="Send"/>
  <ElevatedBtn className="saveBtn"name="Save"/>
+<hr/>
+<h2>Icon Buttons</h2>
+<button className='sendBtn-wrapper'><SendIcon name="Send" className='sendBtnIcon'/></button>
+<button className='addCallBtn-wrapper'><AddIcCallRoundedIcon  className='addCall-IconBtn'/></button>
+<button className='deleteBtn-wrapper'><DeleteOutlineIcon className='deleteBtn-Icon'/></button>
+<button className='saveBtn-wrapper'><FavoriteBorderIcon className="saveBtn-Icon"/></button>
+<button className='editBtn-wrapper'><EditIcon className="editBtn-Icon"/></button>
 
  <>
 

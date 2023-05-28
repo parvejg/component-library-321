@@ -1,3 +1,5 @@
+
+
 const  Buttoncomponent =(props)=>{ 
     const {name} = props;
     return (  <button  className="btn">{name}</button> );
@@ -15,11 +17,21 @@ const TextBtn =(props)=>{
     )
 }
  
-const DeleteBtn =(props) =>{
-    const { src} = props
-    return (
-        <button className="DeleteBtn" ><img  className="DeleteBtnImg" src={src}/></button>
-    )
-}
+// const SendIcon =(props)=>{
+//     const {name, className} = props
+//     return(<><button className={className} startIcon ={<SendIcon/>} sx={{m: 4}}>Send</button>
+//     </>
 
-export    {Buttoncomponent,OutlineBtn,TextBtn, DeleteBtn};
+//     )
+    
+// }
+// const  AddIcCallRoundedIcon =(props)=>{
+//     const {className}= props;
+//     return(
+//         <>
+//         <button className={className}></button>
+//         </>
+//     )
+// }
+
+export    {Buttoncomponent,OutlineBtn,TextBtn};

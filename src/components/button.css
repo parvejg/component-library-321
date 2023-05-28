@@ -9,25 +9,13 @@
   margin: 5px;
   display: inline;
   font-size: 15px;
+  cursor: pointer;
 }
 .btn:active {
   transform: translateY(6px);
 }
 
-.DeleteBtn {
-  width: 70px;
-  height: 40px;
-  background-color: white;
-  border-radius: 5px;
-  border: solid black 1px;
-}
-.DeleteBtn:active {
-  transform: translateY(2px);
-}
 
-.DeleteBtnImg {
-  width: 25px;
-}
 .disableBtn {
   margin: 5px;
   color: black;
@@ -38,6 +26,7 @@
   width: 5rem;
   font-weight: bold;
   font-size: 1rem;
+  cursor: pointer;
 }
 .disableBtn:active {
   transform: translateY(2px);
@@ -54,6 +43,7 @@
   width: 5rem;
   font-weight: bold;
   font-size: 1rem;
+  cursor: pointer;
 }
 .linkBtn:active {
   transform: translateY(2px);
@@ -69,6 +59,7 @@
   border: solid black 2px;
   border-radius: 3px;
   font-size: 2vh;
+  cursor: pointer;
 }
 .learn-more-Btn:active {
   transform: translateY(2px);
@@ -84,6 +75,7 @@
   border: solid #bd2727 2px;
   border-radius: 3px;
   font-size: 0.9rem;
+  cursor: pointer;
 }
 .previewBtn:active {
   transform: translateY(2px);
@@ -100,6 +92,7 @@
   width: 5rem;
   font-weight: bold;
   font-size: 1rem;
+  cursor: pointer;
 }
 .likeBtn:active {
   transform: translateY(2px);
@@ -114,6 +107,7 @@
   height: 2.5rem;
   width: 5rem;
   font-size: 1rem;
+  cursor: pointer;
 }
 .enableBtn:active {
   transform: translateY(2px);
@@ -128,6 +122,7 @@
   height: 2.5rem;
   width: 5rem;
   font-size: 1rem;
+  cursor: pointer;
 }
 .closeBtn:active {
   transform: translateY(2px);
@@ -142,6 +137,7 @@
   height: 2.5rem;
   width: 5rem;
   font-size: 1rem;
+  cursor: pointer;
 }
 .publicBtn:active {
   transform: translateY(2px);
@@ -156,6 +152,7 @@
   width: 6rem;
   height: 2.5rem;
   font-size: 1rem;
+  cursor: pointer;
 }
 .read-more-btn:active {
   transform: translateY(2px);
@@ -170,6 +167,7 @@
   width: 6rem;
   height: 2.5rem;
   font-size: 1rem;
+  cursor: pointer;
 }
 .save-draft-btn:active {
   transform: translateY(2px);
@@ -185,7 +183,9 @@
   height: 2.5rem;
   font-size: 1rem;
   border: #6cca6c 2px;
-  box-shadow: 7px 10px 28px #64ee64
+  box-shadow: 7px 10px 28px #64ee64;
+  cursor: pointer;
+
 }
 .liveBtn:active {
   transform: translateY(2px);
@@ -203,6 +203,7 @@
   border: hsl(337, 62%, 42%) 2px;
   box-shadow: 7px 10px 28px hwb(345 44% 5%);
 font-weight: solid;
+cursor: pointer;
 }
 .cancelBtn:active {
   transform: translateY(2px);
@@ -220,6 +221,8 @@ font-weight: solid;
   border: #6cca6c 2px;
   box-shadow: 7px 8px 20px rgb(24, 182, 182);
 font-weight: solid;
+color: white;
+cursor: pointer;
 }
 .saveBtn:active {
   transform: translateY(2px);
@@ -237,6 +240,7 @@ font-weight: solid;
   border: #6cca6c 2px;
   box-shadow: 7px 10px 28px rgb(145, 31, 78);
 font-weight: solid;
+cursor: pointer;
 }
 .clickBtn:active {
   transform: translateY(2px);
@@ -254,9 +258,52 @@ font-weight: solid;
   border: #6cca6c 2px;
   box-shadow: 7px 10px 28px hwb(187 8% 12%);
 font-weight: solid;
+cursor: pointer;
 }
 .sendBtn:active {
   transform: translateY(2px);
   background-color: hwb(180 10% 20%);
 }
+.sendBtn-wrapper{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  padding: 6px 19px;
+  border-radius: 6px;
+  border: solid white;
+  background-color: #358bd6;
+  
+}
+.sendBtn-wrapper:active {
+  transform: translateY(2px);
+  background-color: hsl(197, 87%, 42%);
+}
+.sendBtnIcon{
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.addCallBtn-wrapper{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  padding: 6px 19px;
+  border-radius: 6px;
+  border: solid white;
+  background-color: #358bd6;
+}
+.addCall-IconBtn{
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.addCallBtn-wrapper:active{
+  transform: translateY(2px);
+  background-color: hsl(197, 87%, 42%);
+}
+
+
+
 
