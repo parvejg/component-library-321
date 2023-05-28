@@ -338,5 +338,23 @@ cursor: pointer;
   transform: translateY(2px);
   background-color: hwb(195 78% 19%);
 }
-
+.editBtn-wrapper{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  padding: 8px 21px;
+  border-radius: 6px;
+  border: solid white;
+  background-color: whitesmoke;
+}
+.editBtn-wrapper:active{
+  transform: translateY(2px);
+  background-color: hwb(195 78% 19%);
+}
+.iconBtn-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 

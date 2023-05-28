@@ -46,12 +46,13 @@ function App() {
  <ElevatedBtn className="saveBtn"name="Save"/>
 <hr/>
 <h2>Icon Buttons</h2>
+<div className='iconBtn-header'>
 <button className='sendBtn-wrapper'><SendIcon name="Send" className='sendBtnIcon'/></button>
 <button className='addCallBtn-wrapper'><AddIcCallRoundedIcon  className='addCall-IconBtn'/></button>
 <button className='deleteBtn-wrapper'><DeleteOutlineIcon className='deleteBtn-Icon'/></button>
 <button className='saveBtn-wrapper'><FavoriteBorderIcon className="saveBtn-Icon"/></button>
 <button className='editBtn-wrapper'><EditIcon className="editBtn-Icon"/></button>
-
+</div>
  <>
 
 <h1>Inputs</h1>
@@ -60,7 +61,7 @@ function App() {
  <Inputs  type="Text"  placeholder="Enter your Email" />
  <Inputs type="Number"  placeholder="Enter your Mobile Number" />
  <Inputs type="Password"  placeholder="Enter your Password"  />
- <Inputs type="Date"  placeholder="Enter your Birth Date"  />  
+ <Inputs type="Date"    />  
  <hr/>
  </>
  
