@@ -297,13 +297,46 @@ cursor: pointer;
 .addCall-IconBtn{
   color: white;
   font-weight: bold;
-  text-align: center;
 }
 .addCallBtn-wrapper:active{
   transform: translateY(2px);
   background-color: hsl(197, 87%, 42%);
 }
-
-
+.deleteBtn-wrapper{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  padding: 8px 22px;
+  border-radius: 6px;
+  border: solid white;
+  background-color: whitesmoke;
+}
+.deleteBtn-Icon{
+  font-weight: bold;
+  font-size: 1rem;
+}
+.deleteBtn-wrapper:active{
+  transform: translateY(2px);
+  background-color: hwb(195 78% 19%);
+}
+.saveBtn-wrapper{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  padding: 8px 21px;
+  border-radius: 6px;
+  border: solid white;
+  background-color: whitesmoke;
+}
+.saveBtn-Icon{
+  font-weight: bold;
+  font-size: larger;
+}
+.saveBtn-wrapper:active{
+  transform: translateY(2px);
+  background-color: hwb(195 78% 19%);
+}
 
 
