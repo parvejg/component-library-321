@@ -7,9 +7,13 @@ import EditIcon from '@mui/icons-material/Edit';
 import './App.css';
 import './components/input.css';
 import './components/button.css';
+import './components/navbar.css'
+import './components/reactNavbar.css';
+
 import {Buttoncomponent,  OutlineBtn, TextBtn} from './components/button'
 import Inputs from './components/input'
 import ElevatedBtn from './components/elevatedBtn';
+import { TataNavbar } from './components/navbar';
 
 
 function App() {
@@ -54,7 +58,6 @@ function App() {
 <button className='editBtn-wrapper'><EditIcon className="editBtn-Icon"/></button>
 </div>
  <>
-
 <h1>Inputs</h1>
  <Inputs type="Text"   placeholder="Enter your  First Name" />
  <Inputs type="Text"  placeholder="Enter your Last Name" />
@@ -64,7 +67,7 @@ function App() {
  <Inputs type="Date"    />  
  <hr/>
  </>
- 
+ <TataNavbar/>
     </div>
   );
 }

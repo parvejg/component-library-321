@@ -272,12 +272,12 @@ cursor: pointer;
   padding: 6px 19px;
   border-radius: 6px;
   border: solid white;
-  background-color: #358bd6;
+  background-color: hwb(204 17% 5%);
   
 }
 .sendBtn-wrapper:active {
   transform: translateY(2px);
-  background-color: hsl(197, 87%, 42%);
+  background-color: hsl(197, 68%, 48%);
 }
 .sendBtnIcon{
   color: white;
@@ -292,7 +292,7 @@ cursor: pointer;
   padding: 6px 19px;
   border-radius: 6px;
   border: solid white;
-  background-color: #358bd6;
+  background-color: hwb(234 26% 3%);
 }
 .addCall-IconBtn{
   color: white;

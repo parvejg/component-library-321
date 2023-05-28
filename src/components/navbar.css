@@ -1,0 +1,29 @@
+.navbar-header{
+    background-color: blue;
+    height: 100px;
+    margin: 3rem;
+  border-radius: 1rem;
+}
+.main-Links{
+    display: inline;
+    color: aliceblue;
+    padding: 0 2rem 0.5rem;
+    text-decoration: none;
+
+}
+.links-header{
+    display: flex;
+    justify-content: left;
+    padding-left: 7rem;
+}
+.tata-link{
+    color: aliceblue;
+    font-size: x-large;
+    font-weight:bolder;
+}
+.tata-header{
+    display: flex;
+    justify-content: left;
+    padding: 0 2rem ;
+    padding-top: 1rem;
+}
