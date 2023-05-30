@@ -1,0 +1,24 @@
+.mrf-header{
+    margin: 4rem;
+    background-color: hsl(110, 90%, 39%);
+    padding: 2rem;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mrf-links-wrapper{
+    display: flex;
+    align-items: center;
+}
+.mrfNavbar-links{
+    padding: 0 1rem;
+    text-decoration: none;
+    font-size: larger;
+    color: black
+}
+.mrf-logo{
+    font-weight: bold;
+    color: black;
+    font-size: xx-larger;
+}

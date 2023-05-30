@@ -324,15 +324,16 @@ cursor: pointer;
   display: flex;
   justify-items: center;
   align-items: center;
-  text-align: center;
   padding: 8px 21px;
   border-radius: 6px;
   border: solid white;
   background-color: whitesmoke;
+  font-weight:bolder;
+  font-size: xx-large;
 }
 .saveBtn-Icon{
-  font-weight: bold;
-  font-size: larger;
+ 
+  color: red;
 }
 .saveBtn-wrapper:active{
   transform: translateY(2px);

@@ -8,12 +8,13 @@ import './App.css';
 import './components/input.css';
 import './components/button.css';
 import './components/navbar.css'
+import './components/mrfNavbar.css'
 import './components/reactNavbar.css';
 
 import {Buttoncomponent,  OutlineBtn, TextBtn} from './components/button'
 import Inputs from './components/input'
 import ElevatedBtn from './components/elevatedBtn';
-import { TataNavbar } from './components/navbar';
+import { MrfNavbar, ReactNavbar, TataNavbar } from './components/navbar';
 
 
 function App() {
@@ -68,6 +69,8 @@ function App() {
  <hr/>
  </>
  <TataNavbar/>
+ <ReactNavbar/>
+ <MrfNavbar/>
     </div>
   );
 }
