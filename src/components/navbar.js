@@ -1,3 +1,4 @@
+import { SlCup } from "react-icons/sl";
 const TataNavbar = () => {
   return (
     <div className="navbar-header">
@@ -51,5 +52,36 @@ const MrfNavbar =()=>{
     </div>
   )
 }
+const ResturantNavbar =()=>{
+  return (
+    <div className="resturantNavbar-header">
+        <a className="logo-link" href="/" ><SlCup className="tea-icon"/></a>
 
-export { TataNavbar, ReactNavbar,MrfNavbar };
+      <div className="link-wrapper">
+        <a className="resturatNavbar-links" href="/">Home</a>
+        <a className="resturatNavbar-links" href="/">Pages</a>
+        <a className="resturatNavbar-links" href="/">Gallery</a>
+        <a className="resturatNavbar-links" href="/">Contact</a>
+        <a className="resturatNavbar-links" href="/">About</a>
+        <a className="resturatNavbar-links" href="/">Menu</a>
+      </div>
+    </div>
+  )
+}
+const CafeNavbar =()=>{
+  return ( <div className="cafeNavbar">
+    <h1>Guftagu <span>Cafe</span></h1>
+    <ul className="cafe-links-wrapper">
+      <li><a className="cafe-links" href="/">Home</a></li>
+      <li><a className="cafe-links" href="/">Photos</a></li>
+      <li><a className="cafe-links" href="/">Menu</a></li>
+      <li><a className="cafe-links" href="/">Order Online</a></li>
+      <li><a className="cafe-links" href="/">Log In</a></li>
+      <li><a className="cafe-links" href="/">Sign Up</a></li>
+    </ul>
+  </div>
+  
+)} 
+
+
+export { TataNavbar, ReactNavbar,MrfNavbar, ResturantNavbar,CafeNavbar };

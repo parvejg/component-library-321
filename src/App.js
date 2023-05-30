@@ -4,17 +4,19 @@ import AddIcCallRoundedIcon from '@mui/icons-material/AddIcCallRounded';
 import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import EditIcon from '@mui/icons-material/Edit';
+
 import './App.css';
 import './components/input.css';
 import './components/button.css';
-import './components/navbar.css'
-import './components/mrfNavbar.css'
+import './components/navbar.css';
+import './components/mrfNavbar.css';
 import './components/reactNavbar.css';
-
+import './components/resturantNavbar.css';
+import './components/cafeNavbar.css';
 import {Buttoncomponent,  OutlineBtn, TextBtn} from './components/button'
 import Inputs from './components/input'
 import ElevatedBtn from './components/elevatedBtn';
-import { MrfNavbar, ReactNavbar, TataNavbar } from './components/navbar';
+import { CafeNavbar, MrfNavbar, ReactNavbar, ResturantNavbar, TataNavbar } from './components/navbar';
 
 
 function App() {
@@ -71,6 +73,12 @@ function App() {
  <TataNavbar/>
  <ReactNavbar/>
  <MrfNavbar/>
+ <ResturantNavbar/>
+ <div className='cafeNavbar-and-img-wrapper'>
+ <CafeNavbar/>
+<img  className="cafe-background-img"src="https://res.cloudinary.com/purnesh/image/upload/w_1000,f_auto/guftagu1550665063712.jpg"></img>
+
+ </div>
     </div>
   );
 }

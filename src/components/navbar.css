@@ -1,5 +1,5 @@
 .navbar-header{
-    background-color: blue;
+    background-color: hwb(281 13% 5%);
     height: 100px;
     margin: 3rem;
   border-radius: 1rem;
@@ -9,6 +9,7 @@
     color: aliceblue;
     padding: 0 2rem 0.5rem;
     text-decoration: none;
+    font-size: large;
     
 
 }
@@ -23,6 +24,8 @@
     font-size: x-large;
     font-weight:bolder;
     margin-top: 1rem;
+    text-decoration: none;
+
 }
 .tata-header{
     display: flex;
