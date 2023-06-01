@@ -19,7 +19,8 @@ import {Buttoncomponent,  OutlineBtn, TextBtn} from './components/button'
 import Inputs from './components/input'
 import ElevatedBtn from './components/elevatedBtn';
 import { CafeNavbar, MrfNavbar, ReactNavbar, ResturantNavbar, TataNavbar } from './components/navbar';
-import { Tavatar } from './components/avatar';
+import { Tavatar,PersonAvatar,NotificationAvatar,ImageAvatar } from './components/avatar';
+import { IoIosNotificationsOutline } from 'react-icons/io';
 
 
 function App() {
@@ -82,6 +83,12 @@ function App() {
  <VolumeSlider/>
  <hr/>
  <Tavatar/>
+ <hr/>
+ <PersonAvatar/>
+ <hr/>
+ <NotificationAvatar/>
+ <hr/>
+ <ImageAvatar/>
     </div>
   );
 }

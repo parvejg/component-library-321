@@ -6,7 +6,35 @@
     width: 50px;
     border-radius: 50%;
     object-fit: contain;
-    border: solid black 1px;
-    color: white;
-    background-color: salmon;
+    border: solid black 2px;
+    color: black;
+}
+.person-avatar-header{
+    margin: 3rem;
+}
+.person-avatar-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: contain;
+    color: black;
+}
+.notification-avatar-header{
+    margin: 3rem;
+}
+.notification-avatar-icon{
+    height: 50px;
+    width: 50px;
+   border-radius: 50%;
+    object-fit: contain;
+    border: solid black 2px;
+    color: black; 
+}
+.image-avatar{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: fill;
+    border: solid black 2px;
+    color: black;
 }
