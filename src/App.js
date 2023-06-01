@@ -13,11 +13,13 @@ import './components/reactNavbar.css';
 import './components/resturantNavbar.css';
 import './components/cafeNavbar.css';
 import './components/volume-slider.css';
+import './components/avatar.css'
 import { VolumeSlider } from './components/range-slider';
 import {Buttoncomponent,  OutlineBtn, TextBtn} from './components/button'
 import Inputs from './components/input'
 import ElevatedBtn from './components/elevatedBtn';
 import { CafeNavbar, MrfNavbar, ReactNavbar, ResturantNavbar, TataNavbar } from './components/navbar';
+import { Tavatar } from './components/avatar';
 
 
 function App() {
@@ -73,14 +75,13 @@ function App() {
  </>
  <TataNavbar/>
  <ReactNavbar/>
- <div className='cafeNavbar-and-img-wrapper'>
  <CafeNavbar/>
-<img  className="cafe-background-img"src="https://res.cloudinary.com/purnesh/image/upload/w_1000,f_auto/guftagu1550665063712.jpg"></img>
- </div>
  <MrfNavbar/>
  <ResturantNavbar/>
  <hr/>
  <VolumeSlider/>
+ <hr/>
+ <Tavatar/>
     </div>
   );
 }

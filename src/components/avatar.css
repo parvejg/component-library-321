@@ -1,0 +1,12 @@
+.t-avatar-header{
+    margin: 3rem;
+}
+.t-avatar-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: contain;
+    border: solid black 1px;
+    color: white;
+    background-color: salmon;
+}
