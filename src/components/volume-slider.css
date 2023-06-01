@@ -1,0 +1,14 @@
+.volume-slider{
+    accent-color: blue;
+    width: 20%;
+    margin: 50px;
+}
+.show-volumeInDigit{
+    display: inline;
+    position: relative;
+    padding-right: 9px;
+}
+h3{
+    position: relative;
+    font-size: xx-large;
+}
