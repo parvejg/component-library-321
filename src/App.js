@@ -96,7 +96,7 @@ function App() {
  <NotificationAvatar/>
  <hr/>
   <ImageAvatar/> */}
- <Layout/>
+ <Layout>jyhdh</Layout>
  
     </div>
   );

@@ -10,6 +10,6 @@
     text-decoration: none;
     padding: 7px 0;
 }
-.layout-sidebar-component-links:hover {
+.layout-sidebar-links:hover{
     background-color: antiquewhite;
 }
