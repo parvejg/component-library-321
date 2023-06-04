@@ -1,18 +1,18 @@
 import { SlCup } from "react-icons/sl";
 const TataNavbar = () => {
   return (
-    <div className="navbar-header">
-      <div className="tata-header">
-        <a className="tata-link" href="/">TATA</a>
+    <div className="tata-navbar-header">
+      <div className="tata-logo-header">
+        <a className="tata-logo" href="/">TATA</a>
       </div>
-      <div className="links-header">
-        <a href="/" className="main-Links">
+      <div className="tata-links-wrapper">
+        <a href="/" className="tata-main-Links">
           Link
         </a>
-        <a href="/" className="main-Links">
+        <a href="/" className="tata-main-Links">
           Download
         </a>
-        <a href="/" className="main-Links">
+        <a href="/" className="tata-main-Links">
           Blog
         </a>
       </div>
@@ -23,7 +23,7 @@ const ReactNavbar = () => {
   return (
     <div className="react-navbar-header">
       <div className="react-logo">
-        <h2> React</h2>
+        <h2 className="react-logo"> React</h2>
         </div>
       <div className="react-link-wrapper"></div>
       <a href="/" className=" reactNavbar-links">Home
@@ -54,23 +54,23 @@ const MrfNavbar =()=>{
 }
 const ResturantNavbar =()=>{
   return (
-    <div className="resturantNavbar-header">
-        <a className="logo-link" href="/" ><SlCup className="tea-icon"/></a>
+    <div className="tea-Navbar-header">
+        <a className="tea-logo-link" href="/" ><SlCup className="tea-icon"/></a>
 
-      <div className="link-wrapper">
-        <a className="resturatNavbar-links" href="/">Home</a>
-        <a className="resturatNavbar-links" href="/">Pages</a>
-        <a className="resturatNavbar-links" href="/">Gallery</a>
-        <a className="resturatNavbar-links" href="/">Contact</a>
-        <a className="resturatNavbar-links" href="/">About</a>
-        <a className="resturatNavbar-links" href="/">Menu</a>
+      <div className="tea-link-wrapper">
+        <a className="teaNavbar-links" href="/">Home</a>
+        <a className="teaNavbar-links" href="/">Pages</a>
+        <a className="teaNavbar-links" href="/">Gallery</a>
+        <a className="teaNavbar-links" href="/">Contact</a>
+        <a className="teaNavbar-links" href="/">About</a>
+        <a className="teaNavbar-links" href="/">Menu</a>
       </div>
     </div>
   )
 }
 const CafeNavbar =()=>{
   return ( <div className="cafeNavbar">
-    <h1>Guftagu <span>Cafe</span></h1>
+    < h1 className="guftagu-logonpm start">Guftagu <span>Cafe</span></h1>
     <ul className="cafe-links-wrapper">
       <li><a className="cafe-links" href="/">Home</a></li>
       <li><a className="cafe-links" href="/">Photos</a></li>

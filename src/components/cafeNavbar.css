@@ -2,10 +2,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #76f820;
-    padding: 1rem;
-    margin: 0rem;
+    background-color: #407ff5;
+    padding: .3rem;
     border-radius: 1rem 1rem  0rem  0rem;
+    width: 90%;
+    margin: 4rem;
 }
 .cafe-links-wrapper{
     display: flex;
@@ -16,22 +17,15 @@
 }
 .cafe-links{
     display: inline;
-    padding: 2rem;
+    padding: 1rem;
     text-decoration: none;
     font-size: large;
-    color: black;
-}
-img{
-    width: 100%;
+    color: white;
 }
 span{
-    color: orangered;
+    color: white;
+    padding: 1rem;
 }
-.cafeNavbar-and-img-wrapper{
-    width: 90%;
-    height: 90%;
-    align-items: center;
-    padding: 0 2rem;
-    border-radius: 1rem;
-    margin: 2rem;
+.guftagu-logo{
+    margin: 1rem;
 }

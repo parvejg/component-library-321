@@ -1,10 +1,11 @@
 .react-navbar-header{
-  background-color: #e4eee4;
+  background-color: #407ff5;
   display: flex;
   justify-content: space-between;
   border-radius: .6rem;
-  padding:  2rem;
+  padding:  .5rem;
   margin: 4rem;
+  align-items: center;
 }
 .react-link-wrapper{
   display: flex;
@@ -13,7 +14,10 @@
 }
 .reactNavbar-links{
   font-size: large;
-  color: black;
+  color: white;
   text-decoration: none;
   margin: 0 2px;
+}
+.react-logo{
+  font-size: xx-large;
 }

@@ -1,8 +1,8 @@
-.resturantNavbar-header{
+.tea-Navbar-header{
     display: flex;
     justify-content: space-between;
-    background-color: aquamarine;
-    padding: 2rem;
+    background-color: #407ff5;
+    padding: .5rem;
     margin: 2rem;
     border-radius: 1rem;
    
@@ -11,19 +11,20 @@
     color: black;
     font-size: 2.5rem;
     align-items: center;
+    padding: 1rem;
 }
 
-.link-wrapper{
+.tea-link-wrapper{
     display: flex;
     align-items: center;
     font-size: larger;
 
 }
 
-.resturatNavbar-links{
+.teaNavbar-links{
     text-decoration: none;
     padding: 2rem;
-    color: black;
+    color: white;
     align-items: center;
     
 }

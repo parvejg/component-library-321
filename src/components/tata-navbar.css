@@ -1,10 +1,10 @@
-.navbar-header{
-    background-color: hwb(281 13% 5%);
-    height: 100px;
-    margin: 3rem;
+.tata-navbar-header{
+    background-color: #407ff5;
+    padding: .2rem;
+    margin: 4rem;
   border-radius: 1rem;
 }
-.main-Links{
+.tata-main-Links{
     display: inline;
     color: aliceblue;
     padding: 0 2rem 0.5rem;
@@ -13,13 +13,13 @@
     
 
 }
-.links-header{
+.tata-links-wrapper{
     display: flex;
     justify-content: left;
     padding-left: 7rem;
     
 }
-.tata-link{
+.tata-logo{
     color: aliceblue;
     font-size: x-large;
     font-weight:bolder;
@@ -27,7 +27,7 @@
     text-decoration: none;
 
 }
-.tata-header{
+.tata-logo-header{
     display: flex;
     justify-content: left;
     padding: 0 2rem ;

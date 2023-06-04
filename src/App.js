@@ -7,7 +7,7 @@ import EditIcon from '@mui/icons-material/Edit';
 import './App.css';
 import './components/input.css';
 import './components/button.css';
-import './components/navbar.css';
+import './components/tata-navbar.css';
 import './components/mrfNavbar.css';
 import './components/reactNavbar.css';
 import './components/resturantNavbar.css';
@@ -20,15 +20,19 @@ import Inputs from './components/input'
 import ElevatedBtn from './components/elevatedBtn';
 import { CafeNavbar, MrfNavbar, ReactNavbar, ResturantNavbar, TataNavbar } from './components/navbar';
 import { Tavatar,PersonAvatar,NotificationAvatar,ImageAvatar } from './components/avatar';
-import { IoIosNotificationsOutline } from 'react-icons/io';
+import {Layout} from './components/layout';
+import './components/layout.css';
+import './components/layout-navbar';
+import './components/layout-navbar.css';
+import { LayoutNavbar } from './components/layout-navbar';
 
 
 function App() {
   return (  
     <div className="App">
- <h1>components</h1>
+ {/* <h1>components</h1>
  <h2 style={{textAlign: "center"}}> Filled sButtons</h2>
- <Buttoncomponent   name="Like" onClick= {()=> console.log("clicked")}/>
+ <Buttoncomponent   name="Like" />
  <Buttoncomponent  name="Send"/>
  <Buttoncomponent  name="Live"/>
  <Buttoncomponent   name="Click"/>
@@ -88,7 +92,9 @@ function App() {
  <hr/>
  <NotificationAvatar/>
  <hr/>
- <ImageAvatar/>
+ <ImageAvatar/> */}
+ <Layout/>
+
     </div>
   );
 }

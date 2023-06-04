@@ -7,7 +7,7 @@ const [data , setData] = useState([0])
     return (<>
     <h3><BsVolumeUp/></h3>
 
- <input type="range" className="volume-slider" min="1" max="100"  onChange={(data)=>setData(data.target.value)}/>
+ <input type="range" className="volume-slider" min="0" max="100"  onChange={(data)=>setData(data.target.value)}/>
     <h2 className="show-volumeInDigit">{data}</h2>
 
     </>

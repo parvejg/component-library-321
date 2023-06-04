@@ -27,7 +27,7 @@ export const NotificationAvatar =()=>{
 export const ImageAvatar =()=>{
     return(
         <div className="image-avatar-header">
-             <img  className="image-avatar" src="https://images.unsplash.com/photo-1586907835000-f692bbd4c9e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGdpcmxzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" />
+             <img  className="image-avatar" src="https://images.unsplash.com/photo-1480429370139-e0132c086e2a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bWFufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" />
         </div>
     )
 }

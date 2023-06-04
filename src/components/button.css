@@ -2,14 +2,14 @@
   display: flex;
   transition-duration: 0.4s;
   padding: 13px 15px;
-  font-weight: bold;
-  background-color: skyblue;
+  background-color: #407ff5;
   border: solid white 1px;
   border-radius: 6px;
   margin: 5px;
   display: inline;
   font-size: 15px;
   cursor: pointer;
+  color: #fff;
 }
 .btn:active {
   transform: translateY(6px);
@@ -20,7 +20,7 @@
   margin: 5px;
   color: black;
   background-color: #fff;
-  border: solid black 2px;
+  border: 2px solid #407ff5;
   border-radius: 4px;
   height: 2.5rem;
   width: 5rem;
@@ -175,51 +175,51 @@
 }
 .liveBtn {
   margin: 5px;
-  color: black;
-  background-color: #18e988;
+  color: white;
+  background-color: #407ff5;
   border: solid white 2px;
   border-radius: 6px;
   width: 6rem;
   height: 2.5rem;
   font-size: 1rem;
   border: #6cca6c 2px;
-  box-shadow: 7px 10px 28px #64ee64;
   cursor: pointer;
+  box-shadow: #358bd6 2px;
 
 }
 .liveBtn:active {
   transform: translateY(2px);
-  background-color: #2ac258;
+  background-color: #407ff5;
 }
 .cancelBtn {
   margin: 5px;
-  color: black;
-  background-color: hwb(0 35% 0%);
+  color: white;
+  background-color: #407ff5;
   border: solid white 2px;
   border-radius: 6px;
   width: 6rem;
   height: 2.5rem;
   font-size: 1rem;
-  border: hsl(337, 62%, 42%) 2px;
-  box-shadow: 7px 10px 28px hwb(345 44% 5%);
+  border: #407ff5 2px;
+  box-shadow: 7px 10px 28px #407ff5;
 font-weight: solid;
 cursor: pointer;
 }
 .cancelBtn:active {
   transform: translateY(2px);
-  background-color: rgb(221, 40, 197);
+  background-color: #407ff5;
 }
 .saveBtn {
   margin: 5px;
   color: black;
-  background-color: rgb(0, 78, 129);
+  background-color: #407ff5;
   border: solid white 2px;
   border-radius: 6px;
   width: 6rem;
   height: 2.5rem;
   font-size: 1rem;
-  border: #6cca6c 2px;
-  box-shadow: 7px 8px 20px rgb(24, 182, 182);
+  border: #407ff5 2px;
+  box-shadow: 7px 8px 20px #407ff5;
 font-weight: solid;
 color: white;
 cursor: pointer;
@@ -230,39 +230,39 @@ cursor: pointer;
 }
 .clickBtn {
   margin: 5px;
-  color: black;
-  background-color: #a62db1;
+  color: white;
+  background-color: #407ff5;
   border: solid white 2px;
   border-radius: 6px;
   width: 6rem;
   height: 2.5rem;
   font-size: 1rem;
-  border: #6cca6c 2px;
-  box-shadow: 7px 10px 28px rgb(145, 31, 78);
+  border:  #407ff5 2px;
+  box-shadow: 7px 10px 28px #407ff5;
 font-weight: solid;
 cursor: pointer;
 }
 .clickBtn:active {
   transform: translateY(2px);
-  background-color: #d477d4;
+  background-color: #407ff5;
 }
 .sendBtn {
   margin: 5px;
-  color: black;
+  color:  white;
   background-color: #407ff5;
-  border: solid hwb(192 8% 12%) 2px;
+  border: solid  #407ff5 2px;
   border-radius: 6px;
   width: 6rem;
   height: 2.5rem;
   font-size: 1rem;
-  border: #6cca6c 2px;
-  box-shadow: 7px 10px 28px hwb(187 8% 12%);
+  border: #407ff5 2px;
+  box-shadow: 7px 10px 28px #407ff5;
 font-weight: solid;
 cursor: pointer;
 }
 .sendBtn:active {
   transform: translateY(2px);
-  background-color: hwb(180 10% 20%);
+  background-color: #407ff5;
 }
 .sendBtn-wrapper{
   display: flex;
@@ -272,12 +272,12 @@ cursor: pointer;
   padding: 6px 19px;
   border-radius: 6px;
   border: solid white;
-  background-color: hwb(204 17% 5%);
+  background-color: #407ff5;
   
 }
 .sendBtn-wrapper:active {
   transform: translateY(2px);
-  background-color: hsl(197, 68%, 48%);
+  background-color: #407ff5;
 }
 .sendBtnIcon{
   color: white;
@@ -292,7 +292,7 @@ cursor: pointer;
   padding: 6px 19px;
   border-radius: 6px;
   border: solid white;
-  background-color: hwb(234 26% 3%);
+  background-color:#407ff5;
 }
 .addCall-IconBtn{
   color: white;
@@ -333,7 +333,7 @@ cursor: pointer;
 }
 .saveBtn-Icon{
  
-  color: red;
+  color: #407ff5;
 }
 .saveBtn-wrapper:active{
   transform: translateY(2px);
