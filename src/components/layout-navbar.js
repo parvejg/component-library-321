@@ -5,6 +5,5 @@ export const LayoutNavbar=()=>{
             <a href="/" className="layout-navbar-links layout-links">Install</a>
             <a href="/"className="layout-navbar-links layout-links">Components</a>
             </div>
-           
         </div>
 }

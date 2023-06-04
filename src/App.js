@@ -21,10 +21,11 @@ import ElevatedBtn from './components/elevatedBtn';
 import { CafeNavbar, MrfNavbar, ReactNavbar, ResturantNavbar, TataNavbar } from './components/navbar';
 import { Tavatar,PersonAvatar,NotificationAvatar,ImageAvatar } from './components/avatar';
 import {Layout} from './components/layout';
-import './components/layout.css';
-import './components/layout-navbar';
-import './components/layout-navbar.css';
-import { LayoutNavbar } from './components/layout-navbar';
+import './components/Layout.css';
+import { LayoutNavbar } from './components/Layout-navbar';
+import './components/Layout-navbar.css';
+import './components/layout-footer.css';
+import { LayoutFooter } from './components/layout-footer';
 
 
 function App() {
@@ -92,9 +93,9 @@ function App() {
  <hr/>
  <NotificationAvatar/>
  <hr/>
- <ImageAvatar/> */}
+  <ImageAvatar/> */}
  <Layout/>
-
+ 
     </div>
   );
 }

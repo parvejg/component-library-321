@@ -1,4 +1,6 @@
-import { LayoutNavbar } from "./layout-navbar"
+import { LayoutNavbar } from "./Layout-navbar"
+import './Layout-navbar.css';
+import { LayoutFooter } from "./layout-footer";
 
  export const Layout =()=>{
     return <div  className="layout-wrapper">
@@ -15,11 +17,6 @@ import { LayoutNavbar } from "./layout-navbar"
             </div>
             <div href="/" className="layout-content">contents</div>
         </div>
-        <div href="/" className="layout-footer">
-            <a href="/" className="layout-footer-links layout-links">LinkedIn</a>
-            <a href="/" className="layout-footer-links layout-links">Github</a>
-            <a href="/" className="layout-footer-links layout-links">Instagram</a>
-        
-        </div>
+      <LayoutFooter/>
     </div>
 }
