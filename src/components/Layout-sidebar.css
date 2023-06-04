@@ -1,0 +1,15 @@
+.layout-sidebar-wrapper{
+    flex-basis: 200px;
+    display: flex;
+    flex-direction: column;
+    border-right: 3px solid whitesmoke;
+}
+.layout-sidebar-links{
+    font-size: large;
+    color: black;
+    text-decoration: none;
+    padding: 7px 0;
+}
+.layout-sidebar-component-links:hover {
+    background-color: antiquewhite;
+}

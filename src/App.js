@@ -25,7 +25,9 @@ import './components/Layout.css';
 import { LayoutNavbar } from './components/Layout-navbar';
 import './components/Layout-navbar.css';
 import './components/layout-footer.css';
+import './components/Layout-sidebar.css'
 import { LayoutFooter } from './components/layout-footer';
+import { LayoutSidebar } from './components/Layout-sidebar';
 
 
 function App() {
