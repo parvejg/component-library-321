@@ -15,9 +15,7 @@ import './components/cafeNavbar.css';
 import './components/volume-slider.css';
 import './components/avatar.css'
 import { VolumeSlider } from './components/range-slider';
-import {ElevatedButton} from './components/button'
 import Inputs from './components/input'
-import ElevatedBtn from './components/elevatedBtn';
 import { CafeNavbar, MrfNavbar, ReactNavbar, ResturantNavbar, TataNavbar } from './components/navbar';
 import { Tavatar,PersonAvatar,NotificationAvatar,ImageAvatar } from './components/avatar';
 import './components/Layout.css';
@@ -28,6 +26,8 @@ import { Buttonpage } from './components/ButtonPage';
 import { LayoutNavbar } from './components/Layout-navbar';
 import { OutlineBtn } from './components/Outline-Btn';
 import { TextBtn } from './components/Text-Btn';
+import {ElevatedButton} from './components/Elevated-button'
+
 
 
 
@@ -36,25 +36,10 @@ function App() {
   return (  
     <div className="App">
       <Buttonpage/>
-     {/* <TextBtn/> */}
   </div>
   );
 
-  // <h2>Text Buttons</h2>
-  // <TextBtn  className="txtBtn"name="Close"/>
-  // <TextBtn  className="txtBtn"name="Enable"/>
-  // <TextBtn className="txtBtn" name="Public"/>
-  // <TextBtn className="txtBtn" name="Read More"/>
-  // <TextBtn className="txtBtn" name="Save Draft"/>
-  // <hr/>
-
- {/* <h1>components</h1>
- <h2 style={{textAlign: "center"}}> Filled sButtons</h2>
- <ElevatedButton   name="Like" />
- <ElevatedButton  name="Send"/>
- <ElevatedButton  name="Live"/>
- <ElevatedButton   name="Click"/>
- <ElevatedButton   name="Link"/>
+ {/* 
 
  <hr/>
  <h2>Outlined Buttons</h2>
