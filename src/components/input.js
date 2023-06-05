@@ -10,3 +10,16 @@ import "./Input.css";
         </>
   );
 }
+
+export const PasswordInput=(props)=> {
+      const { placeholder, type, className } = props;
+      return (<>
+            <input
+            className={`password-input ${className}`}
+            placeholder={placeholder ? placeholder : "Enter your password"}
+            type={type ? type : "password"}
+            ></input>
+            </>
+      );
+    }
+

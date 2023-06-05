@@ -1,6 +1,6 @@
 import { LayoutNavbar } from "./Layout-navbar";
 import { LayoutSidebar } from "./Layout-sidebar";
-import { LayoutFooter } from "./Footer";
+import { Footer } from "./Footer";
 
 export const Layout = ({ children }) => {
   return (
@@ -12,7 +12,7 @@ export const Layout = ({ children }) => {
           {children}
         </div>
       </div>
-      <LayoutFooter />
+      <Footer />
     </div>
   );
 };

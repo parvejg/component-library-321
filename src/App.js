@@ -11,7 +11,7 @@ import { CafeNavbar, MrfNavbar, ReactNavbar, ResturantNavbar, TataNavbar } from 
 import { Tavatar,PersonAvatar,NotificationAvatar,ImageAvatar } from './components/avatar';
 import './components/Layout.css';
 import './components/Layout-navbar.css';
-import './components/layout-footer.css';
+import './components/Footer.css';
 import './components/Layout-sidebar.css';
 import { Buttonpage } from './components/ButtonPage';
 
