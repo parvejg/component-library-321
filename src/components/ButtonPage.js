@@ -6,8 +6,7 @@ export const Buttonpage = () => {
   return (
     <Layout>
       <div>
-        <h2>Buttons</h2>
-        <TextBtn />
+        <h2> Buttons </h2> <TextBtn />
         <div>
           <iframe
             title="text-button-iframe"
@@ -20,8 +19,8 @@ export const Buttonpage = () => {
               overflow: "hidden",
             }}
             sandbox="allow-scripts allow-same-origin"
-          ></iframe>
-        </div>
+          ></iframe>{" "}
+        </div>{" "}
         <ElevatedButton />
         <div>
           <iframe
@@ -35,8 +34,8 @@ export const Buttonpage = () => {
               overflow: "hidden",
             }}
             sandbox="allow-scripts allow-same-origin"
-          ></iframe>
-        </div>
+          ></iframe>{" "}
+        </div>{" "}
         <OutlineBtn />
         <div>
           <iframe
@@ -50,9 +49,9 @@ export const Buttonpage = () => {
               overflow: "hidden",
             }}
             sandbox="allow-scripts allow-same-origin"
-          ></iframe>
-        </div>
-      </div>
+          ></iframe>{" "}
+        </div>{" "}
+      </div>{" "}
     </Layout>
   );
 };

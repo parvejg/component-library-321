@@ -6,21 +6,19 @@ import './components/reactNavbar.css';
 import './components/resturantNavbar.css';
 import './components/cafeNavbar.css';
 import './components/avatar.css'
-import { VolumeSlider } from './components/range-slider';
+import { VolumeSlider } from './components/VolumeSlider';
 import { CafeNavbar, MrfNavbar, ReactNavbar, ResturantNavbar, TataNavbar } from './components/navbar';
 import { Tavatar,PersonAvatar,NotificationAvatar,ImageAvatar } from './components/avatar';
 import './components/Layout.css';
 import './components/Layout-navbar.css';
 import './components/layout-footer.css';
-import './components/Layout-sidebar.css'
+import './components/Layout-sidebar.css';
 import { Buttonpage } from './components/ButtonPage';
-import GmailInput from './components/input';
 
 function App() {
   return (  
     <div className="App">
-      {/* <Buttonpage/> */}
-      <GmailInput/>
+      <Buttonpage/>
   </div>
   );
 

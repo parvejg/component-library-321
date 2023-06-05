@@ -1,6 +1,5 @@
 
 .elevated-btn {
-    margin: 5px;
     color: white;
     background-color: #407ff5;
     border: solid white 2px;
@@ -8,7 +7,6 @@
     width: 6rem;
     height: 2.5rem;
     font-size: 1rem;
-    border: #6cca6c 2px;
     cursor: pointer;
     box-shadow: #358bd6 2px;
   

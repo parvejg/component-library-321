@@ -1,15 +1,18 @@
-import { LayoutNavbar } from "./Layout-navbar"
+import { LayoutNavbar } from "./Layout-navbar";
 import { LayoutSidebar } from "./Layout-sidebar";
-import {LayoutFooter } from './layout-footer';
+import { LayoutFooter } from "./Footer";
 
-
- export const Layout =({children})=>{
-    return <div  className="layout-wrapper">
-       <LayoutNavbar/>
-        <div className="layout-body">
-           <LayoutSidebar/>
-            <div href="/" className="layout-content">{children}</div>
+export const Layout = ({ children }) => {
+  return (
+    <div className="layout-wrapper">
+      <LayoutNavbar />
+      <div className="layout-body">
+        <LayoutSidebar />
+        <div  className="layout-content">
+          {children}
         </div>
-      <LayoutFooter/>
+      </div>
+      <LayoutFooter />
     </div>
-}
+  );
+};
