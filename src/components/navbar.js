@@ -70,7 +70,7 @@ const ResturantNavbar =()=>{
 }
 const CafeNavbar =()=>{
   return ( <div className="cafeNavbar">
-    < h1 className="guftagu-logonpm start">Guftagu <span>Cafe</span></h1>
+    < h1 className="guftagu-logo">Guftagu <span>Cafe</span></h1>
     <ul className="cafe-links-wrapper">
       <li><a className="cafe-links" href="/">Home</a></li>
       <li><a className="cafe-links" href="/">Photos</a></li>

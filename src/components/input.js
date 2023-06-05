@@ -1,7 +1,12 @@
-function Inputs(props){
-    const {placeholder, type, value } = props
-    return ( <>
-    <input className="inputs" value={value} placeholder={placeholder} type={type}></input></>)
-    
+import "./Input.css";
+ export const GmailInput=(props)=> {
+  const { placeholder, type, className } = props;
+  return (<>
+        <input
+        className={`gmail-input ${className}`}
+        placeholder={placeholder ? placeholder : "Enter your gmail"}
+        type={type ? type : "text"}
+        ></input>
+        </>
+  );
 }
-export default Inputs;

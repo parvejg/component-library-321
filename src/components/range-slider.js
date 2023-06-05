@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { BsVolumeUp } from "react-icons/bs";
+import './components/volume-slider.css';
 
 export const VolumeSlider =()=>{
 const [data , setData] = useState([0])

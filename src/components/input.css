@@ -1,4 +1,4 @@
-.inputs{
+.gmail-input{
     transition-duration: 0.4s;
     background-color: hsl(160, 27%, 94%);
     padding: 6px;
@@ -8,5 +8,4 @@
     color: black;
     border: solid whitesmoke 1px;
     box-shadow: 4px 3px 4px darkgrey;
-
 }
