@@ -22,4 +22,16 @@ export const PasswordInput=(props)=> {
             </>
       );
     }
+    
+export const DateInput=(props)=> {
+      const { placeholder, type, className } = props;
+      return (<>
+            <input
+            className={`date-input ${className}`}
+            placeholder={placeholder ? placeholder : "Enter your Birth date"}
+            type={type ? type : "date"}
+            ></input>
+            </>
+      );
+    }
 
