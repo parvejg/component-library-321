@@ -1,6 +1,6 @@
 import { LayoutNavbar } from "./Layout-navbar"
 import { LayoutSidebar } from "./Layout-sidebar";
-import { LayoutFooter } from "./layout-footer";
+import {LayoutFooter } from './layout-footer';
 
 
  export const Layout =({children})=>{
