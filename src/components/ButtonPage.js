@@ -2,7 +2,7 @@ import { Layout } from "./layout";
 import { ElevatedButton } from "./Elevated-button";
 import { TextBtn } from "./Text-Btn";
 import { OutlineBtn } from "./Outline-Btn";
-export const Buttonpage = () => {
+export const ButtonPage = () => {
   return (
     <Layout>
       <div>
