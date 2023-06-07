@@ -1,4 +1,4 @@
-import { DateInput, PasswordInput, TextInput } from "./input"
+import { DateInput, PasswordInput, TextInput } from "./Input"
 import { Layout } from "./layout"
 import './Input.css'
 export const InputPage=()=>{
