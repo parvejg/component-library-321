@@ -37,7 +37,6 @@
     display: flex;
     justify-content: space-between;
     border-radius: .6rem;
-    padding:  .5rem;
     align-items: center;
   }
   .react-link-wrapper{
@@ -49,7 +48,7 @@
     font-size: large;
     color: white;
     text-decoration: none;
-    margin: 0 2px;
+    padding: 0 2px;
   }
   .react-logo{
     font-size: xx-large;
@@ -78,7 +77,6 @@
     font-weight: bold;
     color: black;
     font-size: xx-larger;
-    padding: 1rem;
 }
 
 .tea-Navbar-header{
@@ -86,7 +84,7 @@
     justify-content: space-between;
     background-color: #407ff5;
     padding: .5rem;
-    margin: 2rem;
+    padding: 0  2rem;
     border-radius: 1rem;
    
 }
@@ -116,10 +114,9 @@
     align-items: center;
     justify-content: space-between;
     background-color: #407ff5;
-    padding: .3rem;
     border-radius: 1rem 1rem  0rem  0rem;
     width: 90%;
-    margin: 4rem;
+    padding: 0   4rem;
 }
 .cafe-links-wrapper{
     display: flex;
@@ -130,15 +127,15 @@
 }
 .cafe-links{
     display: inline;
-    padding: 1rem;
     text-decoration: none;
     font-size: large;
     color: white;
+    padding: 0   2rem;
+
 }
 span{
     color: white;
     padding: 1rem;
 }
 .guftagu-logo{
-  padding: 1rem;
 }

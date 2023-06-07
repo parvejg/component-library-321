@@ -7,6 +7,7 @@ import './components/Footer.css';
 import './components/Layout-navbar.css';
 import './components/Sidebar.css';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { NavbarPage } from "./components/NavbarPage";
 function App() {
   return (
     <Router>
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" Component={Layout} />
         <Route path="/button-page" Component={ButtonPage} />
         <Route path="/input-page"  Component={InputPage} />
+        <Route path="/navbar-page" Component={NavbarPage}/>
       </Routes>
     </Router>
   );
