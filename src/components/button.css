@@ -15,9 +15,7 @@
   transform: translateY(6px);
 }
 
-
-.cancelBtn {
-  margin: 5px;
+.elevated-btn {
   color: white;
   background-color: #407ff5;
   border: solid white 2px;
@@ -25,162 +23,45 @@
   width: 6rem;
   height: 2.5rem;
   font-size: 1rem;
-  border: #407ff5 2px;
-  box-shadow: 7px 10px 28px #407ff5;
-font-weight: solid;
-cursor: pointer;
+  cursor: pointer;
+  box-shadow: #358bd6 2px;
+
 }
-.cancelBtn:active {
+.elevated-btn:active {
   transform: translateY(2px);
   background-color: #407ff5;
 }
-.saveBtn {
+
+
+.outline-Btn {
   margin: 5px;
   color: black;
-  background-color: #407ff5;
+  background-color: #fff;
+  border: 2px solid #407ff5;
+  border-radius: 4px;
+  height: 2.5rem;
+  width: 5rem;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.outline-Btn:active {
+  transform: translateY(2px);
+  background-color: aliceblue;
+}
+.txtBtn {
+  margin: 5px;
+  color: black;
+  background-color: azure;
   border: solid white 2px;
   border-radius: 6px;
-  width: 6rem;
   height: 2.5rem;
+  width: 5rem;
   font-size: 1rem;
-  border: #407ff5 2px;
-  box-shadow: 7px 8px 20px #407ff5;
-font-weight: solid;
-color: white;
-cursor: pointer;
+  cursor: pointer;
 }
-.saveBtn:active {
+.txtBtn:active {
   transform: translateY(2px);
-  background-color: #358bd6;
-}
-.clickBtn {
-  margin: 5px;
-  color: white;
-  background-color: #407ff5;
-  border: solid white 2px;
-  border-radius: 6px;
-  width: 6rem;
-  height: 2.5rem;
-  font-size: 1rem;
-  border:  #407ff5 2px;
-  box-shadow: 7px 10px 28px #407ff5;
-font-weight: solid;
-cursor: pointer;
-}
-.clickBtn:active {
-  transform: translateY(2px);
-  background-color: #407ff5;
-}
-.sendBtn {
-  margin: 5px;
-  color:  white;
-  background-color: #407ff5;
-  border: solid  #407ff5 2px;
-  border-radius: 6px;
-  width: 6rem;
-  height: 2.5rem;
-  font-size: 1rem;
-  border: #407ff5 2px;
-  box-shadow: 7px 10px 28px #407ff5;
-font-weight: solid;
-cursor: pointer;
-}
-.sendBtn:active {
-  transform: translateY(2px);
-  background-color: #407ff5;
-}
-.sendBtn-wrapper{
-  display: flex;
-  justify-items: center;
-  align-items: center;
-  text-align: center;
-  padding: 6px 19px;
-  border-radius: 6px;
-  border: solid white;
-  background-color: #407ff5;
-  
-}
-.sendBtn-wrapper:active {
-  transform: translateY(2px);
-  background-color: #407ff5;
-}
-.sendBtnIcon{
-  color: white;
-  font-weight: bold;
-  text-align: center;
-}
-.addCallBtn-wrapper{
-  display: flex;
-  justify-items: center;
-  align-items: center;
-  text-align: center;
-  padding: 6px 19px;
-  border-radius: 6px;
-  border: solid white;
-  background-color:#407ff5;
-}
-.addCall-IconBtn{
-  color: white;
-  font-weight: bold;
-}
-.addCallBtn-wrapper:active{
-  transform: translateY(2px);
-  background-color: hsl(197, 87%, 42%);
-}
-.deleteBtn-wrapper{
-  display: flex;
-  justify-items: center;
-  align-items: center;
-  text-align: center;
-  padding: 8px 22px;
-  border-radius: 6px;
-  border: solid white;
-  background-color: whitesmoke;
-}
-.deleteBtn-Icon{
-  font-weight: bold;
-  font-size: 1rem;
-}
-.deleteBtn-wrapper:active{
-  transform: translateY(2px);
-  background-color: hwb(195 78% 19%);
-}
-.saveBtn-wrapper{
-  display: flex;
-  justify-items: center;
-  align-items: center;
-  padding: 8px 21px;
-  border-radius: 6px;
-  border: solid white;
-  background-color: whitesmoke;
-  font-weight:bolder;
-  font-size: xx-large;
-}
-.saveBtn-Icon{
- 
-  color: #407ff5;
-}
-.saveBtn-wrapper:active{
-  transform: translateY(2px);
-  background-color: hwb(195 78% 19%);
-}
-.editBtn-wrapper{
-  display: flex;
-  justify-items: center;
-  align-items: center;
-  text-align: center;
-  padding: 8px 21px;
-  border-radius: 6px;
-  border: solid white;
-  background-color: whitesmoke;
-}
-.editBtn-wrapper:active{
-  transform: translateY(2px);
-  background-color: hwb(195 78% 19%);
-}
-.iconBtn-header{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  background-color: aliceblue;
 }
 
