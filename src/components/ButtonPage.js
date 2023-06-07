@@ -1,7 +1,7 @@
-import { Layout } from "./layout";
-import { ElevatedButton } from "./Elevated-button";
-import { TextBtn } from "./Text-Btn";
-import { OutlineBtn } from "./Outline-Btn";
+import { Layout } from "./Layout";
+import { ElevatedButton } from "./Button.js";
+import { TextBtn } from "./Button.js";
+import { OutlineBtn } from "./Button.js";
 export const ButtonPage = () => {
   return (
     <Layout>

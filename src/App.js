@@ -1,11 +1,11 @@
 import "./App.css";
 import { InputPage } from "./components/InputPage";
 import { ButtonPage } from "./components/ButtonPage"; 
-import { Layout } from "./components/layout";
+import { Layout } from "./components/Layout";
 import './components/Layout.css';
 import './components/Footer.css';
 import './components/Layout-navbar.css';
-import './components/Layout-sidebar.css';
+import './components/Sidebar.css';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
   return (

@@ -1,7 +1,7 @@
 import { SlCup } from "react-icons/sl";
-const TataNavbar = () => {
+const TataLogoNavbar = () => {
   return (
-    <div className="tata-navbar-header">
+    <div className="tata-logo-navbar-wrapper">
       <div className="tata-logo-header">
         <a className="tata-logo" href="/">TATA</a>
       </div>
@@ -19,7 +19,7 @@ const TataNavbar = () => {
     </div>
   );
 };
-const ReactNavbar = () => {
+const ReactLogoNavbar = () => {
   return (
     <div className="react-navbar-header">
       <div className="react-logo">
@@ -38,7 +38,7 @@ const ReactNavbar = () => {
    
   );
 };
-const MrfNavbar =()=>{
+const MrfLogoNavbar =()=>{
   return (
     <div className="mrf-header">
       <h1 className="mrf-logo">MRF</h1>
@@ -52,7 +52,7 @@ const MrfNavbar =()=>{
     </div>
   )
 }
-const ResturantNavbar =()=>{
+const TeaIconNavbar =()=>{
   return (
     <div className="tea-Navbar-header">
         <a className="tea-logo-link" href="/" ><SlCup className="tea-icon"/></a>
@@ -68,7 +68,7 @@ const ResturantNavbar =()=>{
     </div>
   )
 }
-const CafeNavbar =()=>{
+const GugtaguLogoNavbar =()=>{
   return ( <div className="cafeNavbar">
     < h1 className="guftagu-logo">Guftagu <span>Cafe</span></h1>
     <ul className="cafe-links-wrapper">
@@ -84,4 +84,4 @@ const CafeNavbar =()=>{
 )} 
 
 
-export { TataNavbar, ReactNavbar,MrfNavbar, ResturantNavbar,CafeNavbar };
+export { TataLogoNavbar, ReactLogoNavbar,MrfLogoNavbar, TeaIconNavbar,GugtaguLogoNavbar };

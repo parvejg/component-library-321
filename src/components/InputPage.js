@@ -1,5 +1,5 @@
 import { DateInput, PasswordInput, TextInput } from "./Input";
-import { Layout } from "./layout";
+import { Layout } from "./Layout";
 import "./Input.css";
 export const InputPage = () => {
   return (

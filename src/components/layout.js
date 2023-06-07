@@ -1,5 +1,5 @@
 import { LayoutNavbar } from "./Layout-navbar";
-import { LayoutSidebar } from "./Layout-sidebar";
+import { LayoutSidebar } from "./Sidebar";
 import { Footer } from "./Footer";
 
 export const Layout = ({ children }) => {

@@ -1,0 +1,144 @@
+.tata-logo-navbar-wrapper{
+    background-color: #407ff5;
+  padding: .2rem;
+  border-radius: 1rem;
+}
+.tata-main-Links{
+    display: inline;
+    color: aliceblue;
+    padding: 0 2rem 0.5rem;
+    text-decoration: none;
+    font-size: large;
+    
+
+}
+.tata-links-wrapper{
+    display: flex;
+    justify-content: left;
+    padding-left: 7rem;
+    
+}
+.tata-logo{
+    color: aliceblue;
+    font-size: x-large;
+    font-weight:bolder;
+    padding-top: 1rem 0rem 0rem;
+    text-decoration: none;
+
+}
+.tata-logo-header{
+    display: flex;
+    justify-content: left;
+    padding: 0 2rem ;
+    padding-top: 1rem;
+}
+.react-navbar-header{
+    background-color: #407ff5;
+    display: flex;
+    justify-content: space-between;
+    border-radius: .6rem;
+    padding:  .5rem;
+    align-items: center;
+  }
+  .react-link-wrapper{
+    display: flex;
+    justify-content: center;
+   
+  }
+  .reactNavbar-links{
+    font-size: large;
+    color: white;
+    text-decoration: none;
+    margin: 0 2px;
+  }
+  .react-logo{
+    font-size: xx-large;
+
+  } 
+  .mrf-header{
+    background-color: #407ff5;
+    padding: .5rem;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.mrf-links-wrapper{
+    display: flex;
+    align-items: center;
+}
+.mrfNavbar-links{
+    padding: 1rem;
+    text-decoration: none;
+    font-size: larger;
+    color: white
+}
+.mrf-logo{
+    font-weight: bold;
+    color: black;
+    font-size: xx-larger;
+    padding: 1rem;
+}
+
+.tea-Navbar-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #407ff5;
+    padding: .5rem;
+    margin: 2rem;
+    border-radius: 1rem;
+   
+}
+.tea-icon{
+    color: black;
+    font-size: 2.5rem;
+    align-items: center;
+    padding: 1rem;
+}
+
+.tea-link-wrapper{
+    display: flex;
+    align-items: center;
+    font-size: larger;
+
+}
+
+.teaNavbar-links{
+    text-decoration: none;
+    padding: 2rem;
+    color: white;
+    align-items: center;
+    
+}
+.cafeNavbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #407ff5;
+    padding: .3rem;
+    border-radius: 1rem 1rem  0rem  0rem;
+    width: 90%;
+    margin: 4rem;
+}
+.cafe-links-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: centers;
+    list-style-type: none;
+}
+.cafe-links{
+    display: inline;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: large;
+    color: white;
+}
+span{
+    color: white;
+    padding: 1rem;
+}
+.guftagu-logo{
+  padding: 1rem;
+}
