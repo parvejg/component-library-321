@@ -1,6 +1,4 @@
-.t-avatar-header{
-    margin: 3rem;
-}
+
 .t-avatar-icon{
     height: 50px;
     width: 50px;
@@ -9,18 +7,13 @@
     border: solid black 2px;
     color: black;
 }
-.person-avatar-header{
-    margin: 3rem;
-}
+
 .person-avatar-icon{
     height: 50px;
     width: 50px;
     border-radius: 50%;
     object-fit: contain;
     color: black;
-}
-.notification-avatar-header{
-    margin: 3rem;
 }
 .notification-avatar-icon{
     height: 50px;

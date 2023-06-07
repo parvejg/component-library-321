@@ -13,3 +13,8 @@
 .layout-sidebar-links:hover{
     background-color: antiquewhite;
 }
+@media  (max-width: 600px){
+    .layout-sidebar-wrapper{
+        display: none;
+    }
+}
