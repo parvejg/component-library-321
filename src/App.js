@@ -5,7 +5,7 @@ import { Layout } from "./components/Layout";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { NavbarPage } from "./components/NavbarPage";
 import { AvatarPage } from "./components/AvatarPage";
-import { OrderedList, UnOrderedList } from "./components/List";
+import { OrderedList, UnOrderedList ,CircleList,SquareList,UpperRomanList} from "./components/List";
 function App() {
   return (
     // <Router>
@@ -19,7 +19,11 @@ function App() {
     // </Router>
     <>
     <UnOrderedList/>
-    <OrderedList/></>
+    <OrderedList/>
+    <CircleList/>
+    <SquareList/>
+    <UpperRomanList/>
+    </>
     
   );
 }
