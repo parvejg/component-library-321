@@ -1,33 +1,38 @@
 
 .t-avatar-icon{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    object-fit: contain;
+    border: solid black 1px;
+    color: black;
+}
+.t-avatar-header{
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    object-fit: contain;
-    border: solid black 2px;
-    color: black;
+    object-fit: fill;
 }
 
 .person-avatar-icon{
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    object-fit: contain;
+    object-fit: fill;
     color: black;
 }
 .notification-avatar-icon{
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
    border-radius: 50%;
     object-fit: contain;
-    border: solid black 2px;
+    border: solid black 1px;
     color: black; 
 }
 .image-avatar{
-    height: 80px;
-    width: 80px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
     object-fit: fill;
-    border: 2px solid black;
-    color: black;
+    border: 1px solid black;
 }
