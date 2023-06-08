@@ -1,8 +1,7 @@
 import { Layout } from "./Layout";
-import './Navbar.css';
-import './NavbarPage.css';
-import {  TeaIconNavbar, TataLogoNavbar,LayoutNavbar} from './Navbar';
-
+import "./Navbar.css";
+import "./NavbarPage.css";
+import { TeaIconNavbar, TataLogoNavbar, LayoutNavbar } from "./Navbar";
 
 export const NavbarPage = () => {
   return (
@@ -13,7 +12,7 @@ export const NavbarPage = () => {
         <div></div>
         <TeaIconNavbar />
         <div></div>
-        <LayoutNavbar/>
+        <LayoutNavbar />
         <div></div>
       </div>
     </Layout>
