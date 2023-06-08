@@ -1,6 +1,6 @@
 import { Layout } from "./Layout";
 import './Navbar.css';
-import { GugtaguLogoNavbar, TeaIconNavbar,MrfLogoNavbar,TataLogoNavbar,ReactLogoNavbar} from './Navbar';
+import {  TeaIconNavbar, TataLogoNavbar,LayoutNavbar} from './Navbar';
 
 
 export const NavbarPage = () => {
@@ -10,13 +10,10 @@ export const NavbarPage = () => {
         <h2>Navbars</h2>
         <TataLogoNavbar />
         <div></div>
-        <ReactLogoNavbar />
-        <div></div>
-        <MrfLogoNavbar />
-        <div></div>
         <TeaIconNavbar />
         <div></div>
-        <GugtaguLogoNavbar />
+        <LayoutNavbar/>
+        <div></div>
       </div>
     </Layout>
   );

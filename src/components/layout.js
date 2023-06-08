@@ -1,13 +1,14 @@
-import { LayoutNavbar } from "./Layout-navbar";
-import { LayoutSidebar } from "./Sidebar";
+import { LayoutNavbar } from "./Navbar";
+import { Sidebar } from "./Sidebar";
 import { Footer } from "./Footer";
+import './Layout.css';
 
 export const Layout = ({ children }) => {
   return (
     <div className="layout-wrapper">
       <LayoutNavbar />
       <div className="layout-body">
-        <LayoutSidebar />
+        <Sidebar />
         <div  className="layout-content">
           {children}
         </div>

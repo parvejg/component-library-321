@@ -1,4 +1,6 @@
 import { SlCup } from "react-icons/sl";
+import './Navbar.css';
+
 const TataLogoNavbar = () => {
   return (
     <div className="tata-logo-navbar-wrapper">
@@ -19,39 +21,6 @@ const TataLogoNavbar = () => {
     </div>
   );
 };
-const ReactLogoNavbar = () => {
-  return (
-    <div className="react-navbar-header">
-      <div className="react-logo">
-        <h2 className="react-logo"> React</h2>
-        </div>
-      <div className="react-link-wrapper"></div>
-      <a href="/" className=" reactNavbar-links">Home
-      </a>
-      <a href="/" className=" reactNavbar-links">Features
-      </a>
-      <a href="/" className=" reactNavbar-links">Services
-      </a>
-      <a href="/" className=" reactNavbar-links">LogIn
-      </a>
-    </div>
-   
-  );
-};
-const MrfLogoNavbar =()=>{
-  return (
-    <div className="mrf-header">
-      <h1 className="mrf-logo">MRF</h1>
-      <div className="mrf-links-wrapper">
-        <a  className="mrfNavbar-links" href="/" >Home</a> 
-        <a  className="mrfNavbar-links" href="/" >Products</a> 
-        <a  className="mrfNavbar-links" href="/" >About</a> 
-        <a  className="mrfNavbar-links" href="/" >Sign up</a>
-
-      </div>
-    </div>
-  )
-}
 const TeaIconNavbar =()=>{
   return (
     <div className="tea-Navbar-header">
@@ -68,20 +37,17 @@ const TeaIconNavbar =()=>{
     </div>
   )
 }
-const GugtaguLogoNavbar =()=>{
-  return ( <div className="cafeNavbar">
-    < h1 className="guftagu-logo">Guftagu <span>Cafe</span></h1>
-    <ul className="cafe-links-wrapper">
-      <li><a className="cafe-links" href="/">Home</a></li>
-      <li><a className="cafe-links" href="/">Photos</a></li>
-      <li><a className="cafe-links" href="/">Menu</a></li>
-      <li><a className="cafe-links" href="/">Order Online</a></li>
-      <li><a className="cafe-links" href="/">Log In</a></li>
-      <li><a className="cafe-links" href="/">Sign Up</a></li>
-    </ul>
-  </div>
-  
-)} 
+export const LayoutNavbar=()=>{
+    return  <div className="layout-navbar-wrapper">
+            <h2>UI</h2>
+            <div className="navbar-links-wrapper">
+            <a href="/" className="layout-navbar-links layout-links">Install</a>
+            <a href="/"className="layout-navbar-links layout-links">Components</a>
+            </div>
+        </div>
+}
 
 
-export { TataLogoNavbar, ReactLogoNavbar,MrfLogoNavbar, TeaIconNavbar,GugtaguLogoNavbar };
+
+
+export { TataLogoNavbar,  TeaIconNavbar };

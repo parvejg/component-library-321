@@ -1,3 +1,4 @@
+import './Footer.css';
 export const Footer=()=>{
 return   <div href="/" className="layout-footer-wrapper">
 <a href="/" className="layout-footer-links layout-footer-links">LinkedIn</a>

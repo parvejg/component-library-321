@@ -1,20 +1,22 @@
-.layout-sidebar-wrapper{
+.sidebar-wrapper{
     flex-basis: 200px;
     display: flex;
     flex-direction: column;
     border-right: 3px solid whitesmoke;
 }
-.layout-sidebar-links{
-    font-size: large;
+.sidebar-links{
+    font-size: larger;
     color: black;
     text-decoration: none;
-    padding: 7px 0;
+    padding: 7px 2rem 0;
+
+
 }
-.layout-sidebar-links:hover{
+.sidebar-links:hover{
     background-color: antiquewhite;
 }
 @media  (max-width: 600px){
-    .layout-sidebar-wrapper{
+    .sidebar-wrapper{
         display: none;
     }
 }

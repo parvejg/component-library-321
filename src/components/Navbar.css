@@ -1,7 +1,6 @@
 .tata-logo-navbar-wrapper{
     background-color: #407ff5;
   padding: .2rem;
-  border-radius: 1rem;
 }
 .tata-main-Links{
     display: inline;
@@ -32,60 +31,12 @@
     padding: 0 2rem ;
     padding-top: 1rem;
 }
-.react-navbar-header{
-    background-color: #407ff5;
-    display: flex;
-    justify-content: space-between;
-    border-radius: .6rem;
-    align-items: center;
-  }
-  .react-link-wrapper{
-    display: flex;
-    justify-content: center;
-   
-  }
-  .reactNavbar-links{
-    font-size: large;
-    color: white;
-    text-decoration: none;
-    padding: 0 2px;
-  }
-  .react-logo{
-    font-size: xx-large;
-
-  } 
-  .mrf-header{
-    background-color: #407ff5;
-    padding: .5rem;
-    border-radius: .5rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: white;
-}
-.mrf-links-wrapper{
-    display: flex;
-    align-items: center;
-}
-.mrfNavbar-links{
-    padding: 1rem;
-    text-decoration: none;
-    font-size: larger;
-    color: white
-}
-.mrf-logo{
-    font-weight: bold;
-    color: black;
-    font-size: xx-larger;
-}
-
 .tea-Navbar-header{
     display: flex;
     justify-content: space-between;
     background-color: #407ff5;
     padding: .5rem;
     padding: 0  2rem;
-    border-radius: 1rem;
    
 }
 .tea-icon{
@@ -109,33 +60,22 @@
     align-items: center;
     
 }
-.cafeNavbar{
+.layout-navbar-wrapper{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: space-between;
-    background-color: #407ff5;
-    border-radius: 1rem 1rem  0rem  0rem;
-    width: 90%;
-    padding: 0   4rem;
+    gap: 1rem;
+    flex-basis: 70px;
+    background-color: aqua;
+    padding: 0 5rem;
 }
-.cafe-links-wrapper{
+.navbar-links-wrapper{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: centers;
-    list-style-type: none;
+    gap: 1rem;
 }
-.cafe-links{
-    display: inline;
-    text-decoration: none;
+.layout-links{
     font-size: large;
-    color: white;
-    padding: 0   2rem;
-
-}
-span{
-    color: white;
-    padding: 1rem;
-}
-.guftagu-logo{
+    color: black;
+    text-decoration: none;
+    padding: 7px 0;
 }

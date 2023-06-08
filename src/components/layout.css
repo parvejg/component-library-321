@@ -7,5 +7,8 @@
     display: flex;
     flex-grow: 1;
 }
+.layout-content{
+    padding: 0 25px;
+}
 
 
