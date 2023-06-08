@@ -1,12 +1,13 @@
 import { Layout } from "./Layout";
 import './Navbar.css';
+import './NavbarPage.css';
 import {  TeaIconNavbar, TataLogoNavbar,LayoutNavbar} from './Navbar';
 
 
 export const NavbarPage = () => {
   return (
     <Layout>
-      <div>
+      <div className="navbar-wrapper">
         <h2>Navbars</h2>
         <TataLogoNavbar />
         <div></div>

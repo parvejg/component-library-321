@@ -6,24 +6,20 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { NavbarPage } from "./components/NavbarPage";
 import { AvatarPage } from "./components/AvatarPage";
 import { OrderedList, UnOrderedList ,CircleList,SquareList,UpperRomanList} from "./components/List";
+import { ListPage } from "./components/ListPage";
 function App() {
   return (
-    // <Router>
-    //   <Routes>
-    //     <Route path="/" Component={Layout} />
-    //     <Route path="/button-page" Component={ButtonPage} />
-    //     <Route path="/input-page"  Component={InputPage} />
-    //     <Route path="/navbar-page" Component={NavbarPage}/>
-    //     <Route path="/avatar-page" Component={AvatarPage}/>
-    //   </Routes>
-    // </Router>
-    <>
-    <UnOrderedList/>
-    <OrderedList/>
-    <CircleList/>
-    <SquareList/>
-    <UpperRomanList/>
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" Component={Layout} />
+        <Route path="/button-page" Component={ButtonPage} />
+        <Route path="/input-page"  Component={InputPage} />
+        <Route path="/navbar-page" Component={NavbarPage}/>
+        <Route path="/avatar-page" Component={AvatarPage}/>
+        <Route path="/list-page" Component={ListPage}/>
+      </Routes>
+    </Router>
+
     
   );
 }

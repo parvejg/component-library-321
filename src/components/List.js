@@ -29,6 +29,18 @@ export const UnOrderedList = () => {
   );
 };
 
+export const NoneBulletList = () => {
+  return (
+    <div className="none-bullet-list-wrapper">
+      <ul className="none-bullet-list-item-wrapper">
+        <li>Arithmetic Operators</li>
+        <li>Relational Operators</li>
+        <li>Logical Operators</li>
+      </ul>
+    </div>
+  );
+};
+
 export const CircleList = () => {
   return (
     <div className="circle-list-wrapper">
@@ -63,7 +75,7 @@ export const UpperRomanList = () => {
   return (
     <div className="upperRoman-list-wrapper">
       <ul className="upperRoman-list-item-wrapper">
-        <li>  Breakfast & Cereals</li>
+        <li> Breakfast & Cereals</li>
         <li>Canned, Jarred, & Pouched Foods</li>
         <li>Grains, Pasta & Sides</li>
         <li>Produce</li>

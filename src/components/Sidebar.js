@@ -8,7 +8,7 @@ export const Sidebar = () => {
       <Link to="/input-page" className="  sidebar-links">Input</Link>
       <Link to="/navbar-page" className=" sidebar-links">Navbar</Link>
       <Link to="/avatar-page" className=" sidebar-links">Avatar</Link>
-      <Link to="/" className="sidebar-links">List</Link>
+      <Link to="/list-page" className="sidebar-links">List</Link>
     </div>
   );
 };
