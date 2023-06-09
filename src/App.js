@@ -6,25 +6,21 @@ import { Layout } from "./components/Layout";
 import { NavbarPage } from "./components/NavbarPage";
 import { AvatarPage } from "./components/AvatarPage";
 import { ListPage } from "./components/ListPage";
-import { ImageAvatar } from "./components/Avatar";
-import { ImageCard,LinkedInAppCard,ProductDemoCard } from "./components/Card";
+import { CardPage } from "./components/CardPage";
 function App() {
   return (
-    // <Router>
-    //   <Routes>
-    //     <Route path="/" Component={Layout} />
-    //     <Route path="/button-page" Component={ButtonPage} />
-    //     <Route path="/input-page"  Component={InputPage} />
-    //     <Route path="/navbar-page" Component={NavbarPage}/>
-    //     <Route path="/avatar-page" Component={AvatarPage}/>
-    //     <Route path="/list-page" Component={ListPage}/>
-    //   </Routes>
-    // </Router>
-    <>
-    
-    <LinkedInAppCard/>
-    </>
-   
+    <Router>
+      <Routes>
+        <Route path="/" Component={Layout} />
+        <Route path="/button-page" Component={ButtonPage} />
+        <Route path="/input-page"  Component={InputPage} />
+        <Route path="/navbar-page" Component={NavbarPage}/>
+        <Route path="/avatar-page" Component={AvatarPage}/>
+        <Route path="/list-page" Component={ListPage}/>
+        <Route path="/card-page" Component={CardPage}/>
+      </Routes>
+    </Router>
+
   );
 }
 

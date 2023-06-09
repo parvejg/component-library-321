@@ -9,6 +9,7 @@ export const Sidebar = () => {
       <Link to="/navbar-page" className=" sidebar-links">Navbar</Link>
       <Link to="/avatar-page" className=" sidebar-links">Avatar</Link>
       <Link to="/list-page" className="sidebar-links">List</Link>
+      <Link to="/card-page" className="sidebar-links">Card</Link>
     </div>
   );
 };
