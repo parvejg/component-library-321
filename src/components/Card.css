@@ -26,3 +26,59 @@
     color: white;
     transition: .5s;
 }
+.product-demo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 2px 5px 15px 2px darkgrey;
+    width: 300px;
+    margin: 3rem;
+    gap: .3rem;
+}
+.product-img{
+width: 300px;
+position: relative;
+}
+.buy-now-btn{
+    padding: 4px 90px;
+    border-radius: 1rem;
+    color: black;
+    border: solid blue 1px;
+    font-size: large;
+    margin-bottom: 1rem;
+
+}
+.buy-now-btn:hover{
+    background-color: silver;
+    transition: .3s;
+}
+.product-price-container{
+    display: flex;
+    align-items: center;
+}
+.linkedin-app-card-container{
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    height: 50%;
+    background-color: seashell;
+    box-shadow: 2px 5px 15px 2px darkgrey;
+    margin: 3rem;
+    padding-top: 1rem;
+}
+.linkedin-img{
+    width:  100px;
+}
+.linkedin-img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 5px;
+}
+.linkedin-card-link{
+    text-decoration: none;
+    color: black;
+}

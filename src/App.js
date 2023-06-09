@@ -7,7 +7,7 @@ import { NavbarPage } from "./components/NavbarPage";
 import { AvatarPage } from "./components/AvatarPage";
 import { ListPage } from "./components/ListPage";
 import { ImageAvatar } from "./components/Avatar";
-import { ImageCard } from "./components/Card";
+import { ImageCard,LinkedInAppCard,ProductDemoCard } from "./components/Card";
 function App() {
   return (
     // <Router>
@@ -20,7 +20,11 @@ function App() {
     //     <Route path="/list-page" Component={ListPage}/>
     //   </Routes>
     // </Router>
-    <ImageCard/>
+    <>
+    
+    <LinkedInAppCard/>
+    </>
+   
   );
 }
 
