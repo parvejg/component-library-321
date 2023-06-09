@@ -20,7 +20,6 @@ function App() {
         <Route path="/card-page" Component={CardPage}/>
       </Routes>
     </Router>
-
   );
 }
 

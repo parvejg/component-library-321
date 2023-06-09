@@ -1,0 +1,43 @@
+.error-icon-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a32323;
+    color: white;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    margin: 3rem;
+}
+.error-icon{
+    font-size: xx-large;
+}
+.successful-icon-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    color: white;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    margin: 3rem;
+}
+.successful-icon{
+    font-size: xx-large;
+}
+
+.security-icon-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    color: black;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    margin: 3rem;
+}
+.security-icon{
+    font-size: xx-large;
+}
