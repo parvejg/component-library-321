@@ -7,6 +7,7 @@ import { NavbarPage } from "./components/NavbarPage";
 import { AvatarPage } from "./components/AvatarPage";
 import { ListPage } from "./components/ListPage";
 import { CardPage } from "./components/CardPage";
+import { AlertPage } from "./components/AlertPage";
 function App() {
   return (
     <Router>
@@ -18,6 +19,7 @@ function App() {
         <Route path="/avatar-page" Component={AvatarPage}/>
         <Route path="/list-page" Component={ListPage}/>
         <Route path="/card-page" Component={CardPage}/>
+        <Route path="/alert-page" Component={AlertPage}/>
       </Routes>
     </Router>
   );
