@@ -1,25 +1,34 @@
- import {GoAlert} from   "react-icons/go";
- import {AiFillCheckCircle} from "react-icons/ai"
- import {AiFillAlert} from "react-icons/ai"
- import "./Alert.css";
-export const AlertError=()=>{
-    return (
-        <div>
-            <p className="error-icon-wrapper"><GoAlert className="error-icon"/></p>
-        </div>
-    )
-}
-export const SuccessfulAlert=()=>{
-    return (
-        <div>
-            <p className="successful-icon-wrapper"><AiFillCheckCircle className="successful-icon"/></p>
-        </div>
-    )
-}
-export const SecurityAlert=()=>{
-    return (
-        <div>
-            <p className="security-icon-wrapper"><AiFillAlert className="security-icon"/></p>
-        </div>
-    )
-}
+import { GoAlert } from "react-icons/go";
+import { AiFillCheckCircle } from "react-icons/ai";
+import { AiFillAlert } from "react-icons/ai";
+import "./Alert.css";
+export const AlertError = (props) => {
+    const {parentClass, childClass } = props;
+  return (
+    <div>
+      <p className={`error-icon-wrapper ${parentClass}`}>
+        <GoAlert className={`error-icon ${childClass}`} />
+      </p>
+    </div>
+  );
+};
+export const SuccessfulAlert = (props) => {
+  const {successfulIconClass, successfulWrapperClass} = props;
+  return (
+    <div>
+      <p className={`successful-icon-wrapper ${successfulWrapperClass}`}>
+        <AiFillCheckCircle className={`successful-icon ${successfulIconClass}`} />
+      </p>
+    </div>
+  );
+};
+export const SecurityAlert = (props) => {
+  const {SecurityAlertWrapperClass, securityIconClass} = props;
+  return (
+    <div>
+      <p className={`security-icon-wrapper ${SecurityAlertWrapperClass}`}>
+        <AiFillAlert className={`security-icon" ${securityIconClass}`}/>
+      </p>
+    </div>
+  );
+};

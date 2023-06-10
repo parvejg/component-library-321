@@ -10,7 +10,7 @@ export const AlertPage = () =>{
                 <div></div>
                 <SecurityAlert/>
                 <div></div>
-                <AlertError/>
+                <AlertError childClass="alert-css"/>
                 <div></div>
             </di>
         </Layout>

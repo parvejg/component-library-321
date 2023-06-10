@@ -2,33 +2,36 @@ import { TbLetterT } from "react-icons/tb";
 import { RxAvatar } from "react-icons/rx";
 import { IoIosNotificationsOutline } from "react-icons/io";
 export const TLetterAvatar = (props) => {
-  const { className, href } = props;
+  const { href, tAvatarHeaderClass,tAvatarIconClass } = props;
   return (
-    <div className={`t-avatar-header ${className}`}>
+    <div className={`t-avatar-header ${tAvatarHeaderClass}`}>
       <a href={href}>
-        <TbLetterT className={`t-avatar-icon ${className}`} />
+        <TbLetterT className={`t-avatar-icon ${tAvatarIconClass}`} />
       </a>
     </div>
   );
 };
 export const PersonIconAvatar = (props) => {
-  const { className, href } = props;
+  const { href, personAvatarHeaderClass, personAvatarIconClass } = props;
   return (
-    <div className={`person-avatar-header ${className}`}>
+    <div className={`person-avatar-header ${personAvatarHeaderClass}`}>
       <a href={href}>
-        <RxAvatar className={`person-avatar-icon ${className}`} />
+        <RxAvatar className={`person-avatar-icon ${personAvatarIconClass}`} />
       </a>
     </div>
   );
 };
 
 export const NotificationIconAvatar = (props) => {
-  const { className, href } = props;
+  const { href, notificationAvatarHeaderClass, notificationAvatarIconClass } =
+    props;
   return (
-    <div className={`notification-avatar-header ${className}`}>
+    <div
+      className={`notification-avatar-header ${notificationAvatarHeaderClass}`}
+    >
       <a href={href}>
         <IoIosNotificationsOutline
-          className={`notification-avatar-icon ${className}`}
+          className={`notification-avatar-icon ${notificationAvatarIconClass}`}
         />
       </a>
     </div>
@@ -36,12 +39,12 @@ export const NotificationIconAvatar = (props) => {
 };
 
 export const ImageAvatar = (props) => {
-  const { className, src } = props;
+  const { className, src, imageAvatarHeaderClass, imageAvatarClass } = props;
   return (
-    <div className={`image-avatar-header ${className}`}>
+    <div className={`image-avatar-header ${imageAvatarHeaderClass}`}>
       <img
         alt=""
-        className={`image-avatar ${className}`}
+        className={`image-avatar ${imageAvatarClass}`}
         src={
           src
             ? src

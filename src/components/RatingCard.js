@@ -2,7 +2,7 @@ import { BsStar } from "react-icons/bs";
 import "./RatingCard.css";
 export const DatesRating = () => {
   return (
-    <div className="rating-dates-containr">
+    <div className="rating-dates-container">
       <div className="dates-img-container">
         <img
           className="dates-img"
@@ -11,27 +11,24 @@ export const DatesRating = () => {
         />
       </div>
       <div className="rating-container">
-        <input type="radio" className="star-list">
-          <BsStar className="star-icon" />
-        </input>
-        <input type="radio" className="star-list">
-          <BsStar className="star-icon" />
-        </input>
-        <input type="radio" className="star-list">
-          <BsStar className="star-icon" />
-        </input>
-        <input type="radio" className="star-list">
-          <BsStar className="star-icon" />
-        </input>
-        <input type="radio" className="star-list">
-          <BsStar className="star-icon" />
-        </input>
-        <input type="radio" className="star-list">
-          <BsStar className="star-icon" />
-        </input>
+        <a>
+          <BsStar className="star-icon" />{" "}
+        </a>
+        <a>
+          <BsStar className="star-icon" />{" "}
+        </a>
+        <a>
+          <BsStar className="star-icon" />{" "}
+        </a>
+        <a>
+          <BsStar className="star-icon" />{" "}
+        </a>
+        <a>
+          <BsStar className="star-icon" />{" "}
+        </a>
       </div>
-      <div>
-        <button>Submit</button>
+      <div className="rating-submit-btn-wrapper">
+        <button className="rating-submit-btn">Submit</button>
       </div>
     </div>
   );

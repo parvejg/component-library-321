@@ -11,6 +11,7 @@ export const Sidebar = () => {
       <Link to="/list-page" className="sidebar-links">List</Link>
       <Link to="/card-page" className="sidebar-links">Card</Link>
       <Link to="/alert-page" className="sidebar-links">Alert</Link>
+      <Link to="/rating-page" className="sidebar-links">Rating</Link>
     </div>
   );
 };
