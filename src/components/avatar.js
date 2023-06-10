@@ -39,9 +39,14 @@ export const ImageAvatar = (props) => {
   const { className, src } = props;
   return (
     <div className={`image-avatar-header ${className}`}>
-      <img alt=""
+      <img
+        alt=""
         className={`image-avatar ${className}`}
-        src={ src ? src: "https://images.unsplash.com/photo-1480429370139-e0132c086e2a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bWFufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"}
+        src={
+          src
+            ? src
+            : "https://images.unsplash.com/photo-1480429370139-e0132c086e2a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bWFufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+        }
       />
     </div>
   );

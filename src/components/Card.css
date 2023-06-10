@@ -32,7 +32,7 @@
   background-color: white;
   box-shadow: 2px 5px 15px 2px darkgrey;
   width: 300px;
-  margin: 3rem;
+  margin: 1rem;
   gap: 0.3rem;
 }
 .product-img {
@@ -62,7 +62,7 @@
   height: 50%;
   background-color: seashell;
   box-shadow: 2px 5px 15px 2px darkgrey;
-  margin: 3rem;
+  margin: 1rem;
   padding-top: 1rem;
 }
 .linkedin-img {

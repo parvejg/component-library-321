@@ -8,6 +8,7 @@ import { AvatarPage } from "./components/AvatarPage";
 import { ListPage } from "./components/ListPage";
 import { CardPage } from "./components/CardPage";
 import { AlertPage } from "./components/AlertPage";
+import { DatesRating } from "./components/RatingCard";
 function App() {
   return (
     <Router>
@@ -22,6 +23,7 @@ function App() {
         <Route path="/alert-page" Component={AlertPage}/>
       </Routes>
     </Router>
+    // <DatesRating/>
   );
 }
 
