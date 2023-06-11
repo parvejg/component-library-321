@@ -56,20 +56,21 @@ const TeaIconNavbar = (props) => {
   );
 };
 export const LayoutNavbar = (props) => {
-  const {  href ,layoutNavbarHeaderClass, uiNavbarLogoClass ,navbarLinksWrapperClass, layoutLinksClass} = props;
+  const { className, href , layoutNavbarWrapperClass, uiNavbarLogoClass, navbarLinksWrapperClass
+  , layoutNavbarLinksClass } = props;
   return (
-    <div className={`layout-navbar-header ${layoutNavbarHeaderClass}`}>
+    <div className={`layout-navbar-wrapper ${layoutNavbarWrapperClass}`}>
       <h2 className={`ui-navbar-logo ${uiNavbarLogoClass}`}>UI</h2>
       <div className={`navbar-links-wrapper ${navbarLinksWrapperClass}`}>
         <a
           href={href}
-          className={`layout-navbar-links layout-links ${layoutLinksClass}`}
+          className={`layout-navbar-links layout-links ${layoutNavbarLinksClass}`}
         >
           Install
         </a>
         <a
           href={href}
-          className={`layout-navbar-links layout-links ${layoutLinksClass}`}
+          className={`layout-navbar-links layout-links ${layoutNavbarLinksClass}`}
         >
           Components
         </a>
