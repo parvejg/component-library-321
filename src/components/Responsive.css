@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+.components-header{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 1rem;
+    border: solid skyblue 2px;
+    width: 200px;
+    height: 100vw;
+}
+.components-links{
+    width: 100px;
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+    text-align: center;
+    position: inherit;
+}
+.components-links:hover{
+    background-color: khaki;
+    width: 100px;
+}
+.responsive-navbar-wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+    background-color: aqua;
+}
+.ui-logo-wrapper{
+    display: flex;
+    font-size: large;
+    align-items: center;
+    justify-content: end;
+    padding-right: 75%;
+}
+#resposive-toggle-btn{
+    padding: 8px;
+    height: 2rem;
+    margin-bottom: 1rem;
+}

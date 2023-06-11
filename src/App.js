@@ -9,6 +9,7 @@ import { ListPage } from "./components/ListPage";
 import { CardPage } from "./components/CardPage";
 import { AlertPage } from "./components/AlertPage";
 import { RatingPage } from "./components/RatingPage";
+import { ResponsivePage } from "./components/ResponsivePage";
 function App() {
   return (
     <Router>
@@ -24,6 +25,7 @@ function App() {
         <Route path="/rating-page" Component={RatingPage} />
       </Routes>
     </Router>
+
   );
 }
 

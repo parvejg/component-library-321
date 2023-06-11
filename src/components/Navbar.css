@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .tata-logo-navbar-wrapper{
     display: flex;
     flex-direction: column;
