@@ -45,10 +45,10 @@ export const NoneBulletList = (props) => {
 };
 
 export const CircleList = (props) => {
-  const { className } = props;
+  const { circleListWrapperClass, circleListItemWrapperClass } = props;
   return (
-    <div className={`circle-list-wrapper ${className}`}>
-      <ul className={`circle-list-item-wrapper ${className}`}>
+    <div className={`circle-list-wrapper ${circleListWrapperClass}`}>
+      <ul className={`circle-list-item-wrapper ${circleListItemWrapperClass}`}>
         <li>Samsung</li>
         <li>Xiaomi</li>
         <li>Nokia</li>
@@ -61,10 +61,10 @@ export const CircleList = (props) => {
 };
 
 export const SquareList = (props) => {
-  const { className } = props;
+  const { squareListWrapperClass, squareListItemWrapperClass } = props;
   return (
-    <div className={`square-list-wrapper ${className}`}>
-      <ul className={`square-list-item-wrapper ${className}`}>
+    <div className={`square-list-wrapper ${squareListWrapperClass}`}>
+      <ul className={`square-list-item-wrapper ${squareListItemWrapperClass}`}>
         <li> Baked goods</li>
         <li>Cereals</li>
         <li>Dairy products</li>
@@ -77,10 +77,12 @@ export const SquareList = (props) => {
 };
 
 export const UpperRomanList = (props) => {
-  const { className } = props;
+  const { upperRomanListWrapperClass, upperRomanListItemWrapperClass } = props;
   return (
-    <div className={`upperRoman-list-wrapper ${className}`}>
-      <ul className="upperRoman-list-item-wrapper">
+    <div className={`upperRoman-list-wrapper ${upperRomanListWrapperClass}`}>
+      <ul
+        className={`upperRoman-list-item-wrapper ${upperRomanListItemWrapperClass}`}
+      >
         <li> Breakfast & Cereals</li>
         <li>Canned, Jarred, & Pouched Foods</li>
         <li>Grains, Pasta & Sides</li>
@@ -93,10 +95,12 @@ export const UpperRomanList = (props) => {
 };
 
 export const LowerAlphaList = (props) => {
-  const { className } = props;
+  const { LowerAlphaListWrapperClass, lowerAlphaListItemWrapperClass } = props;
   return (
-    <div className={`LowerAlpha-list-wrapper ${className}`}>
-      <ul className="lowerAlpha-list-item-wrapper">
+    <div className={`LowerAlpha-list-wrapper ${LowerAlphaListWrapperClass}`}>
+      <ul
+        className={`lowerAlpha-list-item-wrapper ${lowerAlphaListItemWrapperClass}`}
+      >
         <li>Green Tea</li>
         <li>White Tea</li>
         <li>Matcha</li>

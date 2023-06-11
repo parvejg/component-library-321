@@ -3,11 +3,11 @@ import { AiFillCheckCircle } from "react-icons/ai";
 import { AiFillAlert } from "react-icons/ai";
 import "./Alert.css";
 export const AlertError = (props) => {
-    const {parentClass, childClass } = props;
+    const {errorIconWrapperClass, errorIconClass } = props;
   return (
     <div>
-      <p className={`error-icon-wrapper ${parentClass}`}>
-        <GoAlert className={`error-icon ${childClass}`} />
+      <p className={`error-icon-wrapper ${errorIconWrapperClass}`}>
+        <GoAlert className={`error-icon ${errorIconClass}`} />
       </p>
     </div>
   );

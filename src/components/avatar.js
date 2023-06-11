@@ -2,7 +2,7 @@ import { TbLetterT } from "react-icons/tb";
 import { RxAvatar } from "react-icons/rx";
 import { IoIosNotificationsOutline } from "react-icons/io";
 export const TLetterAvatar = (props) => {
-  const { href, tAvatarHeaderClass,tAvatarIconClass } = props;
+  const { href, tAvatarHeaderClass, tAvatarIconClass } = props;
   return (
     <div className={`t-avatar-header ${tAvatarHeaderClass}`}>
       <a href={href}>
@@ -12,9 +12,9 @@ export const TLetterAvatar = (props) => {
   );
 };
 export const PersonIconAvatar = (props) => {
-  const { href, personAvatarHeaderClass, personAvatarIconClass } = props;
+  const { href, personAvatarWrapperClass, personAvatarIconClass } = props;
   return (
-    <div className={`person-avatar-header ${personAvatarHeaderClass}`}>
+    <div className={`person-avatar-header ${personAvatarWrapperClass}`}>
       <a href={href}>
         <RxAvatar className={`person-avatar-icon ${personAvatarIconClass}`} />
       </a>
@@ -23,11 +23,11 @@ export const PersonIconAvatar = (props) => {
 };
 
 export const NotificationIconAvatar = (props) => {
-  const { href, notificationAvatarHeaderClass, notificationAvatarIconClass } =
+  const { href, notificationAvatarWrapperClass, notificationAvatarIconClass } =
     props;
   return (
     <div
-      className={`notification-avatar-header ${notificationAvatarHeaderClass}`}
+      className={`notification-avatar-header ${notificationAvatarWrapperClass}`}
     >
       <a href={href}>
         <IoIosNotificationsOutline
@@ -39,9 +39,9 @@ export const NotificationIconAvatar = (props) => {
 };
 
 export const ImageAvatar = (props) => {
-  const { className, src, imageAvatarHeaderClass, imageAvatarClass } = props;
+  const { src, imageAvatarWrapperClass, imageAvatarClass } = props;
   return (
-    <div className={`image-avatar-header ${imageAvatarHeaderClass}`}>
+    <div className={`image-avatar-header ${imageAvatarWrapperClass}`}>
       <img
         alt=""
         className={`image-avatar ${imageAvatarClass}`}
