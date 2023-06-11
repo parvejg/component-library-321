@@ -67,7 +67,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
-    flex-basis: 70px;
+    flex-basis: 70px; 
     background-color: aqua;
     width: 100%;
 }

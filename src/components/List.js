@@ -1,19 +1,36 @@
 import "./List.css";
 export const OrderedList = (props) => {
-  const { className } = props;
+  const { newList } = props;
+  const arrayList = [
+    { id: 1, item: "Array" },
+    { id: 2, item: "Stacks" },
+    { id: 3, item: "QUeues" },
+    { id: 4, item: "Trees" },
+    { id: 5, item: "Graphs" },
+  ];
+  const readyList = newList ? newList : arrayList;
+
   return (
-    <div className="ordered-list-wrapper">
-      <ol className="ordered-list-item-wrapper">
-        <li>Array</li>
-        <li>Linked List</li>
-        <li>Stacks</li>
-        <li>Queues</li>
-        <li>Trees</li>
-        <li>Graphs</li>
-      </ol>
+    <div>
+      {readyList.map((obj) => {
+        return (
+          <li key={obj.id} className="list-item">
+            {obj.item}
+          </li>
+        );
+      })}
     </div>
   );
 };
+
+// {
+//   readyList ? readyList.map((obj)=>{
+//     return <li key={1}>{obj.item}</li>
+//   }) : newList.map((obj)=>{
+//     return <li>obj.item</li>
+//   })
+//   }
+//
 
 export const UnOrderedList = (props) => {
   const { className } = props;
@@ -77,9 +94,7 @@ export const SquareList = () => {
 export const UpperRomanList = () => {
   return (
     <div className="upperRoman-list-wrapper">
-      <ul
-        className="upperRoman-list-item-wrapper"
-      >
+      <ul className="upperRoman-list-item-wrapper">
         <li> Breakfast & Cereals</li>
         <li>Canned, Jarred, & Pouched Foods</li>
         <li>Grains, Pasta & Sides</li>
@@ -94,9 +109,7 @@ export const UpperRomanList = () => {
 export const LowerAlphaList = () => {
   return (
     <div className="LowerAlpha-list-wrapper">
-      <ul
-        className="lowerAlpha-list-item-wrapper"
-      >
+      <ul className="lowerAlpha-list-item-wrapper">
         <li>Green Tea</li>
         <li>White Tea</li>
         <li>Matcha</li>
