@@ -1,21 +1,12 @@
 import { BsStar } from "react-icons/bs";
 import "./RatingCard.css";
 export const DatesRating = (props) => {
-  const {
-    starIconClass,
-    ratingDatesContainerClass,
-    datesImgContainerClass,
-    datesImgClass,
-    ratingContainerClass,
-    ratingSubmitBtnWrapper,
-    ratingSubmitBtnClass,
-    src,
-  } = props;
+  const { src, name } = props;
   return (
-    <div className={`rating-dates-container ${ratingDatesContainerClass}`}>
-      <div className={`dates-img-container ${datesImgContainerClass}`}>
+    <div className="rating-dates-container">
+      <div className="dates-img-container">
         <img
-          className={`dates-img ${datesImgClass}`}
+          className="dates-img"
           alt="img"
           src={
             src
@@ -24,27 +15,15 @@ export const DatesRating = (props) => {
           }
         />
       </div>
-      <div className={`rating-container ${ratingContainerClass}`}>
-        <a>
-          <BsStar className={`star-icon ${starIconClass}`} />{" "}
-        </a>
-        <a>
-          <BsStar className={`star-icon ${starIconClass}`} />{" "}
-        </a>
-        <a>
-          <BsStar className={`star-icon ${starIconClass}`} />{" "}
-        </a>
-        <a>
-          <BsStar className={`star-icon ${starIconClass}`} />{" "}
-        </a>
-        <a>
-          <BsStar className={`star-icon ${starIconClass}`} />{" "}
-        </a>
+      <div className="rating-container">
+        <BsStar className="star-icon" />
+        <BsStar className="star-icon" />
+        <BsStar className="star-icon" />
+        <BsStar className="star-icon" />
+        <BsStar className="star-icon" />
       </div>
-      <div className={`rating-submit-btn-wrapper ${ratingSubmitBtnWrapper}`}>
-        <button className={`rating-submit-btn ${ratingSubmitBtnClass}`}>
-          Submit
-        </button>
+      <div className="rating-submit-btn-wrapper">
+        <button className="ating-submit-btn">{name ? name : "Submit"}</button>
       </div>
     </div>
   );

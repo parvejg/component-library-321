@@ -1,20 +1,11 @@
 import "./Card.css";
 export const ImageCard = (props) => {
-  const {
-    src,
-    alt,
-    imgCardWrapperClass,
-    imgWrapperClass,
-    cardImgClass,
-    imgCardTitleClass,
-    btnWrapperClass,
-    imgCardLearnMoreBtnClass,
-  } = props;
+  const { src, alt, name } = props;
   return (
-    <div className={`img-card-wrapper ${imgCardWrapperClass}`}>
-      <div className={`img-wrapper ${imgWrapperClass}`}>
+    <div className="img-card-wrapper">
+      <div className="img-wrapper">
         <img
-          className={`card-img ${cardImgClass}`}
+          className="card-img"
           alt={`img ${alt}`}
           src={
             src
@@ -23,37 +14,24 @@ export const ImageCard = (props) => {
           }
         />
       </div>
-      <div className={`img-card-title ${imgCardTitleClass}`}>
-        <h2>Floral Photos</h2>
+      <div className="img-card-title">
+        <h2>{name ? name : "Floral photos"}</h2>
       </div>
-      <div className={`btn-wrapper ${btnWrapperClass}`}>
-        <button
-          className={`img-card-learn-more-btn ${imgCardLearnMoreBtnClass}`}
-        >
-          More Learn..
+      <div className="btn-wrapper">
+        <button className="img-card-learn-more-btn">
+          {name ? name : "Learn more.."}
         </button>
       </div>
     </div>
   );
 };
 export const ProductDemoCard = (props) => {
-  const {
-    src,
-    alt,
-    productDemoContainerClass,
-    productImgContainerClass,
-    productImgClass,
-    productPriceContainerClass,
-    productPriceClass,
-    productTitelContainerClass,
-    BuyNowBtnWrapperClass,
-    buyNowBtnClass,
-  } = props;
+  const { src, alt } = props;
   return (
-    <div className={`product-demo-container ${productDemoContainerClass}`}>
-      <div className={`product-img-container ${productImgContainerClass}`}>
+    <div className="product-demo-container">
+      <div className="product-img-container">
         <img
-          className={`product-img ${productImgClass}`}
+          className="product-img"
           alt={`product-img ${alt}`}
           src={
             src
@@ -62,38 +40,25 @@ export const ProductDemoCard = (props) => {
           }
         />
       </div>
-      <div className={`product-price-container ${productPriceContainerClass}`}>
-        <h3 className={`product-price ${productPriceClass}`}>Price 5999</h3>
+      <div className="product-price-container">
+        <h3 className="product-price">Price 5999</h3>
       </div>
-      <div className={`product-titel-container ${productTitelContainerClass}`}>
+      <div className="product-titel-container">
         <h2>Best Quality</h2>
       </div>
-      <div className={`Buy-now-btn-wrapper ${BuyNowBtnWrapperClass}`}>
-        <button className={`buy-now-btn ${buyNowBtnClass}`}>Buy Now</button>
+      <div className="Buy-now-btn-wrapper">
+        <button className="buy-now-btn">Buy Now</button>
       </div>
     </div>
   );
 };
 export const LinkedInAppCard = (props) => {
-  const {
-    className,
-    src,
-    alt,
-    href,
-    linkedinAppCardContainerClass,
-    linkedinImgContainerClass,
-    linkedinImgClass,
-    titleContainerClass,
-    appCardLinksContainerClass,
-    linkedinCardLinkClass,
-  } = props;
+  const {  src, alt, href } = props;
   return (
-    <div
-      className={`linkedin-app-card-container ${linkedinAppCardContainerClass}`}
-    >
-      <div className={`linkedin-img-container ${linkedinImgContainerClass}`}>
+    <div className="linkedin-app-card-container">
+      <div className="linkedin-img-container">
         <img
-          className={`linkedin-img ${linkedinImgClass}`}
+          className="linkedin-img"
           alt={`img ${alt}`}
           src={
             src
@@ -101,14 +66,12 @@ export const LinkedInAppCard = (props) => {
               : "https://play-lh.googleusercontent.com/kMofEFLjobZy_bCuaiDogzBcUT-dz3BBbOrIEjJ-hqOabjK8ieuevGe6wlTD15QzOqw"
           }
         />
-        <div className={`title-container ${titleContainerClass}`}>
+        <div className="title-container">
           <h3>LinkedIn</h3>
         </div>
-        <div
-          className={`app-card-links-container ${appCardLinksContainerClass}`}
-        >
+        <div className="app-card-links-container">
           <a
-            className={`linkedin-card-link ${linkedinCardLinkClass}`}
+            className="linkedin-card-link"
             href={href ? href : "https://www.linkedin.com/feed/"}
           >
             LinkedIn.inc

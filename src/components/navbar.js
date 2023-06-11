@@ -2,77 +2,70 @@ import { SlCup } from "react-icons/sl";
 import "./Navbar.css";
 
 const TataLogoNavbar = (props) => {
-  const {  href, tataLogoNavbarWrapperClass,tataLogoWrapperClass,tataLogoClass ,tataLinksWrapperClass ,tataMainLinksClass   } = props;
+  const { href, name } = props;
   return (
-    <div className={`tata-logo-navbar-wrapper ${tataLogoNavbarWrapperClass}`}>
-      <div className={`tata-logo-wrapper ${tataLogoWrapperClass}`}>
-        <a className={`tata-logo ${tataLogoClass}`} href={href}>
-          TATA
+    <div className="tata-logo-navbar-wrapper">
+      <div className="tata-logo-wrapper">
+        <a className="tata-logo" href={href}>
+          {name ? name : "TATA"}
         </a>
       </div>
-      <div className={`tata-links-wrapper ${tataLinksWrapperClass}`}>
-        <a href={href} className={`tata-main-Links ${tataMainLinksClass}`}>
-          Link
+      <div className=" tata-links-wrapper">
+        <a href={href} className="tata-main-Links">
+          {name ? name : "Link"}
         </a>
-        <a href={href} className={`tata-main-Links ${tataMainLinksClass}`}>
-          Download
+        <a href={href} className="tata-main-Links">
+          {name ? name : "Download"}
         </a>
-        <a href={href} className={`tata-main-Links ${tataMainLinksClass}`}>
-          Blog
+        <a href={href} className="tata-main-Links">
+          {name ? name : "Blog"}
         </a>
       </div>
     </div>
   );
 };
 const TeaIconNavbar = (props) => {
-  const { className, href,teaNavbarHeaderClass ,teaLogoLinkClass ,teaIconClass ,teaNavbarLinksClass  } = props;
+  const { href, name } = props;
   return (
-    <div className={`tea-Navbar-header ${teaNavbarHeaderClass}`}>
-      <a className={`tea-logo-link ${teaLogoLinkClass}`} href={href}>
-        <SlCup className={`tea-icon ${className}`} />
+    <div className="tea-Navbar-header">
+      <a className="tea-logo-link" href={href}>
+        <SlCup className="tea-icon" />
       </a>
 
-      <div className={`tea-link-wrapper ${teaIconClass}`}>
-        <a className={`teaNavbar-links ${teaNavbarLinksClass}`} href={href}>
-          Home
+      <div className="tea-link-wrapper">
+        <a className="teaNavbar-links" href={href}>
+          {name ? name : "Home"}
         </a>
-        <a className={`teaNavbar-links ${teaNavbarLinksClass}`} href={href}>
-          Pages
+        <a className="teaNavbar-links" href={href}>
+          {name ? name : "Pages"}
         </a>
-        <a className={`teaNavbar-links ${teaNavbarLinksClass}`} href={href}>
-          Gallery
+        <a className="teaNavbar-links" href={href}>
+          {name ? name : "Gallery"}
         </a>
-        <a className={`teaNavbar-links ${teaNavbarLinksClass}`} href={href}>
-          Contact
+        <a className="teaNavbar-links" href={href}>
+          {name ? name : "Contact"}
         </a>
-        <a className={`teaNavbar-links ${teaNavbarLinksClass}`} href={href}>
-          About
+        <a className="teaNavbar-links" href={href}>
+          {name ? name : "About"}
         </a>
-        <a className={`teaNavbar-links ${teaNavbarLinksClass}`} href={href}>
-          Menu
+        <a className="teaNavbar-links" href={href}>
+          {name ? name : "Menu"}
         </a>
       </div>
     </div>
   );
 };
 export const LayoutNavbar = (props) => {
-  const { className, href , layoutNavbarWrapperClass, uiNavbarLogoClass, navbarLinksWrapperClass
-  , layoutNavbarLinksClass } = props;
+  const { href, name } = props;
   return (
-    <div className={`layout-navbar-wrapper ${layoutNavbarWrapperClass}`}>
-      <h2 className={`ui-navbar-logo ${uiNavbarLogoClass}`}>UI</h2>
-      <div className={`navbar-links-wrapper ${navbarLinksWrapperClass}`}>
-        <a
-          href={href}
-          className={`layout-navbar-links layout-links ${layoutNavbarLinksClass}`}
-        >
-          Install
+    <div className="layout-navbar-wrapper">
+      <h2 className="ui-navbar-logo">UI</h2>
+      <div className="navbar-links-wrapper">
+        <a href={href} className="layout-navbar-links layout-links">
+          {name ? name : "Install"}
         </a>
-        <a
-          href={href}
-          className={`layout-navbar-links layout-links ${layoutNavbarLinksClass}`}
-        >
-          Components
+        <a href={href} className="layout-navbar-links layout-links">
+          {name ? name : "Components"}
         </a>
       </div>
     </div>

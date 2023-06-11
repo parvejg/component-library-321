@@ -2,8 +2,8 @@ import "./List.css";
 export const OrderedList = (props) => {
   const { className } = props;
   return (
-    <div className={`ordered-list-wrapper ${className}`}>
-      <ol className={`ordered-list-item-wrapper ${className}`}>
+    <div className="ordered-list-wrapper">
+      <ol className="ordered-list-item-wrapper">
         <li>Array</li>
         <li>Linked List</li>
         <li>Stacks</li>
@@ -18,8 +18,8 @@ export const OrderedList = (props) => {
 export const UnOrderedList = (props) => {
   const { className } = props;
   return (
-    <div className={`unordered-list-wrapper ${className}`}>
-      <ul className={`unordered-list-item-wrapper ${className}`}>
+    <div className="unordered-list-wrapper">
+      <ul className="unordered-list-item-wrapper">
         <li>Pythan</li>
         <li>Java Script</li>
         <li>C++</li>
@@ -34,8 +34,8 @@ export const UnOrderedList = (props) => {
 export const NoneBulletList = (props) => {
   const { className } = props;
   return (
-    <div className={`none-bullet-list-wrapper ${className}`}>
-      <ul className={`none-bullet-list-item-wrapper ${className}`}>
+    <div className="none-bullet-list-wrapper">
+      <ul className="none-bullet-list-item-wrapper">
         <li>Arithmetic Operators</li>
         <li>Relational Operators</li>
         <li>Logical Operators</li>
@@ -45,10 +45,9 @@ export const NoneBulletList = (props) => {
 };
 
 export const CircleList = (props) => {
-  const { circleListWrapperClass, circleListItemWrapperClass } = props;
   return (
-    <div className={`circle-list-wrapper ${circleListWrapperClass}`}>
-      <ul className={`circle-list-item-wrapper ${circleListItemWrapperClass}`}>
+    <div className="circle-list-wrapper">
+      <ul className="circle-list-item-wrapper">
         <li>Samsung</li>
         <li>Xiaomi</li>
         <li>Nokia</li>
@@ -60,11 +59,10 @@ export const CircleList = (props) => {
   );
 };
 
-export const SquareList = (props) => {
-  const { squareListWrapperClass, squareListItemWrapperClass } = props;
+export const SquareList = () => {
   return (
-    <div className={`square-list-wrapper ${squareListWrapperClass}`}>
-      <ul className={`square-list-item-wrapper ${squareListItemWrapperClass}`}>
+    <div className="square-list-wrapper">
+      <ul class=" square-list-item-wrapper">
         <li> Baked goods</li>
         <li>Cereals</li>
         <li>Dairy products</li>
@@ -76,12 +74,11 @@ export const SquareList = (props) => {
   );
 };
 
-export const UpperRomanList = (props) => {
-  const { upperRomanListWrapperClass, upperRomanListItemWrapperClass } = props;
+export const UpperRomanList = () => {
   return (
-    <div className={`upperRoman-list-wrapper ${upperRomanListWrapperClass}`}>
+    <div className="upperRoman-list-wrapper">
       <ul
-        className={`upperRoman-list-item-wrapper ${upperRomanListItemWrapperClass}`}
+        className="upperRoman-list-item-wrapper"
       >
         <li> Breakfast & Cereals</li>
         <li>Canned, Jarred, & Pouched Foods</li>
@@ -94,12 +91,11 @@ export const UpperRomanList = (props) => {
   );
 };
 
-export const LowerAlphaList = (props) => {
-  const { LowerAlphaListWrapperClass, lowerAlphaListItemWrapperClass } = props;
+export const LowerAlphaList = () => {
   return (
-    <div className={`LowerAlpha-list-wrapper ${LowerAlphaListWrapperClass}`}>
+    <div className="LowerAlpha-list-wrapper">
       <ul
-        className={`lowerAlpha-list-item-wrapper ${lowerAlphaListItemWrapperClass}`}
+        className="lowerAlpha-list-item-wrapper"
       >
         <li>Green Tea</li>
         <li>White Tea</li>

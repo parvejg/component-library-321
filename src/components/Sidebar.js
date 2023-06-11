@@ -3,7 +3,7 @@ import './Sidebar.css';
 export const Sidebar = () => {
   return (
     <div className="sidebar-wrapper">
-      <h2>Components</h2>
+      <h2 className="components-heading">Components</h2>
       <Link to="/button-page" className=" sidebar-links">Button</Link>
       <Link to="/input-page" className="  sidebar-links">Input</Link>
       <Link to="/navbar-page" className=" sidebar-links">Navbar</Link>

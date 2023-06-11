@@ -1,5 +1,8 @@
 .tata-logo-navbar-wrapper{
+    display: flex;
+    flex-direction: column;
     background-color: #407ff5;
+    padding: 8px 8px;
 }
 .tata-main-Links{
     display: inline;

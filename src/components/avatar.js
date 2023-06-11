@@ -2,9 +2,9 @@ import { TbLetterT } from "react-icons/tb";
 import { RxAvatar } from "react-icons/rx";
 import { IoIosNotificationsOutline } from "react-icons/io";
 export const TLetterAvatar = (props) => {
-  const { href, tAvatarHeaderClass, tAvatarIconClass } = props;
+  const { href, tAvatarIconClass } = props;
   return (
-    <div className={`t-avatar-header ${tAvatarHeaderClass}`}>
+    <div className="t-avatar-wrapper">
       <a href={href}>
         <TbLetterT className={`t-avatar-icon ${tAvatarIconClass}`} />
       </a>
@@ -12,10 +12,10 @@ export const TLetterAvatar = (props) => {
   );
 };
 export const PersonIconAvatar = (props) => {
-  const { href, personAvatarWrapperClass, personAvatarIconClass } = props;
+  const { href,  personAvatarIconClass } = props;
   return (
-    <div className={`person-avatar-header ${personAvatarWrapperClass}`}>
-      <a href={href}>
+    <div>
+      <a href={href} >
         <RxAvatar className={`person-avatar-icon ${personAvatarIconClass}`} />
       </a>
     </div>
@@ -23,27 +23,22 @@ export const PersonIconAvatar = (props) => {
 };
 
 export const NotificationIconAvatar = (props) => {
-  const { href, notificationAvatarWrapperClass, notificationAvatarIconClass } =
-    props;
+  const { href } = props;
   return (
-    <div
-      className={`notification-avatar-header ${notificationAvatarWrapperClass}`}
-    >
+    <div>
       <a href={href}>
-        <IoIosNotificationsOutline
-          className={`notification-avatar-icon ${notificationAvatarIconClass}`}
-        />
+        <IoIosNotificationsOutline className="notification-avatar-icon" />
       </a>
     </div>
   );
 };
 
 export const ImageAvatar = (props) => {
-  const { src, imageAvatarWrapperClass, imageAvatarClass } = props;
+  const { src, imageAvatarClass, alt } = props;
   return (
-    <div className={`image-avatar-header ${imageAvatarWrapperClass}`}>
+    <div>
       <img
-        alt=""
+        alt={alt ? alt : ""}
         className={`image-avatar ${imageAvatarClass}`}
         src={
           src

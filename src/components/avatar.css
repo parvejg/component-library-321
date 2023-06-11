@@ -7,7 +7,7 @@
     border: solid black 1px;
     color: black;
 }
-.t-avatar-header{
+.t-avatar-wrapper{
     height: 50px;
     width: 50px;
     border-radius: 50%;
