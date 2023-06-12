@@ -1,6 +1,4 @@
-*{
-    box-sizing: border-box;
-}
+
 .tata-logo-navbar-wrapper{
     display: flex;
     flex-direction: column;
@@ -88,4 +86,23 @@
 .ui-navbar-logo{
     padding: 0 3rem 0;
     font-size: 1.6rem;
+}
+.check-btn{
+    font-size: 30px;
+    color: black;
+    list-style: none;
+    font-size: xx-large;
+    padding: 1rem;
+}
+
+#check{
+    display: none;
+}
+@media (min-width: 600px){
+    .check-btn{
+        display: none;
+    }
+    .ui-navbar-logo{
+        margin-left: 3rem ;
+    }
 }

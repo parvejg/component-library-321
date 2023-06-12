@@ -1,5 +1,6 @@
 import { SlCup } from "react-icons/sl";
 import "./Navbar.css";
+import { BiMenu } from "react-icons/bi";
 
 const TataLogoNavbar = (props) => {
   const { href, name } = props;
@@ -59,6 +60,12 @@ export const LayoutNavbar = (props) => {
   const { href, name } = props;
   return (
     <div className="layout-navbar-wrapper">
+      <input type="checkbox" id="check" />
+      <label for="check" className="check-btn">
+        <li>
+          <BiMenu className="check-btn-icon" />
+        </li>
+      </label>
       <h2 className="ui-navbar-logo">UI</h2>
       <div className="navbar-links-wrapper">
         <a href={href} className="layout-navbar-links layout-links">
