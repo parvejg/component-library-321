@@ -1,6 +1,4 @@
-*{
-    box-sizing: border-box;
-}
+
 .sidebar-wrapper{
     flex-basis: 200px;
     display: flex;
@@ -9,9 +7,9 @@
     align-items: center;
 }
 .sidebar-links{
-    font-size: larger;
-    color: black;
-    text-decoration: none;
+font-size: larger;
+color: black;
+text-decoration: none;
 padding: 4px 0;
 width: 8rem;
 text-align: center;

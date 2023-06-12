@@ -74,20 +74,20 @@
 }
 .navbar-links-wrapper{
     display: flex;
-    gap: 1rem;
-    padding: 1rem 3rem;
+    padding: 1rem 0;
 }
 .layout-links{
     font-size: large;
     color: black;
     text-decoration: none;
     padding: 7px 0;
+    padding-right: 3rem;
 }
 .ui-navbar-logo{
     padding: 0 3rem 0;
     font-size: 1.6rem;
 }
-.check-btn{
+/* .check-btn{
     font-size: 30px;
     color: black;
     list-style: none;
@@ -105,4 +105,4 @@
     .ui-navbar-logo{
         margin-left: 3rem ;
     }
-}
+} */

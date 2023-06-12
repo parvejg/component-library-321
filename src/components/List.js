@@ -14,9 +14,11 @@ export const OrderedList = (props) => {
     <div>
       {readyList.map((obj) => {
         return (
-          <li key={obj.id} className="list-item">
-            {obj.item}
-          </li>
+          <ol>
+            <li key={obj.id} className="list-item">
+              {obj.item}
+            </li>
+          </ol>
         );
       })}
     </div>

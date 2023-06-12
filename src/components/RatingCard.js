@@ -22,9 +22,7 @@ export const DatesRating = (props) => {
         <BsStar className="star-icon" />
         <BsStar className="star-icon" />
       </div>
-      <div className="rating-submit-btn-wrapper">
-        <button className="ating-submit-btn">{name ? name : "Submit"}</button>
-      </div>
+      <button className="rating-submit-btn">{name ? name : "Submit"}</button>
     </div>
   );
 };

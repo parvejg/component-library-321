@@ -3,30 +3,30 @@ import { AiFillCheckCircle } from "react-icons/ai";
 import { AiFillAlert } from "react-icons/ai";
 import "./Alert.css";
 export const AlertError = (props) => {
-    const {errorIconWrapperClass, errorIconClass } = props;
+    const { errorIconClass } = props;
   return (
     <div>
-      <p className={`error-icon-wrapper ${errorIconWrapperClass}`}>
+      <p className="error-icon-wrapper">
         <GoAlert className={`error-icon ${errorIconClass}`} />
       </p>
     </div>
   );
 };
 export const SuccessfulAlert = (props) => {
-  const {successfulIconClass, successfulWrapperClass} = props;
+  const {successfulIconClass} = props;
   return (
     <div>
-      <p className={`successful-icon-wrapper ${successfulWrapperClass}`}>
+      <p className="successful-icon-wrapper">
         <AiFillCheckCircle className={`successful-icon ${successfulIconClass}`} />
       </p>
     </div>
   );
 };
 export const SecurityAlert = (props) => {
-  const {SecurityAlertWrapperClass, securityIconClass} = props;
+  const { securityIconClass} = props;
   return (
     <div>
-      <p className={`security-icon-wrapper ${SecurityAlertWrapperClass}`}>
+      <p className="security-icon-wrapper">
         <AiFillAlert className={`security-icon" ${securityIconClass}`}/>
       </p>
     </div>

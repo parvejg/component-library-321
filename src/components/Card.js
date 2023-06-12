@@ -53,7 +53,7 @@ export const ProductDemoCard = (props) => {
   );
 };
 export const LinkedInAppCard = (props) => {
-  const {  src, alt, href } = props;
+  const { src, alt, href } = props;
   return (
     <div className="linkedin-app-card-container">
       <div className="linkedin-img-container">
