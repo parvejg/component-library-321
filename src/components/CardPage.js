@@ -16,6 +16,7 @@ export const CardPage = () => {
     border: "0",
     transform: "scale(1)",
     overflow: "hidden",
+    padding: "1rem 1rem 0 0"
   }}
 sandbox="allow-scripts allow-same-origin">
 </iframe>
