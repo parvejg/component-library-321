@@ -31,6 +31,7 @@ sandbox="allow-scripts allow-same-origin">
     border: "0",
     transform: "scale(1)",
     overflow: "hidden",
+    padding: "2rem 2rem 0 0"
   }} 
  sandbox="allow-scripts allow-same-origin">
 </iframe>
@@ -45,6 +46,7 @@ sandbox="allow-scripts allow-same-origin">
     border: "0",
     transform: "scale(1)",
     overflow: "hidden",
+    padding: "2rem 1rem  0 0 "
   }} 
  sandbox="allow-scripts allow-same-origin">
 </iframe>

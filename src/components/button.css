@@ -5,7 +5,6 @@
   background-color: #407ff5;
   border: solid white 1px;
   border-radius: 6px;
-  margin: 5px;
   display: inline;
   font-size: 15px;
   cursor: pointer;
@@ -34,7 +33,6 @@
 
 
 .outline-Btn {
-  margin: 5px;
   color: black;
   background-color: #fff;
   border: 2px solid #407ff5;
@@ -50,7 +48,6 @@
   background-color: aliceblue;
 }
 .txtBtn {
-  margin: 5px;
   color: black;
   background-color: azure;
   border: solid white 2px;
