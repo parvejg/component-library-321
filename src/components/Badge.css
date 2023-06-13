@@ -16,5 +16,68 @@
     text-align: center;
     border: solid black 1px;
     font-weight: bold;
-
 }
+.cart-icon-Wrapper{
+    display: flex;
+    font-size: 3rem;
+    list-style: none;
+}
+.cart-icon-Wrapper::after{
+    content: attr(current-value);
+    position:relative;
+    bottom: -2px;
+    right: 21px;
+    font-size: small;
+    background-color: blue;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 5rem;
+    text-align: center;
+    border: solid black 1px;
+    font-weight: bold;
+    color: white;
+}
+.message-icon-Wrapper{
+    display: flex;
+    font-size: 3rem;
+    list-style: none;
+}
+.message-icon-Wrapper::after{
+    content: attr(current-value);
+    position:relative;
+    bottom: -2px;
+    right: 21px;
+    font-size: small;
+    background-color: rgb(255, 0, 64);
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 5rem;
+    text-align: center;
+    border: solid black 1px;
+    font-weight: bold;
+    color: black;
+}
+.folder-icon-Wrapper{
+    display: flex;
+    font-size: 3rem;
+    list-style: none;
+}
+.folder-icon-Wrapper::after{
+    content: attr(current-value);
+    position:relative;
+    bottom: -3px;
+    right: 21px;
+    font-size: small;
+    background-color:  rgb(255, 0, 64);
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 5rem;
+    text-align: center;
+    border: solid black 1px;
+    font-weight: bold;
+    color: black;
+}
+
+
+
+

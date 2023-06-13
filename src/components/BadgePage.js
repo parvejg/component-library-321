@@ -1,7 +1,15 @@
-import { NotificationBadge } from "./Badge"
+import { NotificationBadge,CartBadge, MessageBadge, FolderBadge } from "./Badge"
 import {Layout} from "./Layout"
 export const BadgePage=()=>{
     return <Layout>
-<NotificationBadge/>
+        <div>
+        <NotificationBadge/>
+<div></div>
+<CartBadge/>
+<div></div>
+<MessageBadge/>
+<div></div>
+<FolderBadge/>
+        </div>
     </Layout>
 }
