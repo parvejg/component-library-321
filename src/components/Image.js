@@ -43,3 +43,21 @@ export const CoumputerImage = (props) => {
     </div>
   );
 };
+export const LetsGoTextImage = (props) => {
+  const { src } = props;
+  return (
+    <div className="letsgo-img-header">
+      <div className="lets-go-img-wrapper">
+        <img
+          className="lets-go-img"
+          alt="lets-go-img"
+          src={
+            src
+              ? src
+              : "https://images.pexels.com/photos/704767/pexels-photo-704767.jpeg?auto=compress&cs=tinysrgb&w=600"
+          }
+        />
+      </div>
+    </div>
+  );
+};

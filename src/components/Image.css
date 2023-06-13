@@ -1,6 +1,6 @@
 .img-header {
   display: flex;
-  padding: 100px;
+  padding: 10px;
 }
 .img-wrapper {
   display: flex;
@@ -19,7 +19,7 @@
 }
 .computer-img-header {
   position: relative;
-  left: 6rem;
+  left: 1rem;
   bottom: 2rem;
   display: flex;
   flex-direction: column;
@@ -49,4 +49,8 @@ p {
 .info:hover {
   transform: translateX(1rem);
   transition: 2s;
+}
+.lets-go-img{
+  width: 500px;
+  height: 400px;
 }
