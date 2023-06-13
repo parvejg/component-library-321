@@ -9,8 +9,8 @@ import { ListPage } from "./components/ListPage";
 import { CardPage } from "./components/CardPage";
 import { AlertPage } from "./components/AlertPage";
 import { RatingPage } from "./components/RatingPage";
-import { SmallBoyImage, StreetImage } from "./components/Image";
 import { ImagePage } from "./components/ImagePage";
+import { BadgePage } from "./components/BadgePage";
 function App() {
   return (
     <Router>
@@ -25,6 +25,7 @@ function App() {
         <Route path="/alert-page" Component={AlertPage} />
         <Route path="/rating-page" Component={RatingPage} />
         <Route path="/image-page" Component={ImagePage} />
+        <Route path="/badge-page" Component={BadgePage} />
       </Routes>
     </Router>
     

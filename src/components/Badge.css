@@ -1,0 +1,20 @@
+.notification-icon-Wrapper{
+    display: flex;
+    font-size: 3rem;
+    list-style: none;
+}
+.notification-icon-Wrapper::after{
+    content: attr(current-value);
+    position:relative;
+    bottom: -2px;
+    right: 21px;
+    font-size: small;
+    background-color: red;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 5rem;
+    text-align: center;
+    border: solid black 1px;
+    font-weight: bold;
+
+}
