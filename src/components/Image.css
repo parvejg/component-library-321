@@ -1,8 +1,8 @@
-.img-header {
+.boy-img-header {
   display: flex;
   padding: 10px;
 }
-.img-wrapper {
+.boy-img-wrapper {
   display: flex;
   background-color: lavender;
   padding: 60px;

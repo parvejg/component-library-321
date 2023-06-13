@@ -2,8 +2,8 @@ import "./Image.css";
 export const SmallBoyImage = (props) => {
   const { src } = props;
   return (
-    <div className="img-header">
-      <div className="img-wrapper">
+    <div className="boy-img-header">
+      <div className="boy-img-wrapper">
         <img
           className="small-boy-img"
           alt="boy-img"
