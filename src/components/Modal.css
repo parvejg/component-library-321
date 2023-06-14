@@ -1,29 +1,35 @@
 .successfulModal-container {
   border-radius: 1rem;
+  padding-left: 19rem;
+
 }
 .successful-modal-wrapper {
-  width: 75%;
+  width: 22%;
   height: 50vh;
   background-color: whitesmoke;
-  position: absolute;
   text-align: center;
-  position: relative;
-  top: 2rem;
+  position: absolute;
+  bottom: 14rem;
+
 }
 
 .content-successful {
   padding-top: 3rem;
 }
 .successful-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+  color: white;
   width: 3rem;
   height: 3rem;
   border-radius: 4rem;
-  background-color: green;
   border: solid 0 5px 5px gray;
   font-size: xx-large;
   position: relative;
   bottom: 1.5rem;
-  left: 6.5rem;
+  left: 7.5rem;
 }
 .successful-modal-btn {
   align-items: center;
@@ -39,8 +45,79 @@
 .successful-modal-btn:hover {
   background-color: #148d14;
   color: beige;
-  transform: rotateY(8px);
+  transform: translateY(3px);
+  transition: 1.1s;
 }
 .successful-modal-btn:active {
-  transform: translateY(2px);
+  transform: translateY(1px);
+  transition: .2s;
+  border: solid white 2px;
+}
+.form-content {
+  color: blue;
+  padding-left: 6rem;
+}
+
+.form-Modal-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: whitesmoke;
+  width: 90%;
+  height: 60vh;
+  position: relative;
+  top: 2rem;
+}
+.signIn-main-heading{
+  text-align: center;
+}
+.inputs-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.sign-up-input {
+  padding: 7px;
+  border: solid black 1px;
+  border-radius: 8px;
+}
+.sign-btn {
+  padding: 6px 3rem;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  top: .6rem;
+  background-color: rgb(48, 48, 248);
+  box-shadow: 0 5px 5px rgb(107, 107, 228);
+  border: none;
+  border-radius: .5rem;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+
+}
+.sign-btn:active{
+  transform: translateY(3px);
+  transition: .4s;
+
+}
+.form-btn-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  padding-top: 8px;
+}
+.or-sign-with-txt{
+  padding-left: 16px;
+}
+.not-a-member-txt{
+  color: blue;
+  cursor: pointer;
+}
+.contacts-icon-btn{
+  display: flex;
+  gap: 13px;
+  font-size: larger;
+  padding-left: 2rem;
+  list-style: none;
+  cursor: pointer;
 }

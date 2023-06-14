@@ -16,8 +16,8 @@ export const SuccessfulAlert = (props) => {
   const {successfulIconClass} = props;
   return (
     <div>
-      <p className="successful-icon-wrapper">
-        <AiFillCheckCircle className={`successful-icon ${successfulIconClass}`} />
+      <p className="successful-alert-icon-wrapper">
+        <AiFillCheckCircle className={`successful-alert-icon ${successfulIconClass}`} />
       </p>
     </div>
   );
