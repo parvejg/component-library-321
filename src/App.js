@@ -11,6 +11,7 @@ import { AlertPage } from "./components/AlertPage";
 import { RatingPage } from "./components/RatingPage";
 import { ImagePage } from "./components/ImagePage";
 import { BadgePage } from "./components/BadgePage";
+import { ModalPage} from "./components/ModalPage";
 function App() {
   return (
     <Router>
@@ -26,11 +27,9 @@ function App() {
         <Route path="/rating-page" Component={RatingPage} />
         <Route path="/image-page" Component={ImagePage} />
         <Route path="/badge-page" Component={BadgePage} />
+        <Route path="/modal-page" Component={ModalPage} />
       </Routes>
     </Router>
-    
-   
-
   );
 }
 

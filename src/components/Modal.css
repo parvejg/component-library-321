@@ -1,0 +1,46 @@
+.successfulModal-container {
+  border-radius: 1rem;
+}
+.successful-modal-wrapper {
+  width: 75%;
+  height: 50vh;
+  background-color: whitesmoke;
+  position: absolute;
+  text-align: center;
+  position: relative;
+  top: 2rem;
+}
+
+.content-successful {
+  padding-top: 3rem;
+}
+.successful-icon-wrapper {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 4rem;
+  background-color: green;
+  border: solid 0 5px 5px gray;
+  font-size: xx-large;
+  position: relative;
+  bottom: 1.5rem;
+  left: 6.5rem;
+}
+.successful-modal-btn {
+  align-items: center;
+  padding: 4px 40px;
+  border-radius: 7px;
+  font-size: large;
+  position: relative;
+  top: 1rem;
+  background-color: green;
+  border: solid #4df04d 2px 5px 5px;
+  color: white;
+}
+.successful-modal-btn:hover {
+  background-color: #148d14;
+  color: beige;
+  transform: rotateY(8px);
+}
+.successful-modal-btn:active {
+  transform: translateY(2px);
+}
