@@ -4,10 +4,10 @@ import { BsCart3 } from "react-icons/bs";
 import { AiOutlineMessage } from "react-icons/ai";
 import { AiOutlineFolder } from "react-icons/ai";
 export const NotificationBadge = (props) => {
-  const { NotificationWrapper, currentValue } = props;
+  const { NotificationWrapperClass, currentValue } = props;
   return (
     <div
-      className={`notification-icon-Wrapper ${NotificationWrapper}`}
+      className={`notification-icon-Wrapper ${NotificationWrapperClass}`}
       currentValue={currentValue ? currentValue : "6"}
     >
       <li>
@@ -18,10 +18,10 @@ export const NotificationBadge = (props) => {
 };
 
 export const CartBadge = (props) => {
-  const { currentValue } = props;
+  const { currentValue,cartIconWrapperClass } = props;
   return (
     <div
-      className="cart-icon-Wrapper"
+      className={`cart-icon-Wrapper ${cartIconWrapperClass}`}
       currentValue={currentValue ? currentValue : "32"}
     >
       <li>
@@ -32,10 +32,10 @@ export const CartBadge = (props) => {
 };
 
 export const MessageBadge = (props) => {
-  const { currentValue } = props;
+  const { currentValue,messageIconWrapperClass } = props;
   return (
     <div
-      className="message-icon-Wrapper"
+      className={`message-icon-Wrapper ${messageIconWrapperClass}`}
       currentValue={currentValue ? currentValue : "12"}
     >
       <li>
@@ -46,10 +46,10 @@ export const MessageBadge = (props) => {
 };
 
 export const FolderBadge = (props) => {
-  const { currentValue } = props;
+  const { currentValue,folderIconWrapperClass } = props;
   return (
     <div
-      className="folder-icon-Wrapper"
+      className={`folder-icon-Wrapper ${folderIconWrapperClass}`}
       currentValue={currentValue ? currentValue : "22"}
     >
       <li>
