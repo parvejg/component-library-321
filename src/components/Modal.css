@@ -68,6 +68,9 @@
   position: relative;
   top: 2rem;
 }
+.thanks-txt{
+  font-size: 1.3rem;
+}
 .signIn-main-heading{
   text-align: center;
 }

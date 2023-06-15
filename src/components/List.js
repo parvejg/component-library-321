@@ -12,27 +12,29 @@ export const OrderedList = (props) => {
 
   return (
     <div>
-      {readyList.map((obj) => {
-        return (
-          <ol>
+      <ol>
+        {readyList.map((obj) => {
+          return (
             <li key={obj.id} className="list-item">
               {obj.item}
             </li>
-          </ol>
-        );
-      })}
+          );
+        })}
+      </ol>
     </div>
   );
 };
 
 // {
-//   readyList ? readyList.map((obj)=>{
-//     return <li key={1}>{obj.item}</li>
-//   }) : newList.map((obj)=>{
-//     return <li>obj.item</li>
-//   })
-//   }
-//
+//   readyList
+//     ? readyList.map((obj) => {
+//         return <li key={1}>{obj.item}</li>;
+//       })
+//     : newList.map((obj) => {
+//         return <li>obj.item</li>;
+//       });
+// }
+
 
 export const UnOrderedList = (props) => {
   const { className } = props;

@@ -4,7 +4,7 @@
     list-style: none;
 }
 .notification-icon-Wrapper::after{
-    content: attr(current-value);
+    content: attr(currentValue);
     position:relative;
     bottom: -2px;
     right: 21px;
@@ -23,7 +23,7 @@
     list-style: none;
 }
 .cart-icon-Wrapper::after{
-    content: attr(current-value);
+    content: attr(currentValue);
     position:relative;
     bottom: -2px;
     right: 21px;
@@ -43,7 +43,7 @@
     list-style: none;
 }
 .message-icon-Wrapper::after{
-    content: attr(current-value);
+    content: attr(currentValue);
     position:relative;
     bottom: -2px;
     right: 21px;
@@ -63,7 +63,7 @@
     list-style: none;
 }
 .folder-icon-Wrapper::after{
-    content: attr(current-value);
+    content: attr(currentValue);
     position:relative;
     bottom: -3px;
     right: 21px;

@@ -3,9 +3,13 @@ import { TfiBell } from "react-icons/tfi";
 import { BsCart3 } from "react-icons/bs";
 import { AiOutlineMessage } from "react-icons/ai";
 import { AiOutlineFolder } from "react-icons/ai";
-export const NotificationBadge = () => {
+export const NotificationBadge = (props) => {
+  const { NotificationWrapper, currentValue } = props;
   return (
-    <div className="notification-icon-Wrapper" current-value="6">
+    <div
+      className={`notification-icon-Wrapper ${NotificationWrapper}`}
+      currentValue={currentValue ? currentValue : "6"}
+    >
       <li>
         <TfiBell className="bell-notification" />
       </li>
@@ -13,9 +17,13 @@ export const NotificationBadge = () => {
   );
 };
 
-export const CartBadge = () => {
+export const CartBadge = (props) => {
+  const { currentValue } = props;
   return (
-    <div className="cart-icon-Wrapper" current-value="23">
+    <div
+      className="cart-icon-Wrapper"
+      currentValue={currentValue ? currentValue : "32"}
+    >
       <li>
         <BsCart3 className="cart-icon" />
       </li>
@@ -23,9 +31,13 @@ export const CartBadge = () => {
   );
 };
 
-export const MessageBadge = () => {
+export const MessageBadge = (props) => {
+  const { currentValue } = props;
   return (
-    <div className="message-icon-Wrapper" current-value="83">
+    <div
+      className="message-icon-Wrapper"
+      currentValue={currentValue ? currentValue : "12"}
+    >
       <li>
         <AiOutlineMessage className="message-icon" />
       </li>
@@ -33,9 +45,13 @@ export const MessageBadge = () => {
   );
 };
 
-export const FolderBadge = () => {
+export const FolderBadge = (props) => {
+  const { currentValue } = props;
   return (
-    <div className="folder-icon-Wrapper" current-value="8">
+    <div
+      className="folder-icon-Wrapper"
+      currentValue={currentValue ? currentValue : "22"}
+    >
       <li>
         <AiOutlineFolder className="folder-icon" />
       </li>

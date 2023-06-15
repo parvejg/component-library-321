@@ -41,7 +41,7 @@ export const ProductDemoCard = (props) => {
         />
       </div>
       <div className="product-price-container">
-        <h3 className="product-price">Price 5999</h3>
+        <h3 className="product-price">Price 7999</h3>
       </div>
       <div className="product-titel-container">
         <h2>Best Quality</h2>
