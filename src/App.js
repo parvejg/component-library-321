@@ -18,17 +18,17 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" Component={Layout} />
-        <Route path="/button-page" Component={ButtonPage} />
-        <Route path="/input-page" Component={InputPage} />
-        <Route path="/navbar-page" Component={NavbarPage} />
-        <Route path="/avatar-page" Component={AvatarPage} />
-        <Route path="/list-page" Component={ListPage} />
-        <Route path="/card-page" Component={CardPage} />
         <Route path="/alert-page" Component={AlertPage} />
-        <Route path="/rating-page" Component={RatingPage} />
-        <Route path="/image-page" Component={ImagePage} />
+        <Route path="/avatar-page" Component={AvatarPage} />
         <Route path="/badge-page" Component={BadgePage} />
+        <Route path="/button-page" Component={ButtonPage} />
+        <Route path="/card-page" Component={CardPage} />
+        <Route path="/image-page" Component={ImagePage} />
+        <Route path="/input-page" Component={InputPage} />
+        <Route path="/list-page" Component={ListPage} />
         <Route path="/modal-page" Component={ModalPage} />
+        <Route path="/navbar-page" Component={NavbarPage} />
+        <Route path="/rating-page" Component={RatingPage} />
         <Route path="/toast-page" Component={ToastPage} />
       </Routes>
     </Router>
