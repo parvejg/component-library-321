@@ -60,88 +60,107 @@ export const UnOrderedList = (props) => {
 export const NoneBulletList = (props) => {
   const { newNoneBulletList } = props;
   const noneBulletArrayList = [
-    {id: "1",item: "Arithmetic Operator"},
-    {id: "1",item: "Relational Operator"},
-    {id: "1",item: "Logical Operator"},
+    { id: "1", item: "Arithmetic Operator" },
+    { id: "1", item: "Relational Operator" },
+    { id: "1", item: "Logical Operator" },
   ];
-  const newArryList = newNoneBulletList ? newNoneBulletList:  noneBulletArrayList
+  const newArryList = newNoneBulletList
+    ? newNoneBulletList
+    : noneBulletArrayList;
   return (
     <div className="none-bullet-list-wrapper">
       <ul className="none-bullet-list-item-wrapper">
-       {
-        newArryList.map((noneBulletObj)=>{
-          return <li>{noneBulletObj.item}</li>
-        })
-       }
+        {newArryList.map((noneBulletObj) => {
+          return <li>{noneBulletObj.item}</li>;
+        })}
       </ul>
     </div>
   );
 };
 
 export const CircleList = (props) => {
-  const {newCircleList} = props;
+  const { newCircleList } = props;
   const circleArrayList = [
-    {id: "1", item: "Samsung"},
-    {id: "1", item: "Xiaomi"},
-    {id: "1", item: "Nokia"},
-    {id: "1", item: "Nokia Corporation"},
-    {id: "1", item: "OPPO"},
-    {id: "1", item: "HTC"},
+    { id: "1", item: "Samsung" },
+    { id: "1", item: "Xiaomi" },
+    { id: "1", item: "Nokia" },
+    { id: "1", item: "Nokia Corporation" },
+    { id: "1", item: "OPPO" },
+    { id: "1", item: "HTC" },
   ];
-  const newList = newCircleList ? newCircleList: circleArrayList; 
+  const newList = newCircleList ? newCircleList : circleArrayList;
   return (
     <div className="circle-list-wrapper">
       <ul className="circle-list-item-wrapper">
-       {
-        newList.map((CircleListObj)=>{
-          return <li>{CircleListObj.item}</li>
-        })
-       }
+        {newList.map((CircleListObj) => {
+          return <li>{CircleListObj.item}</li>;
+        })}
       </ul>
     </div>
   );
 };
 
-export const SquareList = () => {
+export const SquareList = (props) => {
+  const { newSquareList } = props;
+  const squareArrayList = [
+    { id: "1", item: "Baked goods" },
+    { id: "2", item: "Cereals" },
+    { id: "3", item: "Dairy products" },
+    { id: "4", item: "Edible plants" },
+    { id: "5", item: "Edible fungi" },
+    { id: "6", item: "Legumes" },
+  ];
+  const newlist = newSquareList ? newSquareList : squareArrayList;
   return (
     <div className="square-list-wrapper">
       <ul class=" square-list-item-wrapper">
-        <li> Baked goods</li>
-        <li>Cereals</li>
-        <li>Dairy products</li>
-        <li>Edible plants</li>
-        <li>Edible fungi</li>
-        <li>Legumes</li>
+        {newlist.map((squareListItem) => {
+          return <li>{squareListItem.item}</li>;
+        })}
       </ul>
     </div>
   );
 };
 
-export const UpperRomanList = () => {
+export const UpperRomanList = (props) => {
+  const { newList } = props;
+  const upperRomanArrayList = [
+    { id: "1", item: "Breakfast & cereals" },
+    { id: "2", item: "Canned, Jarred, & Pouched Foods" },
+    { id: "3", item: "Grains, Pasta & Sides" },
+    { id: "4", item: "Produce" },
+    { id: "5", item: "Snacks" },
+    { id: "6", item: "Baking & cooking supplies" },
+  ];
+  const newUpperRomanArrayList = newList ? newList : upperRomanArrayList;
   return (
     <div className="upperRoman-list-wrapper">
       <ul className="upperRoman-list-item-wrapper">
-        <li> Breakfast & Cereals</li>
-        <li>Canned, Jarred, & Pouched Foods</li>
-        <li>Grains, Pasta & Sides</li>
-        <li>Produce</li>
-        <li>Snacks</li>
-        <li>Baking & Cooking Supplies</li>
+        {newUpperRomanArrayList.map((upperRomanListItem) => {
+          return <li>{upperRomanListItem.item}</li>;
+        })}
       </ul>
     </div>
   );
 };
 
-export const LowerAlphaList = () => {
+export const LowerAlphaList = (props) => {
+  const { newList } = props;
+  const newLowerAlphaArrayList = [
+    { id: "1", item: "Green Tea" },
+    { id: "2", item: "White Tea" },
+    { id: "3", item: "Matcha Tea" },
+    { id: "4", item: "Oolong Tea" },
+    { id: "5", item: "Earl Grey" },
+    { id: "6", item: "Masala Tea" },
+  ];
+  const newLowerAlphaList = newList ? newList : newLowerAlphaArrayList;
   return (
     <div className="LowerAlpha-list-wrapper">
       <ul className="lowerAlpha-list-item-wrapper">
-        <li>Green Tea</li>
-        <li>White Tea</li>
-        <li>Matcha</li>
-        <li>Oolong</li>
-        <li>Earl Grey</li>
-        <li>Masala chai</li>
+        {newLowerAlphaList.map((lowerAiphaListItem) => {
+          return <li>{lowerAiphaListItem.item}</li>;
+        })}
       </ul>
     </div>
   );
