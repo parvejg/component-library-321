@@ -6,7 +6,6 @@ import { BsTwitter } from "react-icons/bs";
 export const SuccessfulModal = (props) => {
   const { name } = props;
   return (
-    <div className="successfulModal-container">
       <div className="successful-modal-wrapper">
         <div className="successful-icon-wrapper">
           <FiCheck />
@@ -17,7 +16,6 @@ export const SuccessfulModal = (props) => {
         </div>
         <button className="successful-modal-btn">{name ? name : "Ok"}</button>
       </div>
-    </div>
   );
 };
 export const FormModal = (props) => {
