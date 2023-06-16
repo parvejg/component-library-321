@@ -4,7 +4,7 @@ export const OrderedList = (props) => {
   const arrayList = [
     { id: 1, item: "Array" },
     { id: 2, item: "Stacks" },
-    { id: 3, item: "QUeues" },
+    { id: 3, item: "Queues" },
     { id: 4, item: "Trees" },
     { id: 5, item: "Graphs" },
   ];
@@ -35,46 +35,68 @@ export const OrderedList = (props) => {
 //       });
 // }
 
-
 export const UnOrderedList = (props) => {
-  const { className } = props;
+  const { newunOderedList } = props;
+  const unorderedArrayList = [
+    { id: "1", item: "Pythan" },
+    { id: "2", item: "Java Script" },
+    { id: "3", item: "C++" },
+    { id: "4", item: "Java" },
+    { id: "5", item: "Ruby" },
+    { id: "6", item: "SQL" },
+  ];
+  const newArryList = newunOderedList ? newunOderedList : unorderedArrayList;
   return (
     <div className="unordered-list-wrapper">
       <ul className="unordered-list-item-wrapper">
-        <li>Pythan</li>
-        <li>Java Script</li>
-        <li>C++</li>
-        <li>Java</li>
-        <li>Ruby</li>
-        <li>SQL</li>
+        {newArryList.map((unOderedList) => {
+          return <li>{unOderedList.item}</li>;
+        })}
       </ul>
     </div>
   );
 };
 
 export const NoneBulletList = (props) => {
-  const { className } = props;
+  const { newNoneBulletList } = props;
+  const noneBulletArrayList = [
+    {id: "1",item: "Arithmetic Operator"},
+    {id: "1",item: "Relational Operator"},
+    {id: "1",item: "Logical Operator"},
+  ];
+  const newArryList = newNoneBulletList ? newNoneBulletList:  noneBulletArrayList
   return (
     <div className="none-bullet-list-wrapper">
       <ul className="none-bullet-list-item-wrapper">
-        <li>Arithmetic Operators</li>
-        <li>Relational Operators</li>
-        <li>Logical Operators</li>
+       {
+        newArryList.map((noneBulletObj)=>{
+          return <li>{noneBulletObj.item}</li>
+        })
+       }
       </ul>
     </div>
   );
 };
 
 export const CircleList = (props) => {
+  const {newCircleList} = props;
+  const circleArrayList = [
+    {id: "1", item: "Samsung"},
+    {id: "1", item: "Xiaomi"},
+    {id: "1", item: "Nokia"},
+    {id: "1", item: "Nokia Corporation"},
+    {id: "1", item: "OPPO"},
+    {id: "1", item: "HTC"},
+  ];
+  const newList = newCircleList ? newCircleList: circleArrayList; 
   return (
     <div className="circle-list-wrapper">
       <ul className="circle-list-item-wrapper">
-        <li>Samsung</li>
-        <li>Xiaomi</li>
-        <li>Nokia</li>
-        <li>Nokia Corporation</li>
-        <li>OPPO</li>
-        <li>HTC</li>
+       {
+        newList.map((CircleListObj)=>{
+          return <li>{CircleListObj.item}</li>
+        })
+       }
       </ul>
     </div>
   );
