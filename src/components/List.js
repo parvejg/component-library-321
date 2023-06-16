@@ -15,9 +15,12 @@ export const OrderedList = (props) => {
       <ol>
         {readyList.map((obj) => {
           return (
-            <li key={obj.id} className="list-item">
+            <div className="ordered-list-wrapper">
+              <li key={obj.id} className="list-item">
               {obj.item}
             </li>
+            </div>
+            
           );
         })}
       </ol>
@@ -61,8 +64,8 @@ export const NoneBulletList = (props) => {
   const { newNoneBulletList } = props;
   const noneBulletArrayList = [
     { id: "1", item: "Arithmetic Operator" },
-    { id: "1", item: "Relational Operator" },
-    { id: "1", item: "Logical Operator" },
+    { id: "2", item: "Relational Operator" },
+    { id: "3", item: "Logical Operator" },
   ];
   const newArryList = newNoneBulletList
     ? newNoneBulletList
@@ -82,11 +85,11 @@ export const CircleList = (props) => {
   const { newCircleList } = props;
   const circleArrayList = [
     { id: "1", item: "Samsung" },
-    { id: "1", item: "Xiaomi" },
-    { id: "1", item: "Nokia" },
-    { id: "1", item: "Nokia Corporation" },
-    { id: "1", item: "OPPO" },
-    { id: "1", item: "HTC" },
+    { id: "2", item: "Xiaomi" },
+    { id: "3", item: "Nokia" },
+    { id: "4", item: "Nokia Corporation" },
+    { id: "5", item: "OPPO" },
+    { id: "6", item: "HTC" },
   ];
   const newList = newCircleList ? newCircleList : circleArrayList;
   return (
