@@ -20,7 +20,7 @@ export const ModalPage = () => {
             sandbox="allow-scripts allow-same-origin"
           ></iframe>
         </div>
-        {/* <FormModal />
+        <FormModal />
         <div>
           <iframe
             title="form-modal"
@@ -34,7 +34,7 @@ export const ModalPage = () => {
             }}
             sandbox="allow-scripts allow-same-origin"
           ></iframe>
-        </div> */}
+        </div>
       </div>
     </Layout>
   );
