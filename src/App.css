@@ -2,6 +2,14 @@
   .iframe-wrapper{
     width: 600px ;
   }
+
+}
+
+@media (max-width: 700px){
+  .navigation-btn-container{
+    display: none;
+  }
+  
 }
 .App {
   text-align: center;
@@ -48,6 +56,7 @@
 .navigation-btn-container{
   display: flex;
   justify-content: space-between;
+  color: blue;
 }
 .navigation-next-topBtn-container{
   display: flex;
@@ -59,10 +68,9 @@
 }
 .navigation-next-btn-wrapper{
   font-size: x-large;
-  color: blue;
 }
 .navigation-previous-btn-wrapper{
-  font-size: larger;
-  color: blue;
+  font-size: x-large;
 }
+
 

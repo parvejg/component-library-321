@@ -68,7 +68,7 @@ export const ToastPage = () => {
       </div>
         <div className="navigation-previous-bottomBtn-container">
           <Link to="/rating-page" className='navigation-previous-btn-wrapper'>
-            <GrPrevious  className='navigation-previous-btn-wrapper'/>
+            <GrPrevious  className='navigation-icon'/>
           </Link>
         </div>
     </Layout>

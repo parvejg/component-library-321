@@ -75,7 +75,7 @@ export const BadgePage = () => {
         </div>
         <div className="navigation-btn-container">
           <Link to="/alert-page" className='navigation-previous-btn-wrapper'>
-            <GrPrevious  className='navigation-previous-btn-wrapper'/>
+            <GrPrevious  className='navigation-icon'/>
           </Link>
           <Link to="/button-page" className='navigation-next-btn-wrapper'>
           <GrNext className="navigation-icon"/>

@@ -53,7 +53,7 @@ sandbox="allow-scripts allow-same-origin">
         </div>
         <div className="navigation-btn-container">
         <Link to="/button-page" className='navigation-previous-btn-wrapper'>
-            <GrPrevious  className='navigation-previous-btn-wrapper'/>
+            <GrPrevious  className='navigation-icon'/>
           </Link>
           <Link to="/image-page" className='navigation-next-btn-wrapper'>
           <GrNext className="navigation-icon"/>

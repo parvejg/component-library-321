@@ -25,7 +25,7 @@ export const RatingPage = () => {
         </div>
         <div className="navigation-btn-container">
         <Link to="/navbar-page" className='navigation-previous-btn-wrapper'>
-            <GrPrevious  className='navigation-previous-btn-wrapper'/>
+            <GrPrevious  className='navigation-icon'/>
           </Link>
           <Link to="/toast-page" className='navigation-next-btn-wrapper'>
           <GrNext className="navigation-icon"/>

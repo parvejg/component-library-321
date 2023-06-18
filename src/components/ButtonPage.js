@@ -57,7 +57,7 @@ export const ButtonPage = () => {
         </div>
         <div className="navigation-btn-container">
           <Link to="/badge-page" className="navigation-previous-btn-wrapper">
-            <GrPrevious className="navigation-previous-btn-wrapper" />
+            <GrPrevious className="navigation-icon" />
           </Link>
           <Link to="/card-page" className="navigation-next-btn-wrapper">
             <GrNext className="navigation-icon" />

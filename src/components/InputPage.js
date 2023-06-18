@@ -58,7 +58,7 @@ export const InputPage = () => {
         <div className="navigation-btn-container">
           
         <Link to="/image-page" className='navigation-previous-btn-wrapper'>
-            <GrPrevious  className='navigation-previous-btn-wrapper'/>
+            <GrPrevious  className='navigation-icon'/>
           </Link>
           <Link to="/list-page" className='navigation-next-btn-wrapper'>
           <GrNext className="navigation-icon"/>

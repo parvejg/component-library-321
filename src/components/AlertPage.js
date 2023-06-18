@@ -55,7 +55,7 @@ export const AlertPage = () => {
         </div>
         <div className="navigation-btn-container">
         <Link to="/avatar-page" className='navigation-previous-btn-wrapper'>
-            <GrPrevious  className='navigation-previous-btn-wrapper'/>
+            <GrPrevious  className='navigation-icon'/>
           </Link>
           <Link to="/badge-page" className='navigation-next-btn-wrapper'>
           <GrNext className="navigation-icon"/>

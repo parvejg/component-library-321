@@ -116,7 +116,7 @@ sandbox="allow-scripts allow-same-origin">
       <div className="navigation-btn-container">
         
       <Link to="/input-page" className='navigation-previous-btn-wrapper'>
-            <GrPrevious  className='navigation-previous-btn-wrapper'/>
+            <GrPrevious  className='navigation-icon'/>
           </Link>
           <Link to="/modal-page" className='navigation-next-btn-wrapper'>
           <GrNext className="navigation-icon"/>
