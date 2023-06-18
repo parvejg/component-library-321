@@ -2,8 +2,8 @@ import { Layout } from "./Layout";
 import { ElevatedButton } from "./Button.js";
 import { TextBtn } from "./Button.js";
 import { OutlineBtn } from "./Button.js";
-import {GrNext} from "react-icons/gr";
-import {GrPrevious} from "react-icons/gr";
+import { GrNext } from "react-icons/gr";
+import { GrPrevious } from "react-icons/gr";
 import { Link } from "react-router-dom";
 export const ButtonPage = () => {
   return (
@@ -55,14 +55,12 @@ export const ButtonPage = () => {
             sandbox="allow-scripts allow-same-origin"
           ></iframe>
         </div>
-        <div className="navigation-next-btn-container">
-          <Link to="/card-page" className='navigation-next-btn-wrapper'>
-          <GrNext className="navigation-icon"/>
+        <div className="navigation-btn-container">
+          <Link to="/badge-page" className="navigation-previous-btn-wrapper">
+            <GrPrevious className="navigation-previous-btn-wrapper" />
           </Link>
-        </div>
-        <div className="navigation-previous-btn-container">
-          <Link to="/badge-page" className='navigation-previous-btn-wrapper'>
-            <GrPrevious  className='navigation-previous-btn-wrapper'/>
+          <Link to="/card-page" className="navigation-next-btn-wrapper">
+            <GrNext className="navigation-icon" />
           </Link>
         </div>
       </div>

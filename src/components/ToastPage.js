@@ -66,7 +66,7 @@ export const ToastPage = () => {
           sandbox="allow-scripts allow-same-origin"
         ></iframe>
       </div>
-        <div className="navigation-previous-btn-container">
+        <div className="navigation-previous-bottomBtn-container">
           <Link to="/rating-page" className='navigation-previous-btn-wrapper'>
             <GrPrevious  className='navigation-previous-btn-wrapper'/>
           </Link>

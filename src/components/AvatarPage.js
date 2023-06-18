@@ -74,7 +74,7 @@ export const AvatarPage = () => {
             sandbox="allow-scripts allow-same-origin"
           ></iframe>
         </div>
-        <div className="navigation-next-btn-container">
+        <div className="navigation-next-topBtn-container">
           <Link to="/badge-page" className='navigation-next-btn-wrapper'>
           <GrNext className="navigation-icon"/>
           </Link>

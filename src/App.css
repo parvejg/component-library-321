@@ -45,13 +45,24 @@
 .iframe-wrapper{
   padding: 1rem 0 1rem 1rem;
 }
-.navigation-next-btn-container{
+.navigation-btn-container{
+  display: flex;
+  justify-content: space-between;
+}
+.navigation-next-topBtn-container{
   display: flex;
   justify-content: flex-end;
 }
-.navigation-previous-btn-container{
+.navigation-next-bottomBtn-container{
   display: flex;
   justify-content: flex-start;
 }
-
+.navigation-next-btn-wrapper{
+  font-size: x-large;
+  color: blue;
+}
+.navigation-previous-btn-wrapper{
+  font-size: larger;
+  color: blue;
+}
 

@@ -55,15 +55,15 @@ export const InputPage = () => {
             sandbox="allow-scripts allow-same-origin"
           ></iframe>
         </div>
-        <div className="navigation-next-btn-container">
+        <div className="navigation-btn-container">
+          
+        <Link to="/image-page" className='navigation-previous-btn-wrapper'>
+            <GrPrevious  className='navigation-previous-btn-wrapper'/>
+          </Link>
           <Link to="/list-page" className='navigation-next-btn-wrapper'>
           <GrNext className="navigation-icon"/>
           </Link>
-        </div>
-        <div className="navigation-previous-btn-container">
-          <Link to="/image-page" className='navigation-previous-btn-wrapper'>
-            <GrPrevious  className='navigation-previous-btn-wrapper'/>
-          </Link>
+        
         </div>
       </div>
     </Layout>
