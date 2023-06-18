@@ -1,6 +1,9 @@
 import {Layout} from './Layout'
 import './ImagePage.css'
 import {CoumputerImage, SmallBoyImage,LetsGoTextImage } from './Image'
+import {GrNext} from "react-icons/gr";
+import {GrPrevious} from "react-icons/gr";
+import { Link } from "react-router-dom";
 export const ImagePage=()=>{
     return( <Layout>
 <div className='images-container'>
@@ -47,6 +50,16 @@ sandbox="allow-scripts allow-same-origin">
 sandbox="allow-scripts allow-same-origin">
 </iframe>
 </div>
+<div className="navigation-next-btn-container">
+          <Link to="/input-page" className='navigation-next-btn-wrapper'>
+          <GrNext className="navigation-icon"/>
+          </Link>
+        </div>
+        <div className="navigation-previous-btn-container">
+          <Link to="/card-page" className='navigation-previous-btn-wrapper'>
+            <GrPrevious  className='navigation-previous-btn-wrapper'/>
+          </Link>
+        </div>
 </div>
 
     </Layout>

@@ -1,6 +1,8 @@
 import { AlertError, SecurityAlert, SuccessfulAlert } from "./Alert";
 import { Layout } from "./Layout";
-
+import { Link } from "react-router-dom";
+import {GrNext} from "react-icons/gr";
+import {GrPrevious} from "react-icons/gr";
 export const AlertPage = () => {
   return (
     <Layout>
@@ -50,6 +52,16 @@ export const AlertPage = () => {
             }}
             sandbox="allow-scripts allow-same-origin"
           ></iframe>
+        </div>
+        <div className="navigation-next-btn-container">
+          <Link to="/badge-page" className='navigation-next-btn-wrapper'>
+          <GrNext className="navigation-icon"/>
+          </Link>
+        </div>
+        <div className="navigation-previous-btn-container">
+          <Link to="/avatar-page" className='navigation-previous-btn-wrapper'>
+            <GrPrevious  className='navigation-previous-btn-wrapper'/>
+          </Link>
         </div>
       </div>
     </Layout>

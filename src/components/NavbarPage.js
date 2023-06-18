@@ -2,6 +2,9 @@ import { Layout } from "./Layout";
 import "./Navbar.css";
 import "./NavbarPage.css";
 import { TeaIconNavbar, TataLogoNavbar, LayoutNavbar } from "./Navbar";
+import {GrNext} from "react-icons/gr";
+import {GrPrevious} from "react-icons/gr";
+import { Link } from "react-router-dom";
 
 export const NavbarPage = () => {
   return (
@@ -50,6 +53,16 @@ sandbox="allow-scripts allow-same-origin">
   }}
 sandbox="allow-scripts allow-same-origin">
 </iframe>
+        </div>
+        <div className="navigation-next-btn-container">
+          <Link to="/rating-page" className='navigation-next-btn-wrapper'>
+          <GrNext className="navigation-icon"/>
+          </Link>
+        </div>
+        <div className="navigation-previous-btn-container">
+          <Link to="/modal-page" className='navigation-previous-btn-wrapper'>
+            <GrPrevious  className='navigation-previous-btn-wrapper'/>
+          </Link>
         </div>
       </div>
     </Layout>

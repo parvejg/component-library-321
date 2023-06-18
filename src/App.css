@@ -1,3 +1,8 @@
+@media (min-width: 1000px){
+  .iframe-wrapper{
+    width: 600px ;
+  }
+}
 .App {
   text-align: center;
 }
@@ -11,6 +16,7 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+ 
 }
 
 .App-header {
@@ -39,3 +45,13 @@
 .iframe-wrapper{
   padding: 1rem 0 1rem 1rem;
 }
+.navigation-next-btn-container{
+  display: flex;
+  justify-content: flex-end;
+}
+.navigation-previous-btn-container{
+  display: flex;
+  justify-content: flex-start;
+}
+
+

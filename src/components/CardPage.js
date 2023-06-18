@@ -1,5 +1,8 @@
 import { LinkedInAppCard, ImageCard, ProductDemoCard } from "./Card";
 import { Layout } from "./Layout";
+import {GrNext} from "react-icons/gr";
+import {GrPrevious} from "react-icons/gr";
+import { Link } from "react-router-dom";
 
 export const CardPage = () => {
   return (
@@ -47,6 +50,16 @@ sandbox="allow-scripts allow-same-origin">
   }} 
  sandbox="allow-scripts allow-same-origin">
 </iframe>
+        </div>
+        <div className="navigation-next-btn-container">
+          <Link to="/image-page" className='navigation-next-btn-wrapper'>
+          <GrNext className="navigation-icon"/>
+          </Link>
+        </div>
+        <div className="navigation-previous-btn-container">
+          <Link to="/button-page" className='navigation-previous-btn-wrapper'>
+            <GrPrevious  className='navigation-previous-btn-wrapper'/>
+          </Link>
         </div>
       </div>
     </Layout>

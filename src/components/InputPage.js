@@ -2,6 +2,9 @@ import { DateInput, PasswordInput, TextInput } from "./Input";
 import { Layout } from "./Layout";
 import "./Input.css";
 import "./InputPage.css";
+import {GrNext} from "react-icons/gr";
+import {GrPrevious} from "react-icons/gr";
+import { Link } from "react-router-dom";
 export const InputPage = () => {
   return (
     <Layout>
@@ -51,6 +54,16 @@ export const InputPage = () => {
             }}
             sandbox="allow-scripts allow-same-origin"
           ></iframe>
+        </div>
+        <div className="navigation-next-btn-container">
+          <Link to="/list-page" className='navigation-next-btn-wrapper'>
+          <GrNext className="navigation-icon"/>
+          </Link>
+        </div>
+        <div className="navigation-previous-btn-container">
+          <Link to="/image-page" className='navigation-previous-btn-wrapper'>
+            <GrPrevious  className='navigation-previous-btn-wrapper'/>
+          </Link>
         </div>
       </div>
     </Layout>

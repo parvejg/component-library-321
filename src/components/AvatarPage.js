@@ -4,6 +4,8 @@ import { NotificationIconAvatar } from "./Avatar";
 import { ImageAvatar } from "./Avatar";
 import { PersonIconAvatar } from "./Avatar";
 import { TLetterAvatar } from "./Avatar";
+import { Link } from "react-router-dom";
+import {GrNext} from "react-icons/gr";
 import "./Avatar.css";
 
 export const AvatarPage = () => {
@@ -71,6 +73,11 @@ export const AvatarPage = () => {
             }}
             sandbox="allow-scripts allow-same-origin"
           ></iframe>
+        </div>
+        <div className="navigation-next-btn-container">
+          <Link to="/badge-page" className='navigation-next-btn-wrapper'>
+          <GrNext className="navigation-icon"/>
+          </Link>
         </div>
       </div>
     </Layout>
