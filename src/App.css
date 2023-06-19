@@ -4,13 +4,16 @@
   }
 
 }
-
-@media (max-width: 700px){
+@media (min-width: 1000px){
   .navigation-btn-container{
     display: none;
   }
-  
+  .navigation-topBtn-container{
+    display: none;
+  }
 }
+
+
 .App {
   text-align: center;
 }

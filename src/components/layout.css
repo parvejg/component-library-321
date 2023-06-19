@@ -9,8 +9,12 @@
     flex-grow: 1;
     
 }
-.layout-content{
-   padding-left: 14rem;
+
+@media (min-width: 1000px){
+    .navigation-btn-container{
+        display: none;
+    }
 }
+
 
 
