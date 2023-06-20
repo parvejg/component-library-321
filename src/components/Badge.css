@@ -77,6 +77,30 @@
     font-weight: bold;
     color: black;
 }
+.insta-icon-wrapper{
+    display: flex;
+    font-size: 3rem;
+    list-style: none;
+}
+.insta-icon-wrapper::after{
+    content: attr(currentValue);
+    position: relative;
+    bottom: .3rem;
+    right: 3rem;
+    font-size: small;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 1.3rem;
+    height: 1.3rem;
+    text-align: center;
+    border: solid black 1px;
+
+}
+
+
+
 
 
 

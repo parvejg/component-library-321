@@ -3,6 +3,7 @@ import { TfiBell } from "react-icons/tfi";
 import { BsCart3 } from "react-icons/bs";
 import { AiOutlineMessage } from "react-icons/ai";
 import { AiOutlineFolder } from "react-icons/ai";
+import {AiFillInstagram} from "react-icons/ai";
 export const NotificationBadge = (props) => {
   const { NotificationWrapperClass, currentValue } = props;
   return (
@@ -58,3 +59,23 @@ export const FolderBadge = (props) => {
     </div>
   );
 };
+
+
+
+
+
+export const InstagramBadge =()=>{
+  return <div currentValue="23" className="insta-icon-wrapper">
+    <li>
+      <AiFillInstagram className="insta-icon"/>
+    </li>
+  </div>
+}
+
+
+
+
+
+
+
+

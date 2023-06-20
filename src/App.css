@@ -75,5 +75,10 @@
 .navigation-previous-btn-wrapper{
   font-size: x-large;
 }
+@media (max-width: 600px){
+  .iframe-wrapper{
+    width: 350px;
+  }
+}
 
 

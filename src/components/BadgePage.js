@@ -3,6 +3,7 @@ import {
   CartBadge,
   MessageBadge,
   FolderBadge,
+  InstagramBadge,
 } from "./Badge";
 import {GrNext} from "react-icons/gr";
 import {GrPrevious} from "react-icons/gr";
@@ -72,6 +73,20 @@ export const BadgePage = () => {
             }}
             sandbox="allow-scripts allow-same-origin"
           ></iframe>
+        </div>
+        <InstagramBadge/>
+        <div className="iframe-wrapper">
+        <iframe title="insta-badge"
+  src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=export%2520const%2520InstagramBadge%2520%253D%28%29%253D%253E%257B%250A%2520%2520return%2520%253Cdiv%2520currentValue%253D%252223%2522%2520className%253D%2522insta-icon-wrapper%2522%253E%250A%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%253CAiFillInstagram%2520className%253D%2522insta-icon%2522%252F%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%253C%252Fdiv%253E%250A%257D"
+  style={{
+    width: "inherit",
+    height: "316px",
+    border: "0",
+    transform: "scale(1)",
+    overflow: "hidden",
+  }}
+sandbox="allow-scripts allow-same-origin">
+</iframe>
         </div>
         <div className="navigation-btn-container">
           <Link to="/alert-page" className='navigation-previous-btn-wrapper'>
