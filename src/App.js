@@ -2,7 +2,7 @@ import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { InputPage } from "./components/InputPage";
 import { ButtonPage } from "./components/ButtonPage";
-import { Layout } from "./components/Layout";
+// import { Layout } from "./components/Layout";
 import { NavbarPage } from "./components/NavbarPage";
 import { AvatarPage } from "./components/AvatarPage";
 import { ListPage } from "./components/ListPage";
@@ -17,7 +17,6 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" Component={Layout} />
         <Route path="/alert-page" Component={AlertPage} />
         <Route path="/avatar-page" Component={AvatarPage} />
         <Route path="/badge-page" Component={BadgePage} />
