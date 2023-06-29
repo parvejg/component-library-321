@@ -1,3 +1,6 @@
+@import url("./components/All.css");
+
+
 @media (min-width: 1000px){
   .iframe-wrapper{
     width: 600px ;

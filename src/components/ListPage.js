@@ -14,6 +14,7 @@ import { Link } from "react-router-dom";
 export const ListPage = () => {
   return (
     <Layout>
+      <div className="list-container">
       <h2>List</h2>
       <OrderedList />
       <div className="iframe-wrapper">
@@ -122,6 +123,7 @@ sandbox="allow-scripts allow-same-origin">
           <GrNext className="navigation-icon"/>
           </Link>
     
+        </div>
         </div>
     </Layout>
   );

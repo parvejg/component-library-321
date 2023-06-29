@@ -66,3 +66,11 @@
     font-size: large;
     padding: 5px 0;
 }
+@meadia (max-width:  600px){
+    .list-container{
+        padding-left: 1rem;
+    }
+}
+/* .list-container{
+    padding-left: 1rem;
+} */

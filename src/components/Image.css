@@ -1,16 +1,27 @@
 .boy-img-header {
   display: flex;
   padding: 10px;
+  width: 30%;
 }
 .boy-img-wrapper {
   display: flex;
   background-color: lavender;
-  padding: 60px;
-  border-radius: 1rem;
+  padding: 15px;
+  border-radius: .5rem;
+  width: 35rem;
+}
+@Media (max-width: 600px){
+  .small-boy-img{
+    width: 20rem;
+  }
+ 
+ 
 }
 .small-boy-img {
   padding: 1rem;
+  width: 40rem;
 }
+
 
 .small-boy-img:hover {
   transform: translateY(10px);
@@ -32,6 +43,7 @@
 }
 .computer-img {
   border-radius: 4px;
+  width: 40rem;
 }
 .info {
   width: 500px;
@@ -41,7 +53,7 @@
 .computer-img-header:hover {
   cursor: pointer;
 }
-p {
+.computer-content{
   font-size: large;
 }
 
@@ -49,7 +61,7 @@ p {
   transform: translateX(1rem);
   transition: 2s;
 }
+
 .lets-go-img{
-  width: 500px;
-  height: 400px;
+  width: 37rem;
 }

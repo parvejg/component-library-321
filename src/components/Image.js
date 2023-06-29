@@ -34,7 +34,7 @@ export const CoumputerImage = (props) => {
       </div>
       <div className="info">
         <h1>{name ? name : "Computer"}</h1>
-        <p>
+        <p className="computer-content">
           {name ? name : "Don't compare your life to others."}
           <br />
           {name ? name : "You have no idea what they have been through."}
