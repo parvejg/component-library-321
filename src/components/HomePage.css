@@ -8,19 +8,19 @@
 .components-txt{
     color: hsl(234, 57%, 52%);
     font-family:sans-serif;
-    position: relative;
-    z-index: 1;
     overflow: hidden;
+    text-align: center;
 }
 .home-page-links{
     position: relative;
-    top: 2rem;
+    top: 1rem;
     font-size: larger;
     font-weight: bold;
     text-decoration: none;
     background-color: #008cff;
     color: white;
-    padding: .4rem;
     border-radius: 8px;
     box-shadow: 10px 10px 5px lightblue;
+    text-align: center;
+    padding: 8px;
 }
