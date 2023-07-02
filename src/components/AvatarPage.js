@@ -75,7 +75,7 @@ export const AvatarPage = () => {
           ></iframe>
         </div>
         <div className="navigation-next-topBtn-container">
-          <Link to="/badge-page" className='navigation-next-btn-wrapper'>
+          <Link to="/alert-page" className='navigation-next-btn-wrapper'>
           <GrNext className="navigation-icon"/>
           </Link>
         </div>

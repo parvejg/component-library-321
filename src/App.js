@@ -2,7 +2,6 @@ import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { InputPage } from "./components/InputPage";
 import { ButtonPage } from "./components/ButtonPage";
-import { Layout } from "./components/Layout";
 import { NavbarPage } from "./components/NavbarPage";
 import { AvatarPage } from "./components/AvatarPage";
 import { ListPage } from "./components/ListPage";
@@ -13,11 +12,12 @@ import { ImagePage } from "./components/ImagePage";
 import { BadgePage } from "./components/BadgePage";
 import { ModalPage } from "./components/ModalPage";
 import { ToastPage } from "./components/ToastPage";
+import { Homepage } from "./components/Homepage";
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" Component={Layout} />
+        <Route path="/" Component={Homepage} />
         <Route path="/alert-page" Component={AlertPage} />
         <Route path="/avatar-page" Component={AvatarPage} />
         <Route path="/badge-page" Component={BadgePage} />

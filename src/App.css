@@ -1,3 +1,11 @@
+@media (min-width: 1000px){
+  .navigation-icon{
+    display: none;
+  }
+  .navigation-previous-bottomBtn-container{
+    display: none;
+  }
+}
 @import url("./components/All.css");
 
 
@@ -7,14 +15,7 @@
   }
 
 }
-@media (min-width: 1000px){
-  .navigation-btn-container{
-    display: none;
-  }
-  .navigation-topBtn-container{
-    display: none;
-  }
-}
+
 
 
 .App {
