@@ -62,10 +62,10 @@ export const LayoutNavbar = (props) => {
     <div className="layout-navbar-wrapper">
       <h2 className="ui-navbar-logo">UI</h2>
       <div className="navbar-links-wrapper">
-        <a href={href} className="layout-navbar-links layout-links">
+        <a href="/avatar-page" className="layout-navbar-links layout-links">
           {name ? name : "Install"}
         </a>
-        <a href={href} className="layout-navbar-links layout-links">
+        <a href="/avatar-page" className="layout-navbar-links layout-links">
           {name ? name : "Components"}
         </a>
       </div>
