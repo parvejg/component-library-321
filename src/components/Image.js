@@ -2,6 +2,7 @@ import "./Image.css";
 export const SmallBoyImage = (props) => {
   const { src } = props;
   return (
+    
     <div className="boy-img-header">
       <div className="boy-img-wrapper">
         <img

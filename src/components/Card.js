@@ -66,9 +66,7 @@ export const LinkedInAppCard = (props) => {
               : "https://play-lh.googleusercontent.com/kMofEFLjobZy_bCuaiDogzBcUT-dz3BBbOrIEjJ-hqOabjK8ieuevGe6wlTD15QzOqw"
           }
         />
-        <div className="title-container">
-          <h3>LinkedIn</h3>
-        </div>
+          <h3 className="linkedin-text">LinkedIn</h3>
         <div className="app-card-links-container">
           <a
             className="linkedin-card-link"

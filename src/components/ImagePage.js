@@ -5,7 +5,7 @@ import {GrNext} from "react-icons/gr";
 import {GrPrevious} from "react-icons/gr";
 import { Link } from "react-router-dom";
 export const ImagePage=()=>{
-    return( <Layout>
+    return( <Layout >
 <div className='images-container'>
 <SmallBoyImage/>
 <div className="iframe-wrapper">
