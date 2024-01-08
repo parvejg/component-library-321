@@ -1,8 +1,13 @@
-@Media (max-width: 600px){
-.images-container{
-width: 30%;
+@media (max-width: 600px) {
+  .images-container {
+    width: 100%;
+  }
 }
-
+.images-container {
+  display: flex;
+  width: 100%;
+  padding: 1rem;
+  flex-direction: column;
 }
 .boy-img-header {
   display: flex;
@@ -11,55 +16,45 @@ width: 30%;
 }
 .boy-img-wrapper {
   background-color: lavender;
-  border-radius: .5rem;
-  width: 30rem;
+  border-radius: 0.5rem;
+  width: 24rem;
 }
 .small-boy-img {
   padding: 1rem;
-  width: 30rem;
+  width: 24rem;
 }
-
 
 .small-boy-img:hover {
   transform: translateY(10px);
   transition: 1.1s;
   box-shadow: 3px 3px 5px 5px gray;
 }
-.computer-img-header {
-  position: relative;
-  left: 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 500px;
-  box-shadow: 5px 5px 20px black;
-  overflow: hidden;
-  background-color: silver;
-  gap: 0.2rem;
+.computer-img-wrapper {
+  width: 25rem;
+  background-color: gainsboro;
 }
 .computer-img {
   border-radius: 4px;
-  width: 35rem;
+  width: 25rem;
 }
 .info {
   width: 500px;
   padding-left: 1rem;
   color: black;
 }
-.computer-img-header:hover {
+.computer-img-wrapper:hover {
   cursor: pointer;
 }
-.computer-content{
+.computer-content {
   font-size: large;
 }
 
 .info:hover {
-  transform: translateX(1rem);
+  transform: translateX(0.8rem);
   transition: 2s;
 }
 
-.lets-go-img{
-  width: 35rem;
-  padding-left: 1rem;
+.lets-go-img {
+  width: 24rem;
+  padding-left: 0.8rem;
 }

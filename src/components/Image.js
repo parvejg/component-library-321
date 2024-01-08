@@ -2,7 +2,6 @@ import "./Image.css";
 export const SmallBoyImage = (props) => {
   const { src } = props;
   return (
-    
     <div className="boy-img-header">
       <div className="boy-img-wrapper">
         <img
@@ -21,7 +20,7 @@ export const SmallBoyImage = (props) => {
 export const CoumputerImage = (props) => {
   const { src, name } = props;
   return (
-    <div className="computer-img-header">
+    <div className="computer-img-wrapper">
       <div className="image-wrapper">
         <img
           alt="computer-img"

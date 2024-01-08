@@ -1,13 +1,14 @@
 import { Layout } from "./Layout";
 import { SuccessfulModal, FormModal } from "./Modal";
-import {GrNext} from "react-icons/gr";
-import {GrPrevious} from "react-icons/gr";
+import { GrNext } from "react-icons/gr";
+import { GrPrevious } from "react-icons/gr";
 import { Link } from "react-router-dom";
 
 export const ModalPage = () => {
   return (
     <Layout>
       <div className="modal-page-wrapper">
+        <h2>Modals</h2>
         <SuccessfulModal />
         <div className="iframe-wrapper">
           <iframe
@@ -39,14 +40,12 @@ export const ModalPage = () => {
           ></iframe>
         </div>
         <div className="navigation-btn-container">
-        <Link to="/list-page" className='navigation-previous-btn-wrapper'>
-            <GrPrevious  className='navigation-icon'/>
+          <Link to="/list-page" className="navigation-previous-btn-wrapper">
+            <GrPrevious className="navigation-icon" />
           </Link>
-          <Link to="/navbar-page" className='navigation-next-btn-wrapper'>
-          <GrNext className="navigation-icon"/>
+          <Link to="/navbar-page" className="navigation-next-btn-wrapper">
+            <GrNext className="navigation-icon" />
           </Link>
-      
-          
         </div>
       </div>
     </Layout>

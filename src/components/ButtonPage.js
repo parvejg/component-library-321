@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 export const ButtonPage = () => {
   return (
     <Layout>
-      <div>
+      <div className="btns-main-wrapper">
         <h2> Buttons </h2>
         <ElevatedButton />
         <div className="iframe-wrapper">

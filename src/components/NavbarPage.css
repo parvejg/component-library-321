@@ -1,5 +1,5 @@
-.navbar-wrapper{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem
+.navbar-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }

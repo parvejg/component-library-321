@@ -41,10 +41,10 @@ export const ProductDemoCard = (props) => {
         />
       </div>
       <div className="product-price-container">
-        <h3 className="product-price">Price 7999</h3>
+        <p className="product-price">Price 7999</p>
       </div>
       <div className="product-titel-container">
-        <h2>Best Quality</h2>
+        <p>Best Quality</p>
       </div>
       <div className="Buy-now-btn-wrapper">
         <button className="buy-now-btn">Buy Now</button>
@@ -66,7 +66,7 @@ export const LinkedInAppCard = (props) => {
               : "https://play-lh.googleusercontent.com/kMofEFLjobZy_bCuaiDogzBcUT-dz3BBbOrIEjJ-hqOabjK8ieuevGe6wlTD15QzOqw"
           }
         />
-          <h3 className="linkedin-text">LinkedIn</h3>
+        <h3 className="linkedin-text">LinkedIn</h3>
         <div className="app-card-links-container">
           <a
             className="linkedin-card-link"

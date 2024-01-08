@@ -1,89 +1,83 @@
-
-.tata-logo-navbar-wrapper{
-    display: flex;
-    flex-direction: column;
-    background-color: #407ff5;
-    padding: 8px 8px;
+.tata-logo-navbar-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #407ff5;
+  min-width: 80%;
+  flex-wrap: nowrap;
+  height: 80px;
 }
-.tata-main-Links{
-    display: inline;
-    color: aliceblue;
-    padding: 0 2rem 0.5rem;
-    text-decoration: none;
-    font-size: large;
-    
-
+.tata-main-Links {
+  display: inline;
+  color: aliceblue;
+  padding: 0 2rem 0.5rem;
+  text-decoration: none;
+  font-size: large;
 }
-.tata-links-wrapper{
-    display: flex;
-    justify-content: left;
-    padding-left: 7rem;
-    
+.tata-links-wrapper {
+  display: flex;
+  justify-content: left;
+  padding-left: 7rem;
 }
-.tata-logo{
-    color: aliceblue;
-    font-size: x-large;
-    font-weight:bolder;
-    padding-top: 1rem 0rem 0rem;
-    text-decoration: none;
-
+.tata-logo {
+  color: aliceblue;
+  font-size: x-large;
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 1rem;
 }
-.tata-logo-header{
-    display: flex;
-    justify-content: left;
-    padding: 0 2rem ;
-    padding-top: 1rem;
+.tata-logo-header {
+  display: flex;
+  justify-content: left;
+  padding: 0 2rem;
+  padding-top: 1rem;
 }
-.tea-Navbar-header{
-    display: flex;
-    justify-content: space-between;
-    background-color: #407ff5;
-    padding: .5rem;
-    padding: 0  2rem;
-   
+.tea-Navbar-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #407ff5;
+  padding: 0.5rem;
+  padding: 0 2rem;
 }
-.tea-icon{
-    color: black;
-    font-size: 2.5rem;
-    align-items: center;
-    padding: 1rem;
+.tea-icon {
+  color: black;
+  font-size: 2.5rem;
+  align-items: center;
+  padding: 1rem;
 }
 
-.tea-link-wrapper{
-    display: flex;
-    align-items: center;
-    font-size: larger;
-
+.tea-link-wrapper {
+  display: flex;
+  align-items: center;
+  font-size: larger;
 }
 
-.teaNavbar-links{
-    text-decoration: none;
-    padding: 2rem;
-    color: white;
-    align-items: center;
-    
+.teaNavbar-links {
+  text-decoration: none;
+  padding: 2rem;
+  color: white;
+  align-items: center;
 }
-.layout-navbar-wrapper{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
-    flex-basis: 70px; 
-    background-color: aqua;
-    width: 100%;
+.layout-navbar-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-basis: 70px;
+  background-color: aqua;
+  width: 100%;
 }
-.navbar-links-wrapper{
-    display: flex;
-    padding: 1rem 0;
+.navbar-links-wrapper {
+  display: flex;
+  padding: 1rem 0;
 }
-.layout-links{
-    font-size: large;
-    color: black;
-    text-decoration: none;
-    padding: 7px 0;
-    padding-right: 2rem;
+.layout-links {
+  font-size: large;
+  color: black;
+  text-decoration: none;
+  padding: 7px 0;
+  padding-right: 2rem;
 }
-.ui-navbar-logo{
-    padding: 0 3rem 0;
-    font-size: 1.6rem;
+.ui-navbar-logo {
+  padding: 0 3rem 0;
+  font-size: 1.6rem;
 }

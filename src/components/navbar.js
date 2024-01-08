@@ -1,6 +1,5 @@
 import { SlCup } from "react-icons/sl";
 import "./Navbar.css";
-import { BiMenu } from "react-icons/bi";
 
 const TataLogoNavbar = (props) => {
   const { href, name } = props;

@@ -24,13 +24,11 @@
   font-size: 1rem;
   cursor: pointer;
   box-shadow: #358bd6 2px;
-
 }
 .elevated-btn:active {
   transform: translateY(2px);
   background-color: #407ff5;
 }
-
 
 .outline-Btn {
   color: black;
@@ -61,4 +59,8 @@
   transform: translateY(2px);
   background-color: aliceblue;
 }
-
+@media (max-width: 600px) {
+  .btns-main-wrapper {
+    padding: 1rem;
+  }
+}

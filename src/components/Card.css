@@ -53,6 +53,9 @@
   display: flex;
   align-items: center;
 }
+.product-price {
+  font-size: large;
+}
 .linkedin-app-card-container {
   display: flex;
   flex-direction: column;
@@ -76,6 +79,11 @@
   text-decoration: none;
   color: black;
 }
-.linkedin-text{
+.linkedin-text {
   font-size: large;
+}
+@media (max-width: 600px) {
+  .main-cards-wrapper {
+    padding: 2rem;
+  }
 }
