@@ -12,6 +12,7 @@
   gap: 2rem;
   box-shadow: 2px 2px 10px 2px #cfcfd1;
   padding-bottom: 1rem;
+  height: 100%;
 }
 .star-icon {
   color: black;
