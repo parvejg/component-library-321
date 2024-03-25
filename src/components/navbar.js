@@ -27,7 +27,7 @@ const TataLogoNavbar = (props) => {
 const TeaIconNavbar = (props) => {
   const { href, name } = props;
   return (
-    <div className="tea-Navbar-header">
+    <div className="tea-Navbar-wrapper">
       <a className="tea-logo-link" href={href}>
         <SlCup className="tea-icon" />
       </a>
@@ -71,5 +71,25 @@ export const LayoutNavbar = (props) => {
     </div>
   );
 };
-
+export const ResponsiveHeader = (props) => {
+  const { linkName } = props;
+  return (
+    <div className="main-wrapper">
+      <div className="responsive-header-container">
+        <div className="header-logo">LOGO</div>
+        <div className="links-wrapper">
+          <a href="#Home" className=" home">
+            {linkName ? linkName : "Home"}
+          </a>
+          <a href="#Contact" className="responsive-links contact">
+            {linkName ? linkName : "Contact"}
+          </a>
+          <a href="#About" className="responsive-links">
+            {linkName ? linkName : "About"}
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+};
 export { TataLogoNavbar, TeaIconNavbar };

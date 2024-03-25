@@ -79,3 +79,29 @@ export const LinkedInAppCard = (props) => {
     </div>
   );
 };
+export const BookCard = (props) => {
+  const { src, price, title, writer } = props;
+  return (
+    <div
+      style={{
+        border: "1px solid black",
+        width: "180px",
+        marginBottom: "1rem",
+        textAlign: "center",
+      }}
+    >
+      <img
+        src={
+          src
+            ? src
+            : "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60"
+        }
+        style={{ width: "100%", height: "100px" }}
+        alt="loading"
+      />
+      <p>{title ? title : "You can win"}</p>
+      <p>{writer ? writer : "Shive khera"}</p>
+      <p>{price ? price : "3000"}</p>
+    </div>
+  );
+};

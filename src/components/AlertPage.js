@@ -1,13 +1,13 @@
 import { AlertError, SecurityAlert, SuccessfulAlert } from "./Alert";
 import { Layout } from "./Layout";
 import { Link } from "react-router-dom";
-import {GrNext} from "react-icons/gr";
-import {GrPrevious} from "react-icons/gr";
+import { GrNext } from "react-icons/gr";
+import { GrPrevious } from "react-icons/gr";
 export const AlertPage = () => {
   return (
     <Layout>
       <div className="iframe-wrapper">
-        <h2>Alert</h2>
+        <h2> Successful Alert</h2>
         <SuccessfulAlert />
         <div className="iframe-wrapper">
           <iframe
@@ -23,6 +23,7 @@ export const AlertPage = () => {
             sandbox="allow-scripts allow-same-origin"
           ></iframe>
         </div>
+        <h2> Security Alert</h2>
         <SecurityAlert />
         <div className="iframe-wrapper">
           <iframe
@@ -37,7 +38,8 @@ export const AlertPage = () => {
             }}
             sandbox="allow-scripts allow-same-origin"
           ></iframe>
-        </div >
+        </div>
+        <h2> Error Alert</h2>
         <AlertError />
         <div className="iframe-wrapper">
           <iframe
@@ -54,11 +56,11 @@ export const AlertPage = () => {
           ></iframe>
         </div>
         <div className="navigation-btn-container">
-        <Link to="/avatar-page" className='navigation-previous-btn-wrapper'>
-            <GrPrevious  className='navigation-icon'/>
+          <Link to="/avatar-page" className="navigation-previous-btn-wrapper">
+            <GrPrevious className="navigation-icon" />
           </Link>
-          <Link to="/badge-page" className='navigation-next-btn-wrapper'>
-          <GrNext className="navigation-icon"/>
+          <Link to="/badge-page" className="navigation-next-btn-wrapper">
+            <GrNext className="navigation-icon" />
           </Link>
         </div>
       </div>

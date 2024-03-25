@@ -1,22 +1,23 @@
 .tata-logo-navbar-wrapper {
   display: flex;
-  flex-direction: column;
   background-color: #407ff5;
-  min-width: 80%;
   flex-wrap: nowrap;
   height: 80px;
+  align-items: center;
+  flex-wrap: nowrap;
 }
+
 .tata-main-Links {
-  display: inline;
   color: aliceblue;
-  padding: 0 2rem 0.5rem;
   text-decoration: none;
   font-size: large;
+  cursor: pointer;
 }
 .tata-links-wrapper {
   display: flex;
   justify-content: left;
   padding-left: 7rem;
+  gap: 3rem;
 }
 .tata-logo {
   color: aliceblue;
@@ -31,12 +32,13 @@
   padding: 0 2rem;
   padding-top: 1rem;
 }
-.tea-Navbar-header {
+.tea-Navbar-wrapper {
   display: flex;
   justify-content: space-between;
   background-color: #407ff5;
   padding: 0.5rem;
   padding: 0 2rem;
+  flex-wrap: nowrap;
 }
 .tea-icon {
   color: black;
@@ -56,6 +58,7 @@
   padding: 2rem;
   color: white;
   align-items: center;
+  cursor: pointer;
 }
 .layout-navbar-wrapper {
   display: flex;
@@ -76,8 +79,131 @@
   text-decoration: none;
   padding: 7px 0;
   padding-right: 2rem;
+  cursor: pointer;
 }
 .ui-navbar-logo {
   padding: 0 3rem 0;
   font-size: 1.6rem;
+}
+@media (max-width: 1170px) {
+  .tata-logo-navbar-wrapper {
+    width: 78%;
+  }
+  .tea-Navbar-wrapper {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+  }
+  .tea-link-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 900px) {
+  .tata-logo-navbar-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+    width: 80%;
+    padding: 1rem;
+  }
+  .tata-links-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 300px;
+    justify-content: start;
+    padding-top: 0.6rem;
+    gap: 2rem;
+  }
+  .tea-Navbar-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 40%;
+    padding: 1rem;
+  }
+}
+.responsive-header-container {
+  display: flex;
+  width: 80%;
+  height: 100px;
+  background-color: rgb(235, 234, 233);
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+}
+.main-wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.responsive-links {
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  align-items: center;
+  padding: 1rem;
+}
+.home {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  padding: 1rem;
+}
+.responsive-links:hover {
+  background-color: rgb(196, 191, 191);
+}
+
+.links-wrapper {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+  padding: 0 1rem;
+}
+.header-logo {
+  font-size: 25px;
+  padding: 1rem;
+}
+.header-logo:hover {
+  background-color: rgb(196, 191, 191);
+}
+@media (max-width: 1000px) {
+  .responsive-header-container {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+  }
+  .links-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 100%;
+    max-width: 70%;
+  }
+
+  .responsive-links {
+    width: 100%;
+    text-align: left;
+  }
+  .contact {
+    width: 100%;
+    text-align: left;
+  }
+  .home {
+    width: 100%;
+    text-align: left;
+  }
+}
+.home {
+  background-color: green;
 }

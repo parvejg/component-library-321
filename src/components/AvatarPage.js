@@ -12,7 +12,7 @@ export const AvatarPage = () => {
   return (
     <Layout>
       <div className="main-avatar-wrapper">
-        <h2>Avatars</h2>
+        <h2>Letter Avatar</h2>
         <TLetterAvatar />
         <div className="iframe-wrapper">
           <iframe
@@ -28,6 +28,7 @@ export const AvatarPage = () => {
             sandbox="allow-scripts allow-same-origin"
           ></iframe>
         </div>
+        <h2>Profile Avatar</h2>
         <PersonIconAvatar />
         <div className="iframe-wrapper">
           <iframe
@@ -43,7 +44,7 @@ export const AvatarPage = () => {
             sandbox="allow-scripts allow-same-origin"
           ></iframe>
         </div>
-
+        <h2>Notification Avatar</h2>
         <NotificationIconAvatar />
         <div className="iframe-wrapper">
           <iframe
@@ -59,6 +60,7 @@ export const AvatarPage = () => {
             sandbox="allow-scripts allow-same-origin"
           ></iframe>
         </div>
+        <h2>Image Avatar</h2>
         <ImageAvatar />
         <div className="iframe-wrapper">
           <iframe

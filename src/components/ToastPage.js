@@ -6,7 +6,7 @@ export const ToastPage = () => {
   return (
     <Layout>
       <div className="iframe-wrapper">
-        <h2>Toast</h2>
+        <h2>Warning Toast</h2>
         <WarningToast />
 
         <iframe
@@ -22,6 +22,7 @@ export const ToastPage = () => {
           sandbox="allow-scripts allow-same-origin"
         ></iframe>
       </div>
+      <h2>Information Toast</h2>
       <InfoToast />
       <div className="iframe-wrapper">
         <iframe
@@ -37,6 +38,7 @@ export const ToastPage = () => {
           sandbox="allow-scripts allow-same-origin"
         ></iframe>
       </div>
+      <h2>Danger Toast</h2>
       <DangerToast />
       <div className="iframe-wrapper">
         <iframe
@@ -52,6 +54,7 @@ export const ToastPage = () => {
           sandbox="allow-scripts allow-same-origin"
         ></iframe>
       </div>
+      <h2>Successful Toast</h2>
       <SuccessfulToast />
       <div className="iframe-wrapper">
         <iframe

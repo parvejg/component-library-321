@@ -14,7 +14,7 @@ export const BadgePage = () => {
   return (
     <Layout>
       <div className="iframe-wrapper">
-        <h2>Badges</h2>
+        <h2> Notification Badge</h2>
         <NotificationBadge />
         <div className="iframe-wrapper">
           <iframe
@@ -30,6 +30,7 @@ export const BadgePage = () => {
             sandbox="allow-scripts allow-same-origin"
           ></iframe>
         </div>
+        <h2> Cart Badge</h2>
         <CartBadge />
         <div className="iframe-wrapper">
           <iframe
@@ -45,6 +46,7 @@ export const BadgePage = () => {
             sandbox="allow-scripts allow-same-origin"
           ></iframe>
         </div>
+        <h2>Message Badge</h2>
         <MessageBadge />
         <div className="iframe-wrapper">
           <iframe
@@ -60,6 +62,7 @@ export const BadgePage = () => {
             sandbox="allow-scripts allow-same-origin"
           ></iframe>
         </div>
+        <h2>Folder Badge</h2>
         <FolderBadge />
         <div className="iframe-wrapper">
           <iframe
@@ -75,6 +78,7 @@ export const BadgePage = () => {
             sandbox="allow-scripts allow-same-origin"
           ></iframe>
         </div>
+        <h2>Instagram Badge</h2>
         <InstagramBadge />
         <div className="iframe-wrapper">
           <iframe

@@ -8,7 +8,7 @@ export const ModalPage = () => {
   return (
     <Layout>
       <div className="modal-page-wrapper">
-        <h2>Modals</h2>
+        <h2>Successful Modal</h2>
         <SuccessfulModal />
         <div className="iframe-wrapper">
           <iframe
@@ -24,6 +24,7 @@ export const ModalPage = () => {
             sandbox="allow-scripts allow-same-origin"
           ></iframe>
         </div>
+        <h2> Sign in Modal</h2>
         <FormModal />
         <div className="iframe-wrapper">
           <iframe

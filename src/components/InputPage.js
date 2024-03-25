@@ -2,14 +2,14 @@ import { DateInput, PasswordInput, TextInput } from "./Input";
 import { Layout } from "./Layout";
 import "./Input.css";
 import "./InputPage.css";
-import {GrNext} from "react-icons/gr";
-import {GrPrevious} from "react-icons/gr";
+import { GrNext } from "react-icons/gr";
+import { GrPrevious } from "react-icons/gr";
 import { Link } from "react-router-dom";
 export const InputPage = () => {
   return (
     <Layout>
       <div className="inputs-wrapper">
-        <h2>Inputs</h2>
+        <h2> Text Input</h2>
         <TextInput />
         <div className="iframe-wrapper">
           <iframe
@@ -25,6 +25,7 @@ export const InputPage = () => {
             sandbox="allow-scripts allow-same-origin"
           ></iframe>
         </div>
+        <h2>Password Input</h2>
         <PasswordInput />
         <div className="iframe-wrapper">
           <iframe
@@ -40,6 +41,7 @@ export const InputPage = () => {
             sandbox="allow-scripts allow-same-origin"
           ></iframe>
         </div>
+        <h2> Date Input</h2>
         <DateInput />
         <div className="iframe-wrapper">
           <iframe
@@ -56,14 +58,12 @@ export const InputPage = () => {
           ></iframe>
         </div>
         <div className="navigation-btn-container">
-          
-        <Link to="/image-page" className='navigation-previous-btn-wrapper'>
-            <GrPrevious  className='navigation-icon'/>
+          <Link to="/image-page" className="navigation-previous-btn-wrapper">
+            <GrPrevious className="navigation-icon" />
           </Link>
-          <Link to="/list-page" className='navigation-next-btn-wrapper'>
-          <GrNext className="navigation-icon"/>
+          <Link to="/list-page" className="navigation-next-btn-wrapper">
+            <GrNext className="navigation-icon" />
           </Link>
-        
         </div>
       </div>
     </Layout>
