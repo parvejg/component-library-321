@@ -3,7 +3,7 @@ import { TfiBell } from "react-icons/tfi";
 import { BsCart3 } from "react-icons/bs";
 import { AiOutlineMessage } from "react-icons/ai";
 import { AiOutlineFolder } from "react-icons/ai";
-import {AiFillInstagram} from "react-icons/ai";
+import { AiFillInstagram } from "react-icons/ai";
 export const NotificationBadge = (props) => {
   const { NotificationWrapperClass, currentValue } = props;
   return (
@@ -19,7 +19,7 @@ export const NotificationBadge = (props) => {
 };
 
 export const CartBadge = (props) => {
-  const { currentValue,cartIconWrapperClass } = props;
+  const { currentValue, cartIconWrapperClass } = props;
   return (
     <div
       className={`cart-icon-Wrapper ${cartIconWrapperClass}`}
@@ -33,7 +33,7 @@ export const CartBadge = (props) => {
 };
 
 export const MessageBadge = (props) => {
-  const { currentValue,messageIconWrapperClass } = props;
+  const { currentValue, messageIconWrapperClass } = props;
   return (
     <div
       className={`message-icon-Wrapper ${messageIconWrapperClass}`}
@@ -47,7 +47,7 @@ export const MessageBadge = (props) => {
 };
 
 export const FolderBadge = (props) => {
-  const { currentValue,folderIconWrapperClass } = props;
+  const { currentValue, folderIconWrapperClass } = props;
   return (
     <div
       className={`folder-icon-Wrapper ${folderIconWrapperClass}`}
@@ -59,23 +59,12 @@ export const FolderBadge = (props) => {
     </div>
   );
 };
-
-
-
-
-
-export const InstagramBadge =()=>{
-  return <div currentValue="23" className="insta-icon-wrapper">
-    <li>
-      <AiFillInstagram className="insta-icon"/>
-    </li>
-  </div>
-}
-
-
-
-
-
-
-
-
+export const InstagramBadge = () => {
+  return (
+    <div currentValue="23" className="insta-icon-wrapper">
+      <li>
+        <AiFillInstagram className="insta-icon" />
+      </li>
+    </div>
+  );
+};

@@ -17,26 +17,15 @@ export const OrderedList = (props) => {
           return (
             <div className="ordered-list-wrapper">
               <li key={obj.id} className="list-item">
-              {obj.item}
-            </li>
+                {obj.item}
+              </li>
             </div>
-            
           );
         })}
       </ol>
     </div>
   );
 };
-
-// {
-//   readyList
-//     ? readyList.map((obj) => {
-//         return <li key={1}>{obj.item}</li>;
-//       })
-//     : newList.map((obj) => {
-//         return <li>obj.item</li>;
-//       });
-// }
 
 export const UnOrderedList = (props) => {
   const { newunOderedList } = props;
