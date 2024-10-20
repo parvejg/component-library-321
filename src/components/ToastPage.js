@@ -1,3 +1,4 @@
+import React from 'react'
 import { Layout } from "./Layout";
 import { DangerToast, InfoToast, SuccessfulToast, WarningToast } from "./Toast";
 import { GrPrevious } from "react-icons/gr";

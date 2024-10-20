@@ -1,3 +1,4 @@
+import React from 'react'
 import { Layout } from "./Layout";
 import { SuccessfulModal, FormModal } from "./Modal";
 import { GrNext } from "react-icons/gr";

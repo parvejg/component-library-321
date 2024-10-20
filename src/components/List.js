@@ -1,3 +1,4 @@
+import React from 'react'
 import "./List.css";
 export const OrderedList = (props) => {
   const { newList } = props;

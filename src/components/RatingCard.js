@@ -1,3 +1,4 @@
+import React from 'react'
 import { BsStar } from "react-icons/bs";
 import "./RatingCard.css";
 export const DatesRating = (props) => {

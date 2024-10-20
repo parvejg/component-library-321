@@ -1,3 +1,4 @@
+import React from 'react'
 import "./Image.css";
 export const SmallBoyImage = (props) => {
   const { src } = props;

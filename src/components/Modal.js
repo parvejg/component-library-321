@@ -1,3 +1,4 @@
+import React from 'react'
 import "./Modal.css";
 import { FiCheck } from "react-icons/fi";
 import { AiOutlineGooglePlus } from "react-icons/ai";

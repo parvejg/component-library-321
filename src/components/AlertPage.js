@@ -1,8 +1,10 @@
+import React from 'react'
 import { AlertError, SecurityAlert, SuccessfulAlert } from "./Alert";
-import { Layout } from "./Layout";
+
 import { Link } from "react-router-dom";
 import { GrNext } from "react-icons/gr";
 import { GrPrevious } from "react-icons/gr";
+import { Layout } from './Layout';
 export const AlertPage = () => {
   return (
     <Layout>

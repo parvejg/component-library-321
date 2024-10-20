@@ -1,3 +1,4 @@
+import React from 'react'
 import "./Button.css";
 export const ElevatedButton = (props) => {
   const { name, elevatedBtnClass } = props;

@@ -1,3 +1,4 @@
+import React from 'react'
 import { GoAlert } from "react-icons/go";
 import { AiFillCheckCircle } from "react-icons/ai";
 import { AiFillAlert } from "react-icons/ai";

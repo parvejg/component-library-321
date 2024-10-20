@@ -1,5 +1,5 @@
+import React from 'react'
 import { Layout } from "./Layout";
-
 import { NotificationIconAvatar } from "./Avatar";
 import { ImageAvatar } from "./Avatar";
 import { PersonIconAvatar } from "./Avatar";

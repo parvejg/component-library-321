@@ -1,3 +1,4 @@
+import React from 'react'
 import { Layout } from "./Layout";
 import { DatesRating } from "./RatingCard";
 import { GrNext } from "react-icons/gr";

@@ -1,3 +1,4 @@
+import React from 'react'
 import "./Badge.css";
 import { TfiBell } from "react-icons/tfi";
 import { BsCart3 } from "react-icons/bs";

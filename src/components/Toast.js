@@ -1,3 +1,4 @@
+import React from 'react'
 import "./Toast.css";
 import { ImWarning } from "react-icons/im";
 import { BsInfoCircle } from "react-icons/bs";
